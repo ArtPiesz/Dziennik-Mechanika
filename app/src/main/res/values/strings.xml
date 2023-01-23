@@ -1,0 +1,1354 @@
+<resources>
+    <string name="app_name">Dziennik mechanika</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_first_fragment" />
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="wykonanie">
+        <item>Wykonanie</item>
+        <item>NIC</item>
+    </string-array>
+    <string-array name="silnik">
+        <item>Tłokowy</item>
+        <item>Turbinowy</item>
+    </string-array>
+
+    <!-- HEADERS -->
+    <string name="header0">" Typ SP "</string>
+    <string name="header1">" Data "</string>
+    <string name="header2">" Znaki rej. "</string>
+    <string name="header3">" Hangar/Linia "</string>
+    <string name="header4">" Opis zadania "</string>
+    <string name="header5">" Nr zadania "</string>
+
+    <!-- 50FH -->
+    <!-- PRZEGLAD PRZEDLOTOWY -->
+    <string name="Przeglad_przedlotowy_1">Przegląd przedlotowy: Upewnić się, że wszystkie przełączniki są w pozycji OFF (wyłączone)</string>
+    <string name="Przeglad_przedlotowy_2">Przegląd przedlotowy: Upewnić się, że przewody uziemienia są podłączone</string>
+    <string name="Przeglad_przedlotowy_3">Przegląd przedlotowy: Sprawdzić poziom oleju </string>
+    <string name="Przeglad_przedlotowy_4">Przegląd przedlotowy: Sprawdzić poziom paliwa </string>
+    <string name="Przeglad_przedlotowy_5">Przegląd przedlotowy: Sprawdzić połączenia przewodów paliwowych i olejowych, odnotować przesłanki napraw, które byłyby do wykonania podczas przeglądu 50 godzinnego. Przed lotem statku powietrznego usunąć jakiekolwiek przecieki. </string>
+    <string name="Przeglad_przedlotowy_6">Przegląd przedlotowy: Otworzyć zawór drenażowy paliwa celem usunięcia nagromadzonej wody i osadu. </string>
+    <string name="Przeglad_przedlotowy_7">Przegląd przedlotowy: Upewnić się, że wszystkie osłony i owiewki są na swoim miejscu i że są zabezpieczone. Jeżeli którejkolwiek brakuje lub jest uszkodzona, przed lotem statku powietrznego winna być wykonana naprawa lub wymiana. </string>
+    <string name="Przeglad_przedlotowy_8">Przegląd przedlotowy: Sprawdzić układy sterowań zwracając uwagę na ich stan ogólny, zakres przemieszczeń i swobodę działania. </string>
+    <string name="Przeglad_przedlotowy_9">Przegląd przedlotowy: Filtr powietrza układu dolotowego winien być sprawdzony i obsłużony zgodnie z zaleceniami producenta płatowca. </string>
+    <!-- UKLAD SMAROWANIA -->
+    <string name="Uklad_smarowania_1">Układ smarowania: Sprawdzić przewody olejowe na okoliczność przecieków, szczególnie na złączach; co do pewności zamocowania oraz zużycia spowodowanego ocieraniem lub drganiami, co do wgnieceń i pęknięć. </string>
+    <string name="Uklad_smarowania_2">Układ smarowania: Wymienić elementy zewnętrznych pełno przepływowych filtrów olejowych. Przed wyrzuceniem zużytych elementów sprawdzić wkłady ze względu na ślady obecności opiłków metalu, co mogłoby świadczyć o wewnętrznym uszkodzeniu silnika. Spuścić i wymienić olej silnikowy. (Informacje dotyczące właściwego oleju znajdują się w Instrukcji Serwisowej Nr 1014). </string>
+    <string name="Uklad_smarowania_3">Układ smarowania: W celu dokonania wymiany oleju: </string>
+    <string name="Uklad_smarowania_4">Układ smarowania: Uruchom śmigłowiec na ziemi lub wykonaj lot w celu osiągnięcia normalnej temperatury użytkowania. </string>
+    <string name="Uklad_smarowania_5">Układ smarowania: Zdemontuj boczne osłony silnika i otwórz zawór szybkiego drenażu na spodzie miski olejowej, w celu wylania oleju do odpowiedniego pojemnika. </string>
+    <string name="Uklad_smarowania_6">Układ smarowania: Przetnij drut zabezpieczający na korku filtra siatkowego oleju umieszczonym w misce olejowej po prawej stronie śmigłowca pomiędzy podstawą wydechu cylindra Nr 4, a rurą wlotową cylindra Nr 6. </string>
+    <string name="Uklad_smarowania_7">Układ smarowania: Wyjmij, dokonaj przeglądu, oczyść i zabuduj z powrotem filtr siatkowy zasysania. Zabezpieczyć korek. </string>
+    <string name="Uklad_smarowania_8">Układ smarowania: Przetnij drut zabezpieczający na filtrze i poluzuj filtr używając klucza.</string>
+    <string name="Uklad_smarowania_9">Układ smarowania: Umieścić odpowiedni pojemnik poniżej i od wewnętrznej strony iskrownika w celu zebrania oleju pozostałego w filtrze lub obudowie filtra siatkowego oraz powoli odkręć filtr. Nie dopuścić, aby olej spłynął na obudowę iskrownika. </string>
+    <string name="Uklad_smarowania_10">Układ smarowania: Wymontować filtr i rozciąć go w celu przeprowadzenia przeglądu. </string>
+    <string name="Uklad_smarowania_11">Układ smarowania: Zamontować nowy filtr zgodnie z instrukcjami wydrukowanymi na filtrze (dokręcić momentem 23Nm) i zabezpieczyć drutem (zabezpieczenia nie stosuje się w przypadku filtra B123–2/AA48112). Stosować wyłącznie filtr Champion CH48108, CH48108–1 lub Robinson B123–1. </string>
+    <string name="Uklad_smarowania_12">Układ smarowania: Zamknąć zawór do szybkiego drenażu i napełnić miskę olejową 9 kwartami (8,5 l) oleju odpowiedniego gatunku według zaleceń zamieszczonych w Instrukcji Użytkowania w Locie. </string>
+    <string name="Uklad_smarowania_13">Układ smarowania: Uruchomić śmigłowiec. Potwierdzić, że ciśnienie pojawia się w ciągu 30 sekund. Przeprowadzić kilkuminutową  próbę naziemna, wyłączyć silnik i potwierdzić brak wycieków. </string>
+    <string name="Uklad_smarowania_14">Układ smarowania: Sprawdzić poziom oleju przy użyciu prętowego wskaźnika ilości oleju. </string>
+    <!-- UKLAD ZAPLONOWY -->
+    <string name="Uklad_zaplonowy_1">Układ zapłonowy: Jeżeli widoczne są zanieczyszczenia świec zapłonowych, oczyścić je oraz sprawdzić odstęp elektrod. Zamienić miejscami świece dolne z górnymi. Wymienić (na now), jeżeli to konieczne. Świece dokręcić momentem 47,5Nm. </string>
+    <string name="Uklad_zaplonowy_2">Układ zapłonowy: Sprawdzić wyprowadzenia przewodów ze świec oraz rdzenie ceramiczne świec zapłonowych na okoliczność korozji oraz nagaru. Stan ten świadczy albo o nieszczelności świec zapłonowych, niewłaściwym oczyszczeniu ścianek świec zapłonowych lub końcówek złącznych. Tam gdzie stan taki wykryto, oczyścić końcówki kabli, ścianki świec zapłonowych oraz rdzeni ceramicznych za pomocą suchej, czystej szmatki lub czystej szmatki zwilżonej ketonem metylo-etylowym. Wszystkie części winny być oczyszczone i osuszone przez zamontowaniem. </string>
+    <string name="Uklad_zaplonowy_3">Układ zapłonowy: Sprawdzić wiązki kabli układu zapłonowego co do pewności mocowania zacisków montażowych oraz upewnić się, że końcówki na świecach zapłonowych i iskrownikach są szczelne. </string>
+    <!-- UKLAD PALIWOWY I DOLOTOWY -->
+    <string name="Uklad_paliwowy_dolotowy_1">Układ paliwowy i dolotowy: Sprawdzić przewody pompki zastrzykującej na okoliczność przecieków oraz pewności zacisków. Wymontować i oczyścić sitka dolotowe paliwa. Sprawdzić układ sterowania składem mieszanki oraz połączenia sterowania przepustnicą co do zakresu przemieszczeń i swobody ruchu; zabezpieczyć zaciski i przesmarować jeżeli to konieczne. </string>
+    <string name="Uklad_paliwowy_dolotowy_2">Układ paliwowy i dolotowy: Sprawdzić elementy układu dolotowego powietrza na okoliczność nieszczelności, pewności mocowania, uszkodzeń filtra; obecność kurzu lub innych stałych materiałów w przewodach dolotowych wskazuje na nieodpowiednie dbanie o filtr lub na uszkodzenie filtra. </string>
+    <string name="Uklad_paliwowy_dolotowy_3">Układ paliwowy i dolotowy: Sprawdzić przewody odpowietrzające co do obecności wycieków paliwa lub oleju; jeżeli są one obecne pompa paliwowa może wymagać wymiany. </string>
+    <!-- UKLAD WYDECHOWY -->
+
+    <string name="Uklad_wydechowy_1">Układ wydechowy: Sprawdzić kołnierze mocujące przy oknach wylotowych cylindrów ze względu na występowanie ewentualnych nieszczelności. Jeżeli są one obluzowane, muszą być wymontowane i splanowane, zanim zostaną zmontowane i dokręcone. Sprawdzić kolektory wydechowe co do ich ogólnego stan</string>
+    <!-- UKLAD CHLODZENIA -->
+    <string name="Uklad_chlodzenia_1">Układ chłodzenia: Sprawdzić osłony, deflektory i uszczelki deflektorów na okoliczność uszkodzeń i pewności zamocowania. Jakkolwiek uszkodzona lub brakująca część układu chłodzenia musi być naprawiona lub wymieniona przed wznowieniem użytkowania statku powietrznego. </string>
+    <!-- CYLINDRY -->
+    <string name="Cylindry_1">Cylindry: Sprawdzić pokrywy skrzynki dźwigni zaworowych na okoliczność przecieków oleju. Jeżeli się pojawiły, wymienić uszczelkę i dokręcić śruby zadanym momentem 50 funto-cali (5,5 Nm).</string>
+    <string name="Cylindry_2">Cylindry: Sprawdzić cylindry na okoliczność występowania nadmiernego nagrzewania się, co jest wskazywane przez nadpalenia farby pokrywającej cylinder. Stan ten wskazuje na wewnętrzne uszkodzenie cylindra oraz, jeżeli jest to wykryte,przyczyna tego musi być określona i skorygowana przed wznowieniem użytkowania statku powietrznego. </string>
+    <string name="Cylindry_3">Cylindry: Mocne przebarwienie oraz pojawienie się wycieku w miejscu styku głowicy i tulei cylindra zwykle spowodowane jest wydzielaniem smaru na gwincie użytego podczas montażu tulei w fabryce, lub spowodowane nieznacznym przedmuchem gazu, który ustaje po tym, gdy cylinder przez pewien czas popracuje. Ten stan nie jest ani szkodliwy ani pogarszający osiągi działanie silnika. Jeżeli zostanie wykazane, że przedmuch (wyciek) przekracza ten stan, cylinder winien być wymieniony. </string>
+    <!-- LUKI JAKIES KURWA ROZSZERZONE -->
+    <string name="Pokrywy_lukow_ins_dost_1">Pokrywy luków inspekcyjnych i dostępowych:  Usunięcie ciał obcych: </string>
+    <string name="Pokrywy_lukow_ins_dost_1_1">Pokrywy luków inspekcyjnych i dostępowych: Sprawdź, czy wszystkie narzędzia, luźne elementy konstrukcyjne, szmaty i inne obce elementy zostały usunięte ze śmigłowca. </string>
+    <string name="Pokrywy_lukow_ins_dost_2">Pokrywy luków inspekcyjnych i dostępowych: Zamknięcie i zabezpieczenie luków: </string>
+    <string name="Pokrywy_lukow_ins_dost_2_1">Pokrywy luków inspekcyjnych i dostępowych: Zamontować/zamknąć wszystkie pokrywy luków inspekcyjnych zdemontowanych podczas wykonywania przeglądu. Sprawdzić zabezpieczenie wszystkich pokryw. </string>
+
+    <!-- MAINTENANCE PROGRAMME HA/R66/MP -->
+    <!-- 600h -->
+    <string name="Caution">CAUTION! Disconnect BATTERY before all work. </string>
+    <!-- REPLACE MAIN GEARBOX OIL FILTER -->
+    <string name="Replace_main_gearbox_oil_filter">Replace main gearbox oil filter § 12–12 </string>
+    <string name="Replace_main_gearbox_oil_filter_1">Drain main rotor gearbox oil per § 12–11, if required. </string>
+    <string name="Replace_main_gearbox_oil_filter_2">Cut and discard safety wire securing bowl &amp; indicator assembly to head assembly. Unscrew bowl and remove and discard element. Remove o-ring and back-up ring from head assembly. </string>
+    <string name="Replace_main_gearbox_oil_filter_3">Clean and dry bowl assembly; install new F651–3 seals kit and F651–2 element. </string>
+    <string name="Replace_main_gearbox_oil_filter_4">Hand-tighten bowl assembly until tight against head assembly. Install 0.032-inch diameter lockwire and safety bowl to head. </string>
+    <string name="Replace_main_gearbox_oil_filter_5">Service main rotor gearbox per § 12–11. </string>
+    <!-- Replace main gearbox oil per § 12-11 -->
+    <string name="Replace_main_gearbox_oil_12to11">Replace main gearbox oil per § 12–11 </string>
+    <!-- DRAINING FLUID A -->
+    <string name="Replace_main_gearbox_oil_12to11_A">Draining Fluid </string>
+    <string name="Replace_main_gearbox_oil_12to11_A_1">Refer to Figure 12–1. Disconnect chip detector wiring, as required. Remove chip detector from housing. </string>
+    <string name="Replace_main_gearbox_oil_12to11_A_2">Refer to Figure 12–2. Insert MT054–1 drain assembly into chip detector housing. Position drain house overboard into a suitable drain container. Jam wedge between support panel stiffener and drain assembly fitting to open valve. </string>
+    <!-- ADDING FLUID B -->
+    <string name="Replace_main_gearbox_oil_12to11_B">Adding Fluid </string>
+    <string name="Replace_main_gearbox_oil_12to11_B_1">Install chip detector per Section 12-13, if removed.</string>
+    <string name="Replace_main_gearbox_oil_12to11_B_2">Refer to Figure 12-1. Remove gearbox filler-plug. Fill gearbox with A257-22 lubricant to center of sight glass. </string>
+    <string name="Replace_main_gearbox_oil_12to11_B_3">Rotate rotor system by hand for several revolutions and pull on tail rotor gearbox several times. Check gearbox oil level and adjust level as required. </string>
+    <string name="Replace_main_gearbox_oil_12to11_B_4">Install filler–plug and special torque plug Section 20-33. </string>
+    <string name="Replace_main_gearbox_oil_12to11_B_5">Run-up helicopter approximately five minutes at 60-70% RPM per R66 Pilot\'s Operating Handbook (POH) Section 4. </string>
+    <string name="Replace_main_gearbox_oil_12to11_B_6">Check gearbox oil level, and adjust level per steps 2 through 6 as required. </string>
+    <!-- Drain and flush tail rotor gearbox per § 12-23 -->
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13">Drain and flush tail rotor gearbox per § 12–23 </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_1">Drain tail rotor gearbox oil per Section 12-21. </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_2">Install chip detector and special torque per Section 20-33. </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_3">Remove filler-vent plug and add approximately five ounces of SAE30, SAE40, SAE50 oraz SAE20W50 straight mineral engine oil to gearbox. Instal plug and special torque per Section 20-33. </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_4">Run-up helicopter approximately five minutes at 60-70% RPM per R66 Pilot\'s Operating Handbook (POH) Section 4. </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_5">Drain tail rotor gearbox oil (mineral oil) per Section 12-21. </string>
+    <string name="Drain_Flush_tail_rotor_gearbox_12to13_6">Clean and install chip detector per Seciotn 12-22 Parts B and C. </string>
+    <!-- Replace hydraulic filter per § 12-32 -->
+    <string name="Replace_hydraulic_filter_12to32">Replace hydraulic filter per § 12-32 </string>
+    <string name="Replace_hydraulic_filter_12to32_1">Refer to Figure 12-4. Remove D516-1 cap and filter and visually inspekt element for contaminants. If element is clear, proceed to step 3. If metal contamination is found, use a magnet to determine if meal os ferrous. If metal is ferrous, perform the following: </string>
+    <string name="Replace_hydraulic_filter_12to32_2">Install new filter per steps 3 through 5. </string>
+    <string name="Replace_hydraulic_filter_12to32_3">RAfter one flight-hour, remove filter and inspekt for ferrous metal. If ferrous metal is found upon second inspection, replace hydraulic pump per Section 67-50, then drain and flish hydraulic system per Section 12-33. </string>
+    <string name="Replace_hydraulic_filter_12to32_4">Discard cap packing. Clean cap with approved solvent per Section 20-70 and dry cap with compressed air or a lint-free cloth. Lubricate new packing with A257-15 fluid and install on cap. </string>
+    <string name="Replace_hydraulic_filter_12to32_5">Lubricate packing inside new filter with A257-15 fluid and install filter in reservoir. Install cap and special torque per Section 20-33. </string>
+    <string name="Replace_hydraulic_filter_12to32_6">Servoce hydraulic reservoir per Section 12-31. </string>
+    <!-- Clean gearbox chip detectors per § 12-13 & 12-22 -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22">Clean gearbox chip detectors per § 12-13 &amp; 12-22 </string>
+    <!-- REMOVAL A -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A">Removal </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A_1">Refer to Figure 12-1. Disconnect chip detector wiring, as required. Remove chip detector from housing. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A_2">Drain main rotor gearbox oil per § 12-11, if removing chip detector housing or sight gage. Remove housing and/or gage as required. </string>
+    <!-- CLEANING CHIP DETECTOR AND HOUSING B -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_B">Cleaning Chip Detector (and Housing) </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_B_1">Clean chip detector using a toothbrush and approved solvent (refer to § 20-70). Remove debris using compressed air or masking tape; do not use a magnet. Dry chip detector using compressed air or a lint-free cloth. Inspect condition. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_B_2">Refer to Figure 12-1. Connect chip detector electrical wiring and special torque terminal nut per § 20-33. Turn battery switch on and ground detector\'s central magnetic probe to airframe. Verify appropriate CHIP warning segment illuminates. Turn battery switch off. </string>
+    <!-- INSTALATION C -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C">Instalation </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C_1">Refer to Figure 12-1. Verify cleanliness and clarity of sight gage. As required, remove sight gage per  Part A and clean with approved solvent per Section 20-70. Install sight gage and special torque per Section 20-33. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C_2">Verify cleanliness of chip detector and housing. As required, remove and clean chip detector and housing per Parts A and B. Install housing and special torque per Section 20-33. Install chip detector.  </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C_3">Turn BATTERY switch ON. Verify MR CHIP warning segment illuminates when test button is depressed. Turn BATTERY switch OFF. </string>
+    <!-- REMOVAL A2  -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A2">Removal </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A2_1">Drain tail rotor gearbox oil per Section 12-21. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_A2_2">Remove sight gage , as required. </string>
+    <!-- CLEANING CHIP DETECTOR B2 -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_B2">Cleaning Chip Detector </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_B2_1">Clean chip detector per Section 12-13 Part B (main rotor gearbox) </string>
+    <!-- CLEANING CHIP DETECTOR B2 -->
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2">Instalation </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2_1">Refer to Figure 12-3. Verify cleanliness and clarity of sight gage. As required, remove sight gage per Part A and clean with approved solvent per Section 20-70. Install sight gage and special torque per Section 20-33. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2_2">Verify cleanliness of chip detector. As required, clean chip detector per Section 12-13 Part B (main rotor gearbox). Install chip detector and special torque per Section 20-33. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2_3">Connect chip detector wiring and install ty-raps, as required. Cinch ty-raps until snug without over-tightening, and trim tips flush with heads. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2_4">Turn BATTERY switch ON. Verify TR CHIP warning segment illuminates when test button is depressed. Turn BATTERY OFF. </string>
+    <string name="Clean_gearbox_chip_detectors_12to13_12to22_C2_5">Service tail rotor gearbox per Section 12-21. </string>
+    <!-- ZAMKNIECIE ZABEZPIECZENIE POKRYW -->
+
+    <string name="Zamkniecie_zabezpieczenie_pokryw_1">Zamknięcie i zabezpieczenie pokryw: Patrz Rozdział 6-70. Zamontuj/zamknij wszystkie pokrywy wzierników kontrolnych i dostępu oraz osłony zdemontowane w poprzednich krokach. Potwierdź poprawność montażu i zabezpieczenie. </string>
+    <!-- ZAPISY DOTYCZACE OBSLUGI TECHNICZNEJ -->
+    <string name="Zapisy_dotyczace_boslugi_technicznej_1">Zapisy dotyczące obsługi technicznej: Potwierdź, że zapisy z obsługi technicznej są dokładne, czytelne i pełne. Wprowadź wykonane obsługi technicznej (takie jak wymiana części, regulacja wyposażenia, obsługa doraźna   i smarowanie) oraz dane przeglądu. Dane muszą zawierać opis (lub odniesienie do danych akceptowalnych dla Administratora) wykonanych prac, datę, całkowity czas użytkowania śmigłowca, podpis, typ i numer upoważnienia osoby stwierdzającej zdatność statku powietrznego do użytkowania. </string>
+
+    <!-- 100h -->
+    <!-- Działania kontrolne przed przeglądem 100-godzinnym/rocznym -->
+    <string name="Dzialania_kontrolne_przed_przeglądem_100godzinnym_rocznym">Działania kontrolne przed przeglądem 100-godzinnym/rocznym </string>
+    <string name="Dzialania_kontrolne_przed_przeglądem_100godzinnym_rocznym_1">Sprawdzenie na ziemi (wirniki nie obracają się) </string>
+    <string name="Dzialania_kontrolne_przed_przeglądem_100godzinnym_rocznym_2">Wymienić filtr powietrza zgodnie z Rozdziałem 71-21, jeśli jest taka potrzeba </string>
+    <!-- Rękojeść obrotowa -->
+    <string name="Rekojesc_obrotowa_1">Sprawdź czy rękojeść obrotowa płynnie się obraca bez zacięć przy położeniu dźwigni maksymalnie w górę i całkowicie w dół. Upewnij się, czy środkowa sprężyna utrzymuje rękojeść obrotową w pełni otwartą i zamkniętą. </string>
+    <!-- Zawór odcięcia paliwa -->
+    <string name="Zawor_odcięcia_paliwa_1">Zawór odcięcia paliwa: Sprawdź sprawne sterowanie bez zacięć. Sprawdź prawidłowe działanie przycisku blokady. </string>
+    <!-- Dźwignia skoku ogólnego -->
+    <string name="Dzwignia_skoku_ogolnego_1">Dźwignia skoku ogólnego: Sprawdź prawidłowe działanie w całym zakresie ruchu, przy odkręconym  i dokręconym tarciu. Przy odkręconym tarciu, potwierdź, że zanim dźwignia napotka na opór hydrauliczny, występuje luz wynoszący, w sumie około pół cala (12.7 mm). Sprawdź normalne opory hydrauliczne w całej pozostałej części zakresu ruchu. Przy dokręconym tarciu, sprawdź czy przy zwiększonym oporze nie ma zacięć lub blokowania ruchu. Sprawdź regulację regulatora mocy turbiny następująco </string>
+    <string name="Dzwignia_skoku_ogolnego_2">Dźwignia skoku ogólnego: Włącz wyłącznik główny (ON). Przy położeniu dźwigni całkowicie w dół, przytrzymaj przycisk przełącznika dźwiękowego całą drogę w dół. Niech druga osoba sprawdzi odczyt PTG, około 45º. </string>
+    <string name="Dzwignia_skoku_ogolnego_3">Dźwignia skoku ogólnego: Przy położeniu dźwigni całkowicie w dół, przytrzymaj przycisk przełącznika dźwiękowego całą drogę w górę. Niech druga osoba sprawdzi odczyt PTG, około 65º. Powrócić przycisk przełącznika do pozycji nominalnej. Wyłącz wyłącznik główny (OFF).  </string>
+    <!-- Drążek sterowania okresowego -->
+    <string name="Drazek_sterowania_okresowego_1">Drążek sterowania okresowego: Przy odkręconym tarciu, potwierdź, że zanim drążek napotka na opór hydrauliczny, występuje luz wynoszący w sumie, około pół cala (12.7 mm) w sterowaniu podłużnym i jeden cal (25.4 mm) w sterowaniu poprzecznym. Sprawdź normalne opory hydrauliczne w całej pozostałej części zakresu ruchu. Przy dokręconym tarciu, sprawdź czy przy zwiększonym oporze nie ma zacięć lub blokowania ruchu. </string>
+    <!-- Pedały wirnika ogonowego -->
+    <string name="Pedaly_wirnika_ogonowego_1">Pedały wirnika ogonowego: Sprawdź sprawne przemieszczanie, bez zacięć. Sprawdź prawidłowe położenie pedału dla pilota i zabezpieczenie kołka blokującego </string>
+    <!-- Sterownice demontowalne (jeśli zamontowano) -->
+    <string name="Sterownice_demontowalne_jeśli_zamontowano_1">Sterownice demontowalne: Sprawdź prawidłowe działanie i zabezpieczenie kołka blokującego </string>
+    <!-- Oświetlenie i przyrządy (Wyłącznik główny włączony ON): -->
+    <string name="Oswietlenie_i_przyrzady_Wylacznik_glowny_wlączony_ON">Oświetlenie i przyrządy (Wyłącznik główny włączony ON): </string>
+    <!-- PANEL SYGNALIZACYJNY -->
+
+    <string name="PANEL_SYGNALIZACYJNY_1">PANEL SYGNALIZACYJNY: Lampka temperatury/ciśnienia oleju w przekładni głównej - świeci. </string>
+    <string name="PANEL_SYGNALIZACYJNY_2">PANEL SYGNALIZACYJNY: Lampka ENGINE OIL - świeci </string>
+    <string name="PANEL_SYGNALIZACYJNY_3">PANEL SYGNALIZACYJNY: Lampka Generatora GEN - świeci. </string>
+    <string name="PANEL_SYGNALIZACYJNY_4">PANEL SYGNALIZACYJNY: Lampka hamulca wirnika - świeci (jeśli hamulec ten jest zastosowany). </string>
+    <string name="PANEL_SYGNALIZACYJNY_5">PANEL SYGNALIZACYJNY: Lampka LOW RPM - świeci. </string>
+    <string name="PANEL_SYGNALIZACYJNY_6">PANEL SYGNALIZACYJNY: Osłona drzwi się świeci, gdy któreś drzwi są otwarte. </string>
+    <string name="PANEL_SYGNALIZACYJNY_7">PANEL SYGNALIZACYJNY:  Wszystkie lampki świecą, gdy przycisk testu jest wciśnięty (niewielkie opóźnienie przy zapaleniu lampki Low Fuel). </string>
+    <!-- INSPEKCJA OŚWIETLENIA -->
+
+    <string name="INSPEKCJA_OSWIETLENIA_1">INSPEKCJA OŚWIETLENIA: Lewa strona osłony drzwi – sprawdzić oświetlenie LED głównego wirnika przekładni i zbiornika hydraulicznego (wyłącznik ON lub OFF). </string>
+    <!-- OŚWIETLENIE ZEWNĘTRZNE -->
+
+    <string name="OSWIETLENIE_ZEWNETRZNE_1">INSPEKCJA OŚWIETLENIA: Światła pozycyjne - sprawdzić działanie </string>
+    <string name="OSWIETLENIE_ZEWNETRZNE_2">INSPEKCJA OŚWIETLENIA: Światła antykolizyjne - sprawdzić działanie </string>
+    <string name="OSWIETLENIE_ZEWNETRZNE_3">INSPEKCJA OŚWIETLENIA: Reflektory lądowania - sprawdzić działanie </string>
+    <!-- OŚWIETLENIE WEWNĘTRZNE -->
+    <string name="OSWIETLENIE_WEWNETRZNE_1">OŚWIETLENIE WEWNĘTRZNE: Oświetlenie panelu i ściemniacz - sprawdzić działanie (światła pozycyjne muszą być zapalone, aby włączyć oświetlenie panelu i ściemniacz). </string>
+    <string name="OSWIETLENIE_WEWNETRZNE_2">OŚWIETLENIE WEWNĘTRZNE: Lampka do oświetlania mapy - sprawdzić działanie </string>
+    <string name="OSWIETLENIE_WEWNETRZNE_3">OŚWIETLENIE WEWNĘTRZNE: Cyfrowy woltomierz - wskazuje około 24 woltów. </string>
+    <string name="OSWIETLENIE_WEWNETRZNE_4">OŚWIETLENIE WEWNĘTRZNE: Wskaźnik temperatury oleju - przy zimnym silniku wskazówka powinna być lekko odchylona. </string>
+    <string name="OSWIETLENIE_WEWNETRZNE_5">OŚWIETLENIE WEWNĘTRZNE: Wskaźnik paliwomierza - wskazuje ilość paliwa. </string>
+    <!-- Dokumentacja śmigłowca -->
+
+    <string name="Dokumentacja_smiglowca_1">Dokumentacja śmigłowca: Skontrolować stan i sprawdzić czy zalaminowana lista kontrolna pilota R66 MT699-1 jest aktualną wersją. Sprawdzić status wersji na stronie internetowej www.robinsonheli.com, w zakładce Publikacje.  </string>
+    <string name="Dokumentacja_smiglowca_2">Dokumentacja śmigłowca: Skontrolować stan i sprawdzić, czy podręcznik użytkowania R66 dla pilota jest aktualną wersją i czy zawiera poprawne listy Sprzętu / Waga i Równowagi. Sprawdzić status wersji na stronie www.robinsonheli.com, w zakładce Publikacje.  </string>
+    <string name="Dokumentacja_smiglowca_3">Dokumentacja śmigłowca: Sprawdzić certyfikat zdatności do lotu na pokładzie i porównać z numerem seryjnym śmigłowca  </string>
+    <string name="Dokumentacja_smiglowca_4">Dokumentacja śmigłowca: Sprawdzić świadectwo rejestracyjne na pokładzie, porównać z numerem seryjnym śmigłowca i wszystkimi znakami rejestracyjnymi.  </string>
+    <!-- Próba naziemna -->
+    <string name="Proba_naziemna">Próba naziemna: </string>
+    <string name="Proba_naziemna_1">Próba naziemna: Oczyścić ścieżkę gazu w silniku według Instrukcji Obsługi i Konserwacji RR300 (OMM) </string>
+    <string name="Proba_naziemna_2">Próba naziemna: Wykonaj "Przegląd przedlotowy" według listy kontrolnej zamieszczonej w Rozdziale 4 Podręcznika Użytkowania dla Pilota. </string>
+    <string name="Proba_naziemna_3">Próba naziemna: Wykonaj przegląd wg listy kontrolnej "Przed uruchomieniem silnika" zamieszczonej w Rozdziale 4 Podręcznika Użytkowania dla Pilota. </string>
+    <string name="Proba_naziemna_4">Próba naziemna: Przed uruchomieniem należy sprawdzić, czy hamulec wirnika blokuje rozrusznik. </string>
+    <string name="Proba_naziemna_5">Próba naziemna: Zrealizuj czynności wg listy kontrolnej "Uruchomienie i próba silnika" w Rozdziale 4. </string>
+    <string name="Proba_naziemna_6">Próba naziemna: Lampka Generatora zgaszona. </string>
+    <string name="Proba_naziemna_7">Próba naziemna: Sprawdź działanie N2/obrotomierz wirnika przy wyłączonych przełącznikach akumulatora i generatora. Włącz przełączniki na ON. </string>
+    <string name="Proba_naziemna_8">Próba naziemna: Przy zmianie prędkości obrotowej w zakresie roboczym nie słychać nienormalnego hałasu łożysk. </string>
+    <string name="Proba_naziemna_9">Próba naziemna: Sprawdź prawidłowe działanie regulatora </string>
+    <string name="Proba_naziemna_10">Próba naziemna: Sprawdź czy wskazówki obrotomierza są prawidłowo wyregulowane. </string>
+    <string name="Proba_naziemna_11">Próba naziemna: Sprawdź prawidłowe napięcie prądu stałego generatora. </string>
+    <string name="Proba_naziemna_12">Próba naziemna: Nagrzewnica działa prawidłowo. </string>
+    <string name="Proba_naziemna_13">Próba naziemna: Sprawdź dopuszczalne odchylenie przyrządu podczas transmisji na różnych częstotliwościach. </string>
+    <string name="Proba_naziemna_14">Próba naziemna: Wskazania wydajności silnika mieszczą się w dopuszczalnych parametrach. </string>
+    <string name="Proba_naziemna_15">Próba naziemna: Sprawdź działanie instalacji hydraulicznej. Przy pomocy wyłącznika hydrauliki zabudowanego na drążku sterowania okresowego, przełącz układ w pozycję OFF (WYŁĄCZONY). Stosując małe impulsy sterownicze w sterowaniu podłużnym sprawdź czy występuje luz około jednej drugiej cala (12.7 mm) do chwili, gdy wystąpi opór na drążku oraz siły zwrotne. Powrót drążka do pozycji neutralnej. Włącz instalację hydrauliczną (ON). Sterownice powinny poruszać się swobodnie, bez wyczuwalnych sił zwrotnych oraz bez ich niekontrolowanego ruchu („wodzenia”). Wykonać lot sprawdzający z włączoną hydrauliką. </string>
+    <!-- Lot sprawdzający -->
+    <string name="Lot_sprawdzajacy">Lot sprawdzający </string>
+    <!-- Zawis -->
+    <string name="Zawis_1">Zawis: Sprawdź prawidłowe wskazania przyrządów pomiarowych. </string>
+    <string name="Zawis_2">Zawis: Sprawdź sterowność przy zwrotach w zawisie w lewo i w prawo. </string>
+    <string name="Zawis_3">Zawis: Sprawdź czy system hydrauliczny sprowadza siły na drążku sterowania okresowego do zera. </string>
+    <string name="Zawis_4">Zawis: Sprawdź dopuszczalne i normalne poziomy drgań.  </string>
+    <!-- Lot poziomy -->
+    <string name="Lot_poziomy">Lot poziomy: </string>
+    <string name="Lot_poziomy_1">Lot poziomy: Przeprowadzenie na typowej wysokości przelotowej (przy sprzyjającej pogodzie)  i maksymalnym momencie obrotowym ciągłym. Obciążenie jak w typowych warunkach pracy lub nominalna waga i środek ciężkości w środku zakresu ograniczeń zapewni najbardziej przydatną ocenę. </string>
+    <string name="Lot_poziomy_2">Lot poziomy: a.Sprawdź położenie pedału, gdy wskaźnik nitkowy odchylania znajduje się w osi. Prawy pedał od 0,25 do 0,75 cala (6,4 do 19,1 mm) do przodu w stosunku do lewego pedała. </string>
+    <string name="Lot_poziomy_3">Lot poziomy: Sprawdź czy sznur gumowy wyważania sterowania śmigłem ogonowym sprowadza do zera siły na pedałach (sznur oddziałuje siłą na lewy pedał). </string>
+    <string name="Lot_poziomy_4">Lot poziomy: Sprawdź czy system hydrauliczny sprowadza siły na drążku sterowania okresowego do zera oraz czy dźwignia skoku ogólnego pozostaje w równowadze i nie występują na niej siły zwrotne. </string>
+    <string name="Lot_poziomy_5">Lot poziomy: Sprawdź dopuszczalne siły sterujące (siły zwrotne) przy wyłączonej hydraulice. </string>
+    <string name="Lot_poziomy_6">Lot poziomy: Sprawdź dopuszczalne i normalne poziomy drgań. Jeżeli nieprawidłowe dokonaj pomiaru i wyreguluj. </string>
+    <!-- Sprawdzenie Pewności Mocy -->
+    <string name="Sprawdzenie_Pewnosci_Mocy">Sprawdzenie Pewności Mocy: </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_1">Sprawdzenie Pewności Mocy: Odnieść się do Podręcznika Użytkowania R66 przez Pilota, Rozdział 5, wykres Pewności Mocy. Przeprowadzenia na typowej wysokości przelotowej (przy sprzyjającej pogodzie) i maksymalnym momencie obrotowym ciągłym (83%). Przełączniki ogrzewania, generatora i systemu przeciwoblodzeniowego przełączyć na OFF. Ustabilizować N2/R na 100% (sygnał dźwiękowy w razie konieczności)  i zapisać następujące wartości:  </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_2">Sprawdzenie Pewności Mocy: a.N1 </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_3">Sprawdzenie Pewności Mocy: b.% Moment obrotowy (83% nominalny) </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_4">Sprawdzenie Pewności Mocy: c.OAT (temperatura powietrza na zewnątrz) </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_5">Sprawdzenie Pewności Mocy: d.MGT (zmierzona temp. gazu w turbinie) </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_6">Sprawdzenie Pewności Mocy: e.Wysokość ciśnieniowa </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_7">Sprawdzenie Pewności Mocy: f.Ciśnienie oleju </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_8">Sprawdzenie Pewności Mocy: g.Temperatura oleju </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_9">Sprawdzenie Pewności Mocy: h.Określić maksymalną dopuszczalną MGT z wykresu Pewności Mocy. </string>
+    <string name="Sprawdzenie_Pewnosci_Mocy_10">Sprawdzenie Pewności Mocy: i.Obliczenia marginesu = Max dopuszczalny MGT - faktyczny MGT. </string>
+    <!-- Lot autorotacyjny -->
+    <string name="Lot_autorotacyjny_1">Lot autorotacyjny: Wykonać lot autorotacyjny z prędkością 100 KIAS. Sprawdzić normalne siły sterujące i charakterystykę latania. </string>
+    <!-- Wyłączanie silnika i unieruchomienie śmigłowca -->
+    <string name="Wylaczanie_silnika_i_unieruchomienie_smiglowca_1">Wyłączanie silnika i unieruchomienie śmigłowca: Wykonać procedurę wyłączenia silnika i unieruchomienia śmigłowca zgodnie z listą kontrolną zamieszczoną w Podręczniku Użytkowania dla Pilota (POH). </string>
+    <string name="Wylaczanie_silnika_i_unieruchomienie_smiglowca_2">Wyłączanie silnika i unieruchomienie śmigłowca: Sprawdź działanie hamulca wirnika i świecenie lampki ROTOR BRAKE (HAMULEC WIRNIKA) na panelu sygnalizacyjnym. </string>
+    <!-- A. PRZYGOTOWANIE -->
+    <string name="A_PRZYGOTOWANIE">A. PRZYGOTOWANIE </string>
+    <!-- Sprawdzenie działań:  -->
+    <string name="Sprawdzenie_dzialan">Sprawdzenie działań: </string>
+    <string name="Sprawdzenie_dzialan_1">Przeprowadzenie kontroli na ziemi i w locie zgodnie z Rozdziałem 5-40 </string>
+    <!-- Oczyszczanie (wymagane przez 14CFR Part 43, Dodatek D, pkt (a))  -->
+    <string name="Oczyszczanie_wymagane_przez_14CFR_Part_43_Dodatek_D_pkt_a">Oczyszczanie (wymagane przez 14CFR Part 43, Dodatek D, pkt (a)) </string>
+    <string name="Oczyszczanie_wymagane_przez_14CFR_Part_43_Dodatek_D_pkt_a_1">Odnotować jakikolwiek wyciek płynu przed czyszczeniem. Umyć wodą z dodatkiem łagodnego mydła łopaty wirnika i śmigła ogonowego, piasty i zewnętrzne powierzchnie kadłuba zgodnie z Rozdziałem 20. </string>
+    <!-- Panele dostępu i wzierników kontrolnych:  -->
+    <string name="Panele_dostepu_i_wziernikow_kontrolnych_1">Panele dostępu i wzierników kontrolnych: Patrz Rozdział 6-70. Zdjąć lub otworzyć drzwi, panele, owiewki, pokrywy, oraz osłony zgodnie z 14 CFR Part 43, w dodatku D, pkt (a). </string>
+    <!-- B. Przegląd -->
+    <string name="B_Przeglad">B. Przegląd </string>
+    <!-- PRZEDNIA KABINA, PRZESTRZEŃ PRZY PODŁODZE -->
+    <string name="PRZEDNIA_KABINA_PRZESTRZEN_PRZY_PODLODZE">PRZEDNIA KABINA, PRZESTRZEŃ PRZY PODŁODZE </string>
+
+    <string name="Bloki_lozyskowe_pedalow_smigla_ogonowego_1">Bloki łożyskowe pedałów śmigła ogonowego: Zdjąć pokrywy bloków łożyskowych pedałów zgodnie z Rozdziałem 6-70. Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Skontrolować stan. Sprawdzić czy są obluzowania połączeń i luzy w łożyskach pedałów. Maksymalny dopuszczalny luz wynosi 0.080 cala (2,03 mm) w kierunku osiowym i 0,030 cala (0,76 mm) w kierunku promieniowym. Upewnij się, że bloki łożyskowe są zabezpieczone. </string>
+
+
+    <string name="Regulowane_pedaly_smigla_ogonowego_1">Regulowane pedały śmigła ogonowego: Skontroluj stan. Sprawdź, czy nie ma pęknięć w połączeniach spawanych. Sprawdź, czy zawleczki blokujące są umieszczone w otworach, aby zabezpieczyć regulowane pedały. Sprawdź czy jest odpowiednia odległość do użytkowania i czy płynnie działa. </string>
+
+
+    <string name="Regulowane_pedaly_smigla_ogonowego_drugiego_pilota_1">Regulowane pedały śmigła ogonowego drugiego pilota: Skontroluj stan. Sprawdź, czy nie ma pęknięć w połączeniach spawanych. Sprawdź, czy zawleczki blokujące są umieszczone w otworach, aby zabezpieczyć regulowane pedały. Sprawdź czy jest odpowiednia odległość do użytkowania i czy płynnie działa. </string>
+
+
+    <string name="Dyfuzory_nagrzewnicy_kabiny_1">Dyfuzory nagrzewnicy kabiny: Skontroluj stan. Sprawdź czytelność oznakowania. Sprawdź czy nie ma żadnych istotnych wyszczerbień, zadrapań lub wgnieceń oraz pęknięć w połączeniach spawanych. Sprawdź zabezpieczenia. </string>
+
+
+    <string name="Gasnica_i_mocowanie_uchwytu_1">Gaśnica i mocowanie uchwytu: Skontroluj stan. Sprawdzić gaśnicę zgodnie z instrukcją producenta. Sprawdź, czy nie ma utraty napełnienia lub zatoru w dyszy gaśnicy. Sprawdź zabezpieczenie mocowania. </string>
+
+
+    <string name="Uchwyty_na_mapy_1">Uchwyty na mapy: Skontroluj stan. Sprawdź, czy nie ma uszkodzeń, przetarć lub pogorszenia jakości materiału. Usunąć obce obiekty i zweryfikować zabezpieczenie mocowania </string>
+
+    <string name="Uchwyt_na_licencje_1">Uchwyt na licencję: Skontroluj stan. Sprawdź, czy nie ma uszkodzeń, pęknięć w plastiku lub pogorszenia jakości materiału. Sprawdzić zabezpieczenie. </string>
+
+
+    <string name="Dolna_scianka_kabiny_i_podloga_1">Dolna ścianka kabiny i podłoga: Sprawdzić stan. Sprawdź zabezpieczenia sprzętu. Usunąć nagromadzone zanieczyszczenia </string>
+    <!-- KONSOLA  -->
+    <string name="KONSOLA">KONSOLA </string>
+
+
+    <string name="Zespol_konsoli_1">Zespół konsoli: Sprawdzić stan. Upewnij się, że nie ma żadnych istotnych wyszczerbień, rys lub wgnieceń; skontrolować, czy nie ma pęknięć, korozji lub luźnych nitów w dolnej części zespołu konsoli. Sprawdź zabezpieczenia zawiasów. </string>
+
+
+    <string name="Halogenowe_swiatla_ladowania_1">Halogenowe światła lądowania: Sprawdzić stan. Sprawdź poprawność montażu i zabezpieczenie okablowania oraz urządzenia </string>
+
+
+    <string name="Przyrzady_pilotazowe_i_kontroli_pracy_silnika_1">Przyrządy pilotażowe i kontroli pracy silnika: Sprawdzić stan. Upewnij się, że oznaczenia przyrządów są odpowiednie na podstawie Podręcznika Użytkowania R66 dla Pilota (POH), Rozdział 2. Sprawdź poprawność instalacji oraz zabezpieczenia okablowania i urządzeń. </string>
+
+
+    <string name="Lampki_slupkowe_1">Lampki słupkowe: Sprawdzić stan. Sprawdź prawidłowe działanie i zabezpieczenia urządzenia. </string>
+
+
+    <string name="Sterowanie_odcieciem_paliwa_i_oslona_1">Sterowanie odcięciem paliwa i osłona: Sprawdzić stan. Skontrolować bezpieczeństwo mocowania kabla i ramki montażowej /maskownicy. Sprawdzić właściwą regulację oraz czy gałka działa sprawnie. Sprawdź, czy osłona jest dołączona do konsoli. </string>
+
+
+    <string name="Podstawy_blokow_urzadzen_radiowych_1">Podstawy bloków urządzeń radiowych: Sprawdzić stan. Sprawdź, czy nie ma pęknięć lub korozji. Sprawdź poprawność montażu oraz zabezpieczenie okablowania i urządzenia. </string>
+
+
+    <string name="Przewody_cisnienia_calkowitego_i_statycznego_1">Przewody ciśnienia całkowitego i statycznego: Sprawdź przewody ciśnienia całkowitego i statycznego zwracając uwagę na zatory, pęknięcia, przetarcia, przebicia lub załamania. Sprawdź pewność połączeń przewodów ciśnienia całkowitego i statycznego. Sprawdź zabezpieczenia przewodu. </string>
+
+
+    <string name="Wsporniki_blokow_lozyskowych_pedalow_smigla_ogonowego_1">Wsporniki bloków łożyskowych pedałów śmigła ogonowego: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Skontrolować oba pionowe wsporniki z blachy wewnątrz dolnej konsoli i sprawdzić czy nie ma pęknięć. Zwróć szczególną uwagę na obszar w pobliżu śrub NAS6603-13. Wymień pęknięty wspornik przed lotem.  </string>
+
+
+    <string name="Uklad_sterowania_smiglem_ogonowym_1">Układ sterowania śmigłem ogonowym: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź dostępne elementy układu sterowania śmigłem ogonowym, zwracając uwagę na widoczne defekty. Sprawdź czy jest odpowiednia przestrzeń do działania. </string>
+
+
+    <string name="Waz_nagrzewnicy_kabiny_1">Wąż nagrzewnicy kabiny: Sprawdź stan. Skontroluj, czy nie ma zapadniętych obszarów i przetarć. Sprawdź klamry zaciskowe i zabezpieczenie węża. </string>
+
+
+    <string name="Miedziane_szyny_zbiorcze_1">Miedziane szyny zbiorcze: Skontrolować stan. Sprawdzić czy nie ma korozji lub zagięć w szynie zbiorczej. Sprawdź zabezpieczenie szyny oraz izolację od otaczającej konstrukcji. </string>
+
+
+    <string name="Przewody_1">Przewody: Skontrolować stan. Sprawdź czy nie ma poluzowanych, przetartych lub uszkodzonych przewodów oraz styków. Sprawdź porządek, poprawność poprowadzenia przewodów i montażu oraz bezpieczeństwo. </string>
+
+
+    <string name="Laczniki_i_wskazniki_dokrecenia_1">Łączniki i wskaźniki dokręcenia: Skontrolować stan. Sprawdź poprawność montażu i zabezpieczenie łączników. Wykonaj nowe wskaźniki dokręcenia, zgodnie z Rysunkiem 5-1, których jakość pogorszyła się </string>
+
+
+    <string name="Zamkniecie_i_zabezpieczenie_1">Zamknięcie i zabezpieczenie: Sprawdź, czy obce ciała zostały usunięte. Sprawdź zabezpieczenie urządzeń i czystość wnętrza. Zamknij konsolę i skontroluj zabezpieczenie. </string>
+    <!-- KONSOLA PO STRONIE PILOTA (opcjonalne wyposażenie) -->
+    <string name="KONSOLA_PO_STRONIE_PILOTA">KONSOLA PO STRONIE PILOTA (opcjonalne wyposażenie) </string>
+
+
+    <string name="Konstrukcja_spawana_podpierajaca_awionike_pilota_1">Konstrukcja spawana podpierająca awionikę pilota: Skontrolować stan. Sprawdzić czy nie ma wyszczerbień, zadrapań lub wgnieceń na powłoce konsoli. Sprawdź czy nie ma pęknięć w połączeniach spawanych. Skontroluj bezpieczeństwo mocowania konstrukcji spawanej. </string>
+    <!-- PANEL WYŁĄCZNIKÓW AUTOMATYCZNYCH -->
+    <string name="PANEL_WYŁAZNIKOW_AUTOMATYCZNYCH">PANEL WYŁĄCZNIKÓW AUTOMATYCZNYCH </string>
+
+
+    <string name="Pokrywa_tablicy_1">Pokrywa tablicy: Skontrolować stan. Sprawdź czy nie ma uszkodzeń w płytkach z nakrętką i prowadnicach/szynach wewnątrz tablicy. Skontroluj czytelność oznakowania. </string>
+
+
+    <string name="Bezpieczniki_i_oprawki_bezpiecznikow_1">Bezpieczniki i oprawki bezpieczników: Skontrolować stan. Sprawdź zabezpieczenie oraz czy nie ma korozji. Sprawdź poprawność montażu bezpiecznika. </string>
+
+
+    <string name="Wylaczniki_automatyczn_1">Wyłączniki automatyczne: Skontrolować stan. Sprawdź Dyrektywy Zdatności w celu uzyskania informacji odnośnie stosowalności. Sprawdź poprawność montażu i zabezpieczenie </string>
+    <!-- AKUMULATOR (w przypadku zainstalowania pod przednim lewym siedzeniem) -->
+    <string name="AKUMULATOR">AKUMULATOR (w przypadku zainstalowania pod przednim lewym siedzeniem) </string>
+
+
+    <string name="Akumulator_Litowo_Jonowy_1">Akumulator Litowo-Jonowy: Skontrolować stan. Sprawdzić czy nie ma pęknięć i korozji na lub w pobliżu styków kabli akumulatora. Zgodnie z wymogami, należy wykonać test pojemności lub wymienić akumulator zgodnie z instrukcją producenta. Sprawdź zabezpieczenia kabla akumulatora. Sprawdź czy nie ma korozji w otaczającej konstrukcji. </string>
+    <!-- POZIOMY TUNEL KONTROLNY (przednie siedzenia) -->
+    <string name="POZIOMY_TUNEL_KONTROLNY">POZIOMY TUNEL KONTROLNY (przednie siedzenia) </string>
+
+    <string name="Pokrywy_1">Pokrywy: Skontrolować stan. Sprawdzić czytelność oznakowania </string>
+
+
+    <string name="Przewody_i_zlacza_antenowe_1">Przewody i złącza antenowe: Skontrolować stan. Sprawdzić czy przewody nie są poluzowane, przetarte, postrzępione lub uszkodzone. Sprawdź czy nie ma uszkodzonych złączy. Sprawdź porządek, poprawność poprowadzenia przewodów i montażu oraz bezpieczeństwo </string>
+
+
+    <string name="Zespol_skrzynki_drazka_sterowania_okresowego_1">Zespół skrzynki drążka sterowania okresowego: Skontrolować stan. Sprawdzić czy nie ma wyszczerbień, zadrapań, wgnieceń, pęknięć, korozji lub poluzowanych nitów.  Sprawdzić blaszany zespół zderzaków ze względu na zniekształcenia lub uszkodzenia. Skontroluj zabezpieczenie. </string>
+
+
+    <string name="Zespol_drazka_sterowania_okresowego_1">Zespół skrzynki drążka sterowania okresowego: Skontrolować stan. Sprawdzić czy nie ma wyszczerbień, zadrapań, wgnieceń, pęknięć, korozji. Sprawdź czy nie ma pęknięć w połączeniach spawanych. Sprawdź bezpieczeństwo, odpowiednią odległość działania i płynne uruchamianie. Sprawdź bezpieczeństwo kontrolera drugiego pilota oraz zawleczki zabezpieczającej. </string>
+
+
+    <string name="Oslona_drazka_1">Osłona drążka: Skontrolować stan. Sprawdź prawidłowe działanie blokujące zatrzask osłony. Upewnij się, czy nie ma uszkodzeń, przetarć lub pogorszenia jakości materiału. Sprawdź zabezpieczenie. </string>
+
+
+    <string name="Regulator_tarcia_drazka_sterowania_okresowego_1">Regulator tarcia drążka sterowania okresowego: Skontrolować stan. Sprawdź połączenie końcówek popychaczy łożysk zgodnie z Rozdziałem  5-33. Sprawdź czy nie występują nadmierne poszerzenia na końcach tarcia  przekładki. Skontroluj poprawność montażu, zabezpieczenia i działanie. </string>
+
+
+    <string name="Pozioma_rura_skretna_drazka_sterowania_okresowego_1">Pozioma rura skrętna drążka sterowania okresowego: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć lub korozji. Sprawdź czy nie ma pęknięć wokół nakładek i na obu zakończeniach rury. Skontroluj poprawność montażu, bezpieczeństwo i odległość działania. </string>
+
+
+    <string name="Poziome_popychacze_1">Poziome popychacze: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź stan zgodnie  z Rozdziałem 5-32. Sprawdź czy nie ma wyszczerbień, zarysowań, przetarć, wgnieceń, pęknięć lub korozji. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone.  Sprawdź otworki kontrolne. Sprawdź poprawność montażu, zabezpieczenia i przestrzeń działania. </string>
+
+
+    <string name="Sterowanie_odcieciem_paliwa_i_przepustnic_1">Sterowanie odcięciem paliwa i przepustnicą: Skontrolować stan. Potwierdź prześwit pomiędzy zabudowanym wyposażeniem i przyległą strukturą. Potwierdź poprawność zabudowy i zabezpieczenia. </string>
+
+
+    <string name="Zawor_ogrzewania_kabiny_i_sterowanie_1">Zawór ogrzewania kabiny i sterowanie: Skontrolować stan. Potwierdź przestrzeń sterowania do zainstalowanego wyposażenia i otaczającej konstrukcji. Sprawdź zabezpieczenie zaworu ogrzewania. Potwierdź poprawność zabudowy i sprawne działanie zaworu. </string>
+
+
+    <string name="Dzwignia_katowa_ukladu_sterowania_lotem_1">Dźwignia kątowa układu sterowania lotem: Skontrolować stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć lub korozji. Skontroluj łożyska kuliste zgodnie z Rozdziałem 5-33. Sprawdź poprawność montażu, zabezpieczenia i przestrzeń działania. </string>
+
+
+    <string name="Wspornik_dzwigni_katowej_1">Wspornik dźwigni kątowej: Skontrolować stan. Sprawdź czy nie ma pęknięć lub korozji w połączeniach spawanych. Skontroluj czy nie ma pęknięć w miejscu mocowania wspornika do stępki. Sprawdź poprawność montażu i zabezpieczenie. </string>
+
+
+    <string name="Zespol_parownika_i_dmuchawy_Klimatyzacja_jesli_zabudowano_1">Zespół parownika i dmuchawy (Klimatyzacja, jeśli zabudowano): Zdjąć środkowy zespół siedzenia i pokrycie, skontrolować stan. Potwierdź zabezpieczenie, brak uszkodzeń oraz przestrzeń do sąsiadującej struktury przewodu z środkiem chłodzącym. Sprawdź czy nie ma poluzowanych, przetartych, postrzępionych lub uszkodzonych przewodów. Sprawdź poprawność montażu oraz zabezpieczenie podzespołów dmuchawy i parownika.  </string>
+
+    <string name="Rurki_drenazowe_parownika_i_zawor_Klimatyzacja_jesli_zabudowano_1">Rurki drenażowe parownika i zawór (Klimatyzacja, jeśli zabudowano): Zdjąć środkowy zespół siedzenia i pokrycie, oraz pokrycie lewego i prawego siedzenia wewnątrz przedziału, aby uzyskać dostęp do systemu drenażu. Sprawdź drożność rurek. Skontroluj funkcjonowanie systemu spustowego przez jednoczesne ściskanie rurki drenażowej i rurki osadnika w pobliżu trójnika, potwierdź czy kulka zaworu zwrotnego momentalnie przesuwa się do góry. </string>
+    <!-- PIONOWY TUNEL KONTROLNY -->
+    <string name="PIONOWY_TUNEL_KONTROLNY">PIONOWY TUNEL KONTROLNY </string>
+
+
+    <string name="Pionowe_popychacze_1">Pionowe popychacze: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź stan zgodnie z Rozdziałem 5-32. Sprawdź czy nie ma wyszczerbień, zarysowań, przetarć, wgnieceń, pęknięć lub korozji. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź otworki kontrolne. Sprawdź poprawność montażu, zabezpieczenia i odległość działania. </string>
+
+
+    <string name="Silownik_przelacznika_dzwiekowego_1">Siłownik przełącznika dźwiękowego: Skontrolować stan. Sprawdź czy jest odpowiednia odległość sterowania do zainstalowanego sprzętu i otaczającej struktury. Sprawdź poprawność montażu siłownika, zabezpieczenie i działanie. </string>
+
+    <string name="Wnetrze_tunelu_1">Wnętrze tunelu: Skontrolować ogólną czystość wnętrza tunelu. Sprawdzić, czy nie ma wycieków płynów lub przesiąkania; zbadać przyczyny i naprawić. </string>
+
+
+    <string name="Oparcia_siedzen_1">Oparcia siedzeń: Skontrolować stan. Sprawdź czystość tapicerki i zabezpieczenia </string>
+
+    <!-- PRZEGRODA KABINY -->
+    <string name="PRZEGRODA_KABINY">PRZEGRODA KABINY </string>
+
+
+    <string name="Koder_wysokosci_i_Jednostka_monitorujaca_silnik_EMU_1">Koder wysokości i Jednostka monitorująca silnik (EMU): Skontrolować stan. Upewnić się, że nie ma uszkodzeń przewodów. Sprawdź czy nie ma pęknięć w miejscu mocowania jednostek na przegrodzie. Sprawdź poprawność instalacji i zabezpieczenia. Pobierz dane z EMU zgodnie z wymogami opisanymi w Instrukcji Obsługi i Konserwacji Silnika RR300.  </string>
+
+    <string name="Blok_bezpiecznikow_i_bezpieczniki_Klimatyzacja_jesli_zabudowano_1">Blok bezpieczników i bezpieczniki (Klimatyzacja, jeśli zabudowano): Skontrolować stan. Upewnić się, że nie ma korozji. Sprawdzić prawidłowe natężenie prądu bezpiecznika i zabezpieczenia </string>
+
+
+    <string name="Przewody_antenowe_1">Przewody antenowe: Skontrolować stan. Sprawdź czy nie ma poluzowanych, przetartych, postrzępionych lub uszkodzonych przewodów. Sprawdź porządek, poprawność poprowadzenia przewodów i montażu oraz bezpieczeństwo. Sprawdź poprawność montażu otworków przelotowych </string>
+
+
+    <string name="Wnetrze_oparc_siedzen_1">Przewody ciśnienia całkowitego i statycznego: Skontrolować ogólną czystość wnętrza tunelu. Sprawdzić, czy nie ma wycieków płynów lub przesiąkania; zbadać przyczyny i naprawić. </string>
+
+
+    <string name="Przegroda_kabiny_1">Przegroda kabiny: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji lub poluzowanych nitów. Skontroluj mocowanie usztywnienia. Sprawdź czystość tapicerki i zabezpieczenia.  </string>
+
+    <!-- KOMORA BAGAŻOWA -->
+    <string name="KOMORA_BAGAZOWA">KOMORA BAGAŻOWA </string>
+
+
+    <string name="Drzwi_1">Drzwi: Skontrolować stan. Sprawdź prawidłowe działanie mikroprzełącznika i lampki ostrzegawczej COWL DOOR. Zwróć uwagę czy zawiasy i rygle nie mają widocznych defektów. Sprawdź zabezpieczenia i poprawność działania mechanizmów ryglowania/blokowania drzwi. </string>
+
+
+    <string name="Dywanik_1">Dywanik: Skontrolować stan. Upewnij się, że nie ma uszkodzeń, rozdarcia lub pogorszenia jakości materiału. Sprawdź poprawność montażu i zabezpieczenia. </string>
+
+
+    <string name="Wnetrze_1">Wnętrze: Skontrolować stan. Upewnić się, że nie ma uszkodzeń strukturalnych. Skontrolować ogólną czystość wnętrza luku bagażowego. Sprawdzić, czy nie ma wycieków płynów lub przesiąkania; zbadać przyczyny i naprawić. Zweryfikowania, czy zainstalowane urządzenia lub bagaż pasażerów są zabezpieczone.: </string>
+
+
+    <string name="Jednostka_Sterujaca_Generatorem_GCU_i_przewody_1">Jednostka Sterująca Generatorem (GCU) i przewody: Skontrolować stan. Upewnić się, że przewody i zaciski nie są odsłonięte, przetarte lub uszkodzone. Sprawdź poprawność montażu i zabezpieczenie powłoki przewodów oraz Jednostki Sterującej Generatorem (GCU). </string>
+
+
+    <string name="Akumulator_kwasowo_olowiowy_1">Akumulator kwasowo-ołowiowy: Skontrolować stan. Sprawdzić czy nie ma pęknięć i korozji na lub w pobliżu styków kabli akumulatora. Zgodnie z wymogami, należy wykonać test pojemności lub wymienić akumulator zgodnie z instrukcją producenta. Sprawdź zabezpieczenia kabla akumulatora. Sprawdź czy nie ma korozji w otaczającej konstrukcji. </string>
+
+    <!-- DODATKOWY ZBIORNIK PALIWA: -->
+
+    <string name="Tabliczki_informacyjne_1">Tabliczki informacyjne: Sprawdź poprowność i pewność zamocowania. </string>
+
+
+    <string name="Dodatkowy_zbiornik_paliwa_1">Dodatkowy zbiornik paliwa: Sprawdź widoczną część zbiornika wykożystując latarkę i lusterko. Sprawdź strukturę zewnętrzną na okoliczność uszkodzeń. Zweryfikuj poprawność zamocowania. </string>
+
+
+    <string name="Wspornik_dodatkowego_zbiornika_1">Wspornik dodatkowego zbiornika: Sprawdź widoczną cześć na okoliczność uszkodzeń. </string>
+
+
+    <string name="Przewody_paliwowe_1">Przewody paliwowe: Sprawdź stan. Sprawdź czy przewou nie są uszkodzone oraz brak wycieków. Sprawdź mocowanie i brak możliwość ocierania o strukturę płatowca. </string>
+
+
+    <string name="Paliwomierz_oraz_przewody_sygnalowe_1">Paliwomierz oraz przewody sygnałowe: Sprawdź stan. Sprawdź na okoliczność uszkodzeń i ocierania oraz na okoliczność uszkodzonych pinów w kostkach. </string>
+
+
+    <string name="Wiazka_dodatkowej_pompy_paliwa_1">Wiązka dodatkowej pompy paliwa: Sprawdź stan wiązki i poprawnośc mocowania. </string>
+
+
+    <string name="Korek_wlewu_paliwa_dodatkowego_zbiornika_paliwa_1">Korek wlewu paliwa dodatkowego zbiornika paliwa: Sprawdź stan korka. Zwróć szczególną uwagę na stan uszczelki. </string>
+
+
+    <string name="Drenaz_dodatkowego_zbiornika_paliwa_1">Drenaż dodatkowego zbiornika paliwa: Sprawdź działanie i brak wycieków. </string>
+
+
+    <string name="Zestaw_MT1831_1">Zestaw MT183-1: Sprawdź czy w wie znajdują się wszystkie części wyszczegulnione w IPC. Sprawdź poprawność m. </string>
+    <!-- KOMORA PRZEKŁADNI WIRNIKA NOŚNEGO -->
+    <string name="KOMORA_PRZEKLADNI_WIRNIKA_NOSNEGO"> KOMORA PRZEKŁADNI WIRNIKA NOŚNEGO </string>
+
+
+    <string name="Oslony_drzwi_1">Osłony drzwi: Skontrolowac stan. Sprawdzic prawidłowość działania elementów mocujących.  </string>
+
+
+    <string name="Tabliczki_eksploatacyjne_1">Tabliczki eksploatacyjne: Sprawdzić czytelność tabliczki, poprawność montażu i zabezpieczenie. Patrz Rozdział 11. </string>
+
+
+    <string name="Zbiornik_paliwa_1">Zbiornik paliwa: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź stan zewnętrzny  i upewnić się, że nie ma przecieków. Skontroluj wnętrze dętki pod kątem obcych ciał   i zanieczyszczeń. Sprawdź mocowanie. </string>
+
+
+    <string name="Nadajnik_i_przewody_elektryczne_paliwomierzy_1">Nadajnik i przewody elektryczne paliwomierzy: Skontrolować stan. Sprawdź czy nie ma poluzowanych, przetartych lub uszkodzonych przewodów i zacisków. Sprawdź poprawność montażu oraz zabezpieczenie mocowania nadajnika i przewodów. </string>
+
+
+    <string name="Ostrzezenie_o_niskim_poziomie_paliwa_1">Ostrzeżenie o niskim poziomie paliwa: Włącz WYŁĄCZNIK GŁÓWNY (ON). Używając czystego drewnianego kołka, delikatnie nacisnąć pływak nadajnika sygnału niskiego poziomu paliwa, sprawdź czy zapali się lampka ostrzegawcza LOW FUEL (NISKI POZIOM PALIWA) po ok. 1-sekundowym opóźnieniem. Wyłącz WYŁĄCZNIK GŁÓWNY (OFF). </string>
+
+
+    <string name="Korek_wlewu_paliwa_1">Korek wlewu paliwa: Skontrolować stan. Upewnij się, że nie ma uszkodzeń lub pogorszenia stanu uszczelki. Zamontować korek i sprawdzić prawidłowe działanie blokujące. Sprawdź zabezpieczenia. </string>
+
+
+    <string name="Odpowietrzniki_przepelnienia_zbiornika_paliwa_1">Odpowietrzniki przepełnienia zbiornika paliwa: Skontrolować stan. Upewnij się, że rurka Tygon® nie ma uszkodzeń, rozdarć lub pogorszenia jakości materiału. Sprawdź poprawność montażu drutu zabezpieczającego. Sprawdź czy jest minimalny odstęp 0.25 cala [6.3mm] między zespołem przewodów i odpowietrznikiem rurki Tygon®; dopasować linkę do potrzeb. Sprawdź drożność przewodów odpowietrzenia. </string>
+
+
+    <string name="Drenaze_studzienki_zbiornika_paliwa_1">Drenaże studzienki zbiornika paliwa: Skontrolować stan. Sprawdź czy zawór drenażowy drenuje paliwo z łatwością, zamyka się pod wpływem sprężyny i uszczelnia całkowicie. Sprawdź przewód drenażowy i zacisk na okoliczność uszkodzenia, przedarcia i pogorszenia jakości materiału. Usunąć paliwo z rurki spustowej i założyć zacisk. </string>
+
+
+    <string name="Zawor_paliwa_1">Zawór paliwa: Skontrolować stan. Sprawdź zabezpieczenie mocowania przewodu i komponentów. Upewnij się czy zawór jest prawidłowo zamontowany i czy działa sprawnie </string>
+
+    <string name="Przegroda_kabiny_2"> Skontrolować stan. Sprawdź czy nie ma zniekształceń, wygięć, pofałdowań, wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Upewnij się czy nie ma wycieków ze zbiornika paliwa. Potwierdź bezpieczeństwo mocowania. </string>
+
+
+    <string name="Przekladnia_wirnika_nosnego_1">Przekładnia wirnika nośnego: Skontrolować stan. Sprawdź czy nie ma uszkodzeń, pogorszenia jakości materiału lub deformacji w rejonie mocowania przekładni. Sprawdź czy nie ma wycieków na rurze masztu. Sprawdź rurę masztu pod kątem pęknięć. Przy śmigłowcu wypoziomowanym na ziemi sprawdź prawidłowość poziomu oleju i czystość poprzez okienko kontrolne, dopasuj lub przepłucz zgodnie z wymogami. Sprawdź mocowanie nadajników zjawiska Hall’a i magnesy jarzma. Skontroluj przewody olejowe pod kątem przeciekania, ścierania lub widocznych uszkodzeń. Sprawdź mocowanie pompy oleju i okucia pod kątem przeciekania lub widocznych uszkodzeń. Sprawdź filtr oleju przekładni pod kątem przeciekania i działania wskaźnika obejściowego (bypass). Skontroluj poprawność instalacji systemu olejowego i mocowanie. </string>
+
+    <string name="Hamulec_wirnika_1">Hamulec wirnika: Skontrolować stan. Sprawdź czy płytki okładziny hamulcowej są w całości, a ich minimalna grubość wynosi 0.030 cala [0.8mm]. Sprawdź czy istnieje prześwit pomiędzy klockami hamulcowymi a wałem silnika przy zwolnionym hamulcu. Skontroluj czy mikrowyłączniki nie mają pęknięć. Sprawdź czy nie ma poluzowanych, przetartych lub uszkodzonych przewodów lub zacisków. Sprawdź zamocowanie. Sprawdź obie rolki (jedna na końcu dźwigni, druga obok zbiornika paliwa) pod kątem pęknięć. Sprawdź czy nie ma postrzępionych nitek lub zacięcia linki aktywującej hamulec wirnika. Sprawdź poprawność poprowadzenia przewodów i instalacji, mocowanie i działanie hamulca oraz mikrowyłącznika hamulca. </string>
+
+
+    <string name="Rama_mocujaca_silownik_hydrauliczny_1">Rama mocująca siłownik hydrauliczny: Skontrolować stan. Sprawdź końcówki popychaczy zgodnie z Rozdziałem 5-33. Zbadaj wszystkie części każdej spoiny wykorzystując lampę i lusterko kontrolne. Sprawdź czy nie ma pęknięć lub korozji na wspornikach siłowników. Potwierdź poprawność montażu   i zamocowanie. </string>
+
+
+    <string name="Posredni_walek_napedowy_1">Pośredni wałek napędowy: Skontrolować stan. Sprawdź czy nie ma pęknięć lub korozji w całym zespole spawanym. Zbadaj wałek pośredni przy mocowaniu pionowej rury popychacza. Sprawdź mocowanie tylnej ramy wspierającej wałek pośredni i przednie mocowanie końcówki popychacza zgodnie  z Rozdziałem 5-33. Skontroluj rurę C343-8 i połączenie końcówki popychacza wału pośredniego do tylnego siłownika. Sprawdź zamocowanie i prześwit użytkowy. </string>
+
+
+    <string name="Popychacze_wirnika_nosnego_1">Popychacze wirnika nośnego: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź stan zgodnie  z Rozdziałem 5-32. Sprawdź czy nie ma wyszczerbień, zarysowań, przetarć, wgnieceń, pęknięć lub korozji. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź otworki kontrolne. Sprawdź poprawność montażu, zabezpieczenia i odległość działania. </string>
+
+
+    <string name="Popychacze_smigla_ogonowego_i_przednia_dzwignia_katowa_1">Popychacze śmigła ogonowego i przednia dźwignia kątowa: Zbadaj dostępną część wykorzystując lampę i lusterko kontrolne. Sprawdź stan zgodnie z Rozdziałem 5-32. Sprawdź czy nie ma wyszczerbień, zarysowań, przetarć, wgnieceń, pęknięć lub korozji. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź otworki kontrolne. Skontroluj dźwignię kątową oraz blaszaną konstrukcję montującą dźwignię kątową pod katem wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji. Sprawdź łożyska kuliste zgodnie z Rozdziałem 5-33. Sprawdź poprawność montażu, zabezpieczenia                        i odległość użytkową. </string>
+
+
+    <string name="Zbiornik_hydrauliczny_1">Zbiornik hydrauliczny: Skontroluj stan. Sprawdź czy nie ma znaczących przecieków. Wymień filtr i uszczelnienie  w odstępach czasu określonych w Rozdziale 5-20. Opróżnij i przepłucz instalację hydrauliczną zgodnie z Rozdziałem 12-33, jeśli ciecz ściemniała lub wydziela nieprzyjemny zapach. Dodaj płynu, jeśli potrzeba. Sprawdź mocowanie. </string>
+
+
+    <string name="Silowniki_hydrauliczne_1">Siłowniki hydrauliczne: Skontroluj stan. Sprawdź końcówki popychaczy zgodnie z Rozdziałem 5-33. Potwierdź, że całkowity skok rozdzielacza na wejściu siłownika wynosi w przybliżeniu 0.040 cala (1.0 mm). Potwierdź, że nie ma istotnych przecieków siłowników. Wyczyść obszar końcówki tłoczyska                       od strony wejścia siłownika/widełek za pomocą rozpuszczalnika bezalkoholowego, niepozostawiającego śladów, w razie potrzeby. Sprawdź czy nie ma widocznych uszkodzeń                             i potwierdź pewność mocowania nożyc przy górnych widełkach siłowników. Skontroluj poprawność montażu oraz czy zapewniony jest prześwit od otaczającej konstrukcji podczas pełnego zakresu przemieszczenia. </string>
+
+
+    <string name="Weze_przewody_i_laczniki_hydrauliczne_1">Siłowniki hydrauliczne: Skontrolować stan. Sprawdź czy nie ma przecieków, otarć lub widocznych uszkodzeń przewodów hydraulicznych. Sprawdź poprawność połączeń. Potwierdź prześwit pomiędzy przewodem płynu a zabudowanym sprzętem i otaczającą konstrukcją i czy wąż jest odpowiednio luźny podczas pełnego zakresu przemieszczenia. Sprawdź poprawność montażu i mocowanie </string>
+
+
+    <string name="Pompa_hydrauliczna_1">Pompa hydrauliczna: Skontrolować stan. Sprawdź Telatemp zgodnie z Rozdziałem 5-35. Potwierdź, że nie ma istotnych przecieków. Sprawdź poprawność montażu i mocowanie. </string>
+
+
+    <string name="Kratownica_gorna_1">Kratownica górna: Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji. Sprawdź czy nie ma tarcia w miejscach przymocowania do kratownicy przewodów, węży lub zacisków. Zbadaj każdy spaw wykorzystując lampę i lusterko kontrolne pod kątem pęknięć. </string>
+
+
+    <string name="F9081_Zespol_jarzma_Napęd_wirnika_ogonowego_1">F908-1 Zespół jarzma (Napęd wirnika ogonowego): Skontroluj stan. Sprawdź czy nie ma pęknięć, korozji lub korozji ściernej. Potwierdź poprawność montażu, mocowanie i prześwit użytkowy. Sprawdź zabezpieczenie magnesów. </string>
+    <!-- ETAP POŚREDNI I ZESPÓŁ OBUDOWY SPIRALNEJ -->
+    <string name="ETAP_POSREDNI_I_ZESPOL_OBUDOWY_SPIRALNEJ">ETAP POŚREDNI I ZESPÓŁ OBUDOWY SPIRALNEJ </string>
+
+    <string name="F1961_Wal_wentylatora_Naped_wirnika_ogonowego_1">F196-1 Wał wentylatora (Napęd wirnika ogonowego): Skontroluj stan. Sprawdź czy nie ma korozji wału. Usuń nawet najmniejszą korozję z powierzchni i zastosuj woskowy lub właściwy inhibitor korozji. Sprawdź czy nie ma pęknięć, korozji, korozji ciernej w przednim i tylnym zespole spawanym. Sprawdź poprawność montażu, mocowanie  i prześwit użytkowania. </string>
+
+    <!-- C947-3 Zespoły płyt, Przednie i Pośrednie (Napęd wirnika ogonowego): -->
+    <string name="C9473Zespoly_plyt_Przednie_i_Posrednie_Naped_wirnika_ogonowego_1">C947-3 Zespoły płyt, Przednie i Pośrednie (Napęd wirnika ogonowego): Skontroluj stan. Sprawdź czy nie ma odkształceń, pęknięć, korozji lub korozji ciernej. W przypadku wykrycia korozji ciernej, skontaktuj się Działem Pomocy Technicznej RHC. Sprawdź czy klejone podkładki są zamontowane po obu stronach każdego ramienia płytki podatnej. Sprawdź poprawność instalacji, mocowanie i prześwit użytkowania. </string>
+
+    <!-- Zespół wirnika wentylatora i zespół spirali: -->
+
+    <string name="Zespol_wirnika_wentylatora_i_zespol_spirali_1">Zespół wirnika wentylatora i zespół spirali: Oczyść łopatki wirnika wentylatora i kontroluj stan. Sprawdź czy nie ma pęknięć, korozji lub widocznych uszkodzeń na krawędziach natarcia łopatek lub zespole wentylatora. Skontroluj minimalny prześwit 0.10 cala [2.5mm] pomiędzy zespołem wirnika wentylatora G174-1 oraz przednimi i tylnymi wlotami F305-5. Sprawdź szczelinę dookoła; obróć wirnik wentylatora  i ponownie sprawdź szczelinę (kilka pozycji). Jeśli szczelina nie osiąga minimalnego limitu  to wyrównaj wloty zgodnie z Rozdziałem 79-11. Skontroluj poprawność montażu, zabezpieczenie  i prześwit użytkowania. Sprawdź czy nie ma pęknięć lub uszkodzeń w zespole obudowy spirali. </string>
+
+    <!-- Awaryjny nadajnik lokalizujący (ELT; jeśli zabudowano): -->
+
+    <string name="Awaryjny_nadajnik_lokalizujacy_ELT_jesli_zabudowano_1">Awaryjny nadajnik lokalizujący (ELT; jeśli zabudowano): Skontroluj stan. Sprawdź poprawność instalacji, mocowania i odstępu od elementów układu napędowego. Przestrzegać 14 CFR § 91,207 (d), jeśli jest to wymagane</string>
+
+    <!-- Przewód ciśnienia całkowitego i wlot ciśnienia statycznego: -->
+
+    <string name="Przewod_cisnienia_calkowitego_i_wlot_cisnienia_statycznego_1">Przewód ciśnienia całkowitego i wlot ciśnienia statycznego: Sprawdź przewody ciśnienia całkowitego i statycznego zwracając uwagę na zatory, pęknięcia, przetarcia, przebicia lub załamania. Sprawdź pewność połączeń przewodów ciśnienia całkowitego  i statycznego. Sprawdź zabezpieczenia przewodu.</string>
+
+    <!-- Pozioma zapora ogniowa: -->
+
+    <string name="Pozioma_zapora_ogniowa_1">Pozioma zapora ogniowa: Skontroluj stan. Sprawdź czy nie ma odkształceń, wygięć, pofałdowań, wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Upewnij się, że nie ma wycieku ze zbiornika paliwa.</string>
+
+    <!-- F910-1 Jarzmo (Napęd wirnika nośnego): -->
+
+    <string name="F9101_Jarzmo_Naped_wirnika_nosnego_1">F910-1 Jarzmo (Napęd wirnika nośnego): Skontrolować stan. Sprawdź czy nie ma pęknięć, korozji, korozji ciernej. Sprawdź połączenia spawane pod kątem pęknięć i korozji. Sprawdź poprawność instalacji, mocowanie i prześwit użytkowania.</string>
+
+    <!-- A947-2 Zespoły płyt (Napęd wirnika nośnego): -->
+
+    <string name="A9472_Zespoly_plyt_Naped_wirnika_nosnego_1">A947-2 Zespoły płyt (Napęd wirnika nośnego): Skontroluj stan. Sprawdź płytkę podatną pod kątem odkształceń, pęknięć, korozji lub korozji ciernej. W przypadku wykrycia korozji ciernej, skontaktuj się Działem Pomocy Technicznej RHC. Sprawdź czy klejone podkładki są zamontowane po obu stronach każdego ramienia płytki podatnej. Sprawdź poprawność instalacji, mocowanie i prześwit użytkowania</string>
+
+    <!-- F642-1 Wał konstrukcji spawanej (Silnik): -->
+
+    <string name="F6421_Wal_konstrukcji_spawanej_Silnik_1">F642-1 Wał konstrukcji spawanej (Silnik): Skontrolować stan. Sprawdź minimalny prześwit 0.2 cala [5mm] pomiędzy wałem i przelotką zapory ogniowej. Sprawdź jednakowy prześwit współosiowy pomiędzy wałem a powierzchnią krawędzi otworów montażowych. Dostosuj końcówki popychaczy wspornika F174-1 konstrukcji spawanej zgodnie z Rozdziałem 53-31 w razie potrzeby. Sprawdź, czy nie ma korozji wału. Usuń nawet najmniejszą korozję z powierzchni i zastosuj woskowy lub właściwy inhibitor korozji. Sprawdź czy nie ma pęknięć, korozji, korozji ciernej w przedniej i tylnej części konstrukcji spawanej. Sprawdź poprawność montażu, mocowanie i prześwit użytkowania.</string>
+
+    <!-- Zapora ogniowa silnika: -->
+
+    <string name="Zapora_ogniowa_silnika_1">Zapora ogniowa silnika: Skontroluj stan. Sprawdź czy nie ma odkształceń, wygięć, pofałdowań, wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Upewnij się, że nie ma wycieku ze zbiornika paliwa.</string>
+
+    <!-- Zbiornik oleju silnika: -->
+
+    <string name="Zbiornik_oleju_silnika_1">Zbiornik oleju silnika: Skontroluj stan. Sprawdź czy nie ma przecieków lub widocznych uszkodzeń zbiornika oleju na zewnętrznej stronie. Sprawdź wnętrze zbiornika pod kątem obcych przedmiotów. Dodaj olej w razie potrzeby na podstawie R66 POH, Rozdział 8. Sprawdź mocowanie zbiornika.</string>
+
+    <!-- Mocowanie belki ogonowej: -->
+
+    <string name="Mocowanie_belki_ogonowej_1">Mocowanie belki ogonowej: Skontroluj stan. Sprawdź czy nie ma pęknięć w pobliżu łączników mocujących belkę ogonową do górnej ramy. Sprawdź poprawność montażu i mocowanie.</string>
+
+    <!-- SILNIK: -->
+    <string name="SILNIK">SILNIK</string>
+    <string name="SILNIK_1">Zapoznać się z Instrukcją Obsługi i Konserwacji Silnika RR300 (OMM), publikacjami serwisowymi producenta dotyczącymi odpowiednich podzespołów silnika podczas 100-godzinnego lub rocznego przeglądu i obsługi technicznej.Przedziały czasowe dodatkowej obsługi i inspekcji są określone w Rozdziale 5-20.</string>
+
+    <!-- Komora wlotowa i filtr powietrza: -->
+
+    <string name="Komora_wlotowa_i_filtr_powietrza_1">Komora wlotowa i filtr powietrza: Skontrolować stan komory. Sprawdź czy nie ma obcych obiektów, zanieczyszczeń lub luźnych elementów. Przełącz wyłącznik BATTERY na pozycję ON. Sprawdź czy panel sygnalizacyjny segmentu ostrzegawczego świeci, gdy drzwi bypassu są otwarte pojedynczo, a następnie jednocześnie. Wyłącz przełącznik BATTERY w pozycję OFF. (Patrz Rozdział 5-40. Płukanie sprężarki silnika lub mycie chemiczne i wymiana zespołu filtra powietrza, które w razie konieczności należy wykonać przed inspekcją 100-godzinną). </string>
+
+    <!-- Panele układu chłodzenia: -->
+
+    <string name="Panele_ukladu_chlodzenia_1">Panele układu chłodzenia: Skontroluj stan. Sprawdź czy nie ma pęknięć, brakujących lub poluzowanych mocowań. Sprawdź zabezpieczenie.</string>
+
+    <!-- Węże silnikowe: -->
+
+    <string name="Weze_silnikowe_1">Węże silnikowe: Skontroluj stan. Sprawdź czy nie ma rozerwań, dziur lub załamanych obszarów. Sprawdź poprawność montażu i zabezpieczenie. </string>
+
+    <!-- Rura wydechowa: -->
+
+    <string name="Rura_wydechowa_1">Rura wydechowa: Skontroluj stan. Sprawdź czy nie ma pęknięć w pobliżu spoin pod kątem, gdzie układ spawany mocowany jest do kolektora wydechowego. Sprawdź czy nie ma pęknięć w podporach lub  w pobliżu połączeń spawanych podpór, gdzie gazy spalinowe są wydalane rurą. Sprawdź stan  i zabezpieczenie podpór F173-1; sprawdź czy nie ma pęknięć w pobliżu spoin, gdzie podpory są mocowane przez otwory.  Sprawdź stan i zabezpieczenie węża przekładni i zaciski.</string>
+
+    <!-- Bezpieczniki i oprawki: -->
+
+    <string name="Bezpieczniki_i_oprawki_1">Bezpieczniki i oprawki: Skontroluj stan. Sprawdź integralność bezpiecznika i poprawny montaż bezpiecznika. Sprawdź czy nie ma pęknięć lub korozji w oprawce bezpiecznika. Sprawdź zabezpieczenie.</string>
+
+    <!-- Rozrusznik-Generator i okablowanie: -->
+
+    <string name="Rozrusznik_Generator_i_okablowanie_1">Rozrusznik-Generator i okablowanie: Skontroluj stan. Sprawdź czy nie ma poluzowanych, przetartych, postrzępionych lub uszkodzonych przewodów. Sprawdź czy nie ma uszkodzonych złączy. Sprawdź porządek, poprawność poprowadzenia przewodów i montażu oraz bezpieczeństwo.</string>
+
+    <!-- Przewody olejowe: -->
+
+    <string name="Przewody_olejowe_1">Przewody olejowe: Skontroluj stan. Sprawdź czy nie ma wycieku w miejscu, gdzie przewód łączy się ze zbiornikiem. Sprawdź czy nie ma przecieków, otarć lub widocznych uszkodzeń przewodów oleju. Upewnij się czy jest prześwit pomiędzy przewodami a zamontowanymi urządzeniami i otaczającą konstrukcją. Sprawdź mocowanie.</string>
+
+    <!-- Kanał chłodzenia i chłodnice oleju: -->
+
+    <string name="Kanal_chlodzenia_i_chlodnice_oleju_1">Kanał chłodzenia i chłodnice oleju: Skontroluj pewność mocowania oraz czy nie ma pęknięć w kanale lub mocowaniu. Sprawdź czy połączenia przewodów chłodnicy są szczelne oraz czy chłodnice nie mają wyszczerbień, wgnieceń, pęknięć lub korozji. Sprawdź czy kanał oraz rdzenie chłodnicy są wolne  od zanieczyszczeń, aby umożliwić pełny przepływ powietrza. </string>
+
+    <!-- Jednostka Kontrolna Paliwa (FCU) i regulacja kontrolera: -->
+
+    <string name="Jednostka_Kontrolna_Paliwa_FCU_i_regulacja_kontrolera_1">Jednostka Kontrolna Paliwa (FCU) i regulacja kontrolera: Skontroluj prawidłowe ułożenie i mocowanie przepustnicy oraz kontroler odcięcia paliwa; sprawdź płynne działanie bez zacięć obu kontrolerów. Sprawdź czy ramię przepustnicy FCU w położeniu biegu jałowego styka się z zamkniętą rękojeścią obrotową oraz czy maksymalnie zamknięta przepustnica styka się z otwartą rękojeścią obrotową. Skontroluj czy dźwignia odcinająca FCU spoczywa w pozycji ustalonej, gdy kontroler jest w pozycji OFF oraz czy ma prześwit 0.030-0.090 cala [0.76-2.28mm] do maksymalnej blokady paliwa przy włączonym kontrolerze (ON).</string>
+
+    <!-- Filtr paliwa: -->
+
+    <string name="Filtr_paliwa_1">Filtr paliwa: Skontroluj stan; serwisuj filtr paliwa w miarę potrzeby zgodnie z RR300 OMM. Sprawdź poprawność montażu oraz mocowanie przewodów i osłony.</string>
+
+    <!-- Wąż paliwowy: -->
+
+    <string name="Waz_paliwowy_1">Wąż paliwowy: Skontroluj stan. Sprawdź czy nie ma wycieku, otarcia, lub widocznych uszkodzeń przewodów paliwa. Sprawdź czy jest prześwit pomiędzy przewodami a zabudowanymi urządzeniami i otaczającą konstrukcją. Sprawdź mocowanie.</string>
+
+    <!-- Zapory ogniowe: -->
+
+    <string name="Zapory_ogniowe_1">Zapory ogniowe: Skontroluj stan. Sprawdź czy nie ma odkształceń, wygięć, pofałdowań, wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Zwróć szczególną uwagę na punkty mocowań konstrukcyjnych. Sprawdź stan uszczelnienia silnika do zapory ogniowej. Sprawdź czy nie ma otwartych otworów.</string>
+
+    <!-- Mocowanie silnika: -->
+
+    <string name="Mocowanie_silnika_1">Mocowanie silnika: Skontroluj stan. Sprawdź czy nie ma pęknięć lub korozji w konstrukcji spawanej mocowania silnika. Upewnij się czy zastosowano odpowiedni moment dokręcenia łączników oraz instalacja przewodów jest zabezpieczona. Sprawdź mocowanie.</string>
+
+    <!-- Dolna kratownica: -->
+
+    <string name="Dolna_kratownica_1">Dolna kratownica: Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji. Sprawdź czy nie ma tarcia w miejscach przymocowania do kratownicy przewodów, węży lub zacisków. Zbadaj każdy spaw wykorzystując lampę i lusterko kontrolne pod kątem pęknięć.</string>
+
+    <!-- Skraplacz i zespoły wentylatora (Klimatyzacja, jeśli zabudowano): -->
+
+    <string name="Skraplacz_i_zespoly_wentylatora_Klimatyzacja_jesli_zabudowano_1">Skraplacz i zespoły wentylatora (Klimatyzacja, jeśli zabudowano): Skontroluj stan. Sprawdź zabezpieczenie wentylatorów, zespół skrzynki, skraplacza oraz wsporników zapory ogniowej. Sprawdź zabezpieczenia czapki pochłaniającej wilgoć.</string>
+
+    <!-- Zespół przewodów ze środkiem chłodzącym (Klimatyzacja, jeśli zabudowano): -->
+
+    <string name="Zespol_przewodow_ze_srodkiem_chlodzącym_Klimatyzacja_jesli_zabudowano_1">Zespół przewodów ze środkiem chłodzącym (Klimatyzacja, jeśli zabudowano): Skontroluj stan. Sprawdź zabezpieczenie, brak uszkodzeń oraz prześwit do przyległej konstrukcji.</string>
+
+    <!-- BELKA OGONOWA -->
+    <string name="BELKA_OGONOWA">BELKA OGONOWA</string>
+
+    <string name="Zaslepki_kontrolne_1">Zaślepki kontrolne: Skontroluj stan. Sprawdź prawidłowe działanie elementów mocujących.</string>
+
+    <!-- Zespół wału napędowego wirnika ogonowego: -->
+
+    <string name="Zespol_walu_napedowego_wirnika_ogonowego_1">Zespół wału napędowego wirnika ogonowego: Skontroluj stan. Zbadaj dostępne części przez otwory kontrolne za pomocą lampki kontrolnej   i lusterka. Sprawdź czy nie ma pęknięć, korozji lub korozji ciernej w przedniej i tylnej konstrukcji spawanej. Sprawdź czy nie ma śladów stykania się wału napędowego z wewnętrzną powierzchnią belki ogonowej. Sprawdź czy nie ma wygięcia, łuków, wgnieceń, pęknięć lub korozji. Przeprowadzić bicie wału napędowego wirnika ogonowego zgodnie z Rozdziałem 65-21. Sprawdź poprawność montażu, mocowanie i prześwit użytkowania.</string>
+
+    <!-- Popychacz wirnika ogonowego i przednia dźwignia kątowa: -->
+
+    <string name="Popychacz_wirnika_ogonowego_i_przednia_dzwignia_katowa_1">Popychacz wirnika ogonowego i przednia dźwignia kątowa: Zbadaj dostępną część przez otwory kontrolne wykorzystując lampę i lusterko kontrolne. Sprawdź stan zgodnie z Rozdziałem 5-32. Sprawdź czy nie ma wyszczerbień, zarysowań, przetarć, wgnieceń, pęknięć lub korozji. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem   5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź otworki kontrolne. Skontroluj dźwignię kątową oraz blaszaną konstrukcję montującą dźwignię kątową pod katem wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji. Sprawdź łożyska kuliste zgodnie z Rozdziałem 5-33. Sprawdź poprawność montażu, zabezpieczenia i odległość użytkową. Sprawdź czy trzonki śruby montażowej osłony wirnika ogonowego nie dotykają rury popychacza.</string>
+
+    <!-- Łożysko podpierające i podpora wału napędowego wirnika ogonowego: -->
+
+    <string name="Lozysko_podpierajace_i_podpora_walu_napedowego_wirnika_ogonowego_1">Łożysko podpierające i podpora wału napędowego wirnika ogonowego: Skontroluj stan. Sprawdź czy łożysko nie ma widocznych uszkodzeń. Sprawdź czy uszczelnienie łożyska jest nienaruszone. Skontroluj czy znacznik momentu przechodzący przez bieżnię wewnętrzną łożyska do wału napędowego jest nienaruszony i czy nie ma oznak poślizgu łożyska. Sprawdź czy nie ma załamań, pęknięć, korozji lub widocznych uszkodzeń podpory i mocowania podpory do ścianki belki ogonowej. Sprawdź poprawność montażu, mocowanie i sprawność działania.</string>
+
+    <!-- Zespół tłumika wału napędowego wirnika ogonowego: -->
+
+    <string name="Zespol_tlumika_walu_napedowego_wirnika_ogonowego_1">Zespół tłumika wału napędowego wirnika ogonowego: Skontroluj stan. Sprawdź czy łożysko nie ma widocznych uszkodzeń. Sprawdź czy uszczelnienie łożyska jest nienaruszone. Sprawdź czy obudowa łożyska nie ma pęknięć lub korozji. Skontroluj czy znacznik momentu przechodzący przez bieżnię wewnętrzną łożyska do wału napędowego jest nienaruszony i nie ma oznak poślizgu łożyska. Sprawdź czy nie ma załamań, pęknięć, korozji lub widocznych uszkodzeń ramion i łożyska (Teflon). Sprawdź poprawność montażu, mocowanie  i sprawność działania.</string>
+
+    <!-- Wnętrze belki ogonowej: -->
+
+    <string name="Wnetrze_belki_ogonowej_1">Wnętrze belki ogonowej: Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Sprawdź miejsce mocowania zespołu tłumika do belki ogonowej pod kątem pęknięć. Sprawdź czy nie ma nadmiernego zużycia ścianek tulejek w rurach popychaczy. Usunąć znalezione zanieczyszczenia</string>
+
+    <!-- Zewnętrzna część belki ogonowej: -->
+
+    <string name="Zewnetrzna_czesc_belki_ogonowej_1">Zewnętrzna część belki ogonowej: Skontroluj stan. Patrz Rozdział 53-41. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów na zewnętrznej powierzchni belki ogonowej. Sprawdź czy są drożne otwory drenażowe na przedniej krawędzi każdej sekcji (z wyjątkiem przedniej sekcji).</string>
+
+    <!-- Światło antykolizyjne: -->
+
+
+    <string name="Swiatlo_antykolizyjne_1">Światło antykolizyjne: Skontroluj stan. Sprawdź czy nie ma pęknięć w miejscu montowania światła antykolizyjnego   do belki ogonowej. Sprawdź czystość szklanej obudowy, jasność i mocowanie. Sprawdź prawidłowe działanie.</string>
+
+    <!-- Osłona chroniąca wirnik ogonowy: -->
+
+    <string name="Oslona_chroniaca_wirnik_ogonowy_1">Osłona chroniąca wirnik ogonowy: Skontroluj stan. Sprawdź czy nie ma pęknięć w miejscu montowania do belki ogonowej. Sprawdź połączenia spawane osłony pod kątem pęknięć i korozji. Sprawdź zabezpieczenie.</string>
+
+    <!-- WIRNIK OGONOWY I PRZEKŁADNIA WIRNIKA OGONOWEGO -->
+    <string name="WIRNIK_OGONOWY_I_PRZEKLADNIA_WIRNIKA_OGONOWEGO">WIRNIK OGONOWY I PRZEKŁADNIA WIRNIKA OGONOWEGO</string>
+
+    <!-- Plastikowa pokrywa kontrolna: -->
+
+    <string name="Plastikowa_pokrywa_kontrolna_1">Plastikowa pokrywa kontrolna: Oczyść pokrywę i skontroluj stan. Wymień w razie potrzeby</string>
+
+    <!-- C947-3 Zespół płytki, tylny (Napęd wirnika ogonowego): -->
+
+    <string name="C9473_Zespol_plytki_tylny_Naped_wirnika_ogonowego_1">C947-3 Zespół płytki, tylny (Napęd wirnika ogonowego): Skontrolować stan. Sprawdź płytkę podatną pod kątem zniekształceń, pęknięć, korozji i korozji ciernej. W przypadku wykrycia korozji ciernej, skontaktuj się Działem Pomocy Technicznej RHC. Sprawdź czy klejone podkładki są zamontowane po obu stronach każdego ramienia płytki podatnej. Sprawdź poprawność instalacji, mocowanie i prześwit użytkowania.</string>
+
+    <!-- Jarzmo wejściowe przekładni wirnika ogonowego: -->
+
+    <string name="Jarzmo_wejściowe_przekladni_wirnika_ogonowego_1">Jarzmo wejściowe przekładni wirnika ogonowego: Skontrolować stan. Sprawdź czy nie ma pęknięć, korozji lub korozji ciernej. Sprawdź połączenia spawane pod kątem pęknięć lub korozji. Sprawdź poprawność instalacji, mocowanie i prześwit użytkowania.</string>
+
+    <!-- Jarzmo wejściowe przekładni wirnika ogonowego: -->
+
+    <string name="Przekladnia_wirnika_ogonowego_1">Przekładnia wirnika ogonowego: Skontrolować stan. Sprawdź zabezpieczenie mocowania przekładni do belki ogonowej. Sprawdź czy nie ma wycieku przy wejściowych i wyjściowych uszczelkach, czujniku opiłkowania, zatyczce otworu wlewowego lub wzierniku kontrolnym. Przy śmigłowcu wypoziomowanym na ziemi sprawdź prawidłowość poziomu oleju i czystość poprzez okienko kontrolne, uzupełnij lub przepłucz zgodnie z wymogami. Skontroluj wskaźnik temperatury Telatemp zgodnie z Rozdziałem 5-35. Sprawdź wał wyjściowy pod kątem wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji. Sprawdź poprawność montażu drutów zabezpieczających.</string>
+
+    <!-- Usterzenie ogonowe -->
+
+    <string name="Usterzenie_ogonowe_1">Usterzenie ogonowe: Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgłębień, pęknięć, korozji, korozji ciernej lub poluzowanych nitów na powłoce i w pobliżu punktów mocujących. Sprawdź czy wirnik ogonowy lub płoza ogonowa nie nosi śladów uderzenia o ziemię. Patrz Rozdział 5-61, kryteria inspekcji przy uderzeniu płozą ogonową o ziemię. Sprawdź czy nie ma niedrożności w dolnym stateczniku pionowym oraz w otworach drenażowych na płozach. Sprawdź poprawność montażu oraz mocowanie. </string>
+
+    <!-- Tylne światło nawigacyjne: -->
+
+    <string name="Tylne_swiatlo_nawigacyjne_1">Tylne światło nawigacyjne: Skontroluj stan. Sprawdź czy nie ma pęknięć w miejscu mocowania tylnego światła nawigacyjnego do usterzenia ogonowego. Sprawdź czystość soczewek, jasność oraz mocowanie. Sprawdź prawidłowe działanie.</string>
+
+    <!-- Zespół łożyska sterowania skokiem [wirnika] i tylna dźwignia kątowa: -->
+    <string name="Zespol_lozyska_sterowania_skokiem_wirnika_i_tylna_dzwignia_katowa_1">Zespół łożyska sterowania skokiem [wirnika] i tylna dźwignia kątowa: Skontroluj stan. Sprawdź czy zespół sterowania skokiem ma mniej niż 0.25 cala [6.35mm]  luzu obrotowego mierzonego przy śrubie mocującej popychacz łopaty. Sprawdź czy nie ma wycieku przy uszczelnieniu łożyska. Sprawdź czy nie ma wyszczerbień, zarysowań, wgłębień, pęknięć lub korozji na obudowie sterowania skokiem lub dźwigni kątowej. Sprawdź łożyska kuliste dźwigni kątowej zgodnie z Rozdziałem 5-33. Sprawdź pod kątem pęknięć łożysko kuliste, które jest na górze podpory wychodzącej spod sterowania skokiem. Sprawdź poprawność montażu, mocowanie i płynne uruchamianie bez zacięcia.</string>
+
+    <!-- Łączniki skoku:  -->
+
+    <string name="Laczniki_skoku_1">Łączniki skoku: Skontroluj stan. Sprawdź końcówki popychaczy zgodnie z Rozdziałem 5-33. Wyjmij i ponownie zamontuj łączniki skoku zewnętrznym końcem do wewnątrz i wewnętrznym końcem na zewnątrz, w miarę potrzeby dla uzyskania maksymalnej żywotności. Zainstaluj ponownie obciążniki wzdłuż cięciwy w odpowiednich punktach przyłączeniowych w celu zrównoważenia. Sprawdź poprawność montażu podkładki z kołnierzem. Sprawdź poprawność instalacji, mocowania oraz prześwit użytkowy. </string>
+
+    <!-- Piasta wirnika ogonowego:  -->
+
+    <string name="Piasta_wirnika_ogonowego_1">Piasta wirnika ogonowego:  Skontroluj stan. Sprawdź czy nie ma wyszczerbień, rys, żłobień, wgnieceń, pęknięć lub korozji. Sprawdź elastomerowe huśtawkowe łożyska zgodnie z Rozdziałem 5-34. Rozchwiać piastę wirnika i sprawdzić czy sworzeń łożyska huśtawkowego, podkładki dystansowe i nakrętki mocujące nie obracają się. Sprawdź czy piasta waha się sprawnie. Sprawdź poprawność montażu oraz zabezpieczenie sworzni łopaty. </string>
+
+    <!-- OWIEWKA MASZTU  -->
+
+    <string name="Owiewka_masztu_1">Owiewka masztu:  Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgłębień, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Sprawdź czy nie ma zerwania gwintu oraz pęknięć na rurce pitota oraz zespole zabezpieczającym odpowietrzenie paliwa. </string>
+
+    <!-- Górne i dolne żebra:  -->
+
+    <string name="Gorne_i_dolne_zebra_1">Górne i dolne żebra: Skontroluj stan. Sprawdź czy nie ma pęknięć zwłaszcza wokół miejsca mocowania do rury masztu. Sprawdź poprawność montażu i mocowanie żeber oraz zacisk dolnego żebra. </string>
+
+    <!-- Rurka Pitot’a i przewód ciśnienia całkowitego:  -->
+
+    <string name="Rurka_Pitota_i_przewod_cisnienia_calkowitego_1">Rurka Pitot’a i przewód ciśnienia całkowitego:  Skontroluj rurkę Pitot’a i przewody ciśnienia całkowitego zwracając uwagę na zatory, pęknięcia, przetarcia, przebicia lub załamania. Sprawdź pewność połączeń przewodów ciśnienia całkowitego i statycznego. Sprawdź poprawność poprowadzenia przewodów i zabezpieczenie rurki Pitot’a przewodów. Sprawdź czy nie ma pęknięć w miejscu mocowania do masztu owiewki. Upewnij się, że nie ma zatoru w rurce Pitot’a. </string>
+
+    <!-- Konstrukcja spawana odpowietrzenia paliwa oraz rurki Tygon.:  -->
+
+    <string name="Konstrukcja_spawana_odpowietrzenia_paliwa_oraz_rurki_Tygon_1">Konstrukcja spawana odpowietrzenia paliwa oraz rurki Tygon.: Skontroluj stan. Sprawdź czy nie ma zatorów, pęknięć, przetarć, przebicia lub załamania    w plastikowych rurkach. Sprawdź czy nie mają pęknięć odpowietrzenia lub widocznych uszkodzeń. Sprawdź poprawność montażu i mocowanie drutu zabezpieczającego.   </string>
+
+    <!-- Górne nożyce tarczy sterującej: -->
+
+    <string name="Gorne_nozyce_tarczy_sterujacej_1">Górne nożyce tarczy sterującej: Skontroluj stan. Sprawdź luz łożyska w granicach limitu odnosząc się do Rozdziału 67-42. Dokładnie zbadaj mechanizm nożyc, gdy druga osoba podnosi i opuszcza dźwignię skoku ogólnego. Upewnij się, że śruby i podkładki obracają się razem podczas pełnego zakresu ruchu bez zacięć. Sprawdź łożysko końcówki popychacza zespołu widełek zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź poprawność montażu wszystkich części, zabezpieczenie części i prześwit użytkowy.  </string>
+
+    <!-- Dolne nożyce tarczy sterującej: -->
+
+    <string name="Dolne_nozyce_tarczy_sterujacej_1">Dolne nożyce tarczy sterującej: Skontroluj stan. Sprawdź luz łożyska w granicach limitu odnosząc się do Rozdziału 67-42. Dokładnie zbadaj mechanizm nożyc, gdy druga osoba podnosi i opuszcza dźwignię skoku ogólnego. Upewnij się, że śruby i podkładki obracają się razem podczas pełnego zakresu ruchu bez zacięć. Sprawdź łożysko końcówki popychacza zespołu widełek zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź poprawność montażu wszystkich części, zabezpieczenie części i prześwit użytkowy.  </string>
+
+    <!-- Tuleja przesuwna tarczy sterującej: -->
+
+    <string name="Tuleja_przesuwna_tarczy_sterującej_1">Tuleja przesuwna tarczy sterującej: Skontroluj stan. Sprawdź czy nie ma pęknięć, korozji lub poluzowanych nitów w pobliżu kołnierza podstawy tulei. Sprawdź czy nie ma uszkodzenia lub przetarcia anodowej warstwy na powierzchni tulei. </string>
+
+    <!-- Wnętrze tarczy sterującej: -->
+
+    <string name="Wnetrze_tarczy_sterujacej_1">Wnętrze tarczy sterującej: Zdejmij dolną opaskę zaciskową z osłony tarczy sterującej. Unieś osłonę z tarczy sterującej, sprawdź czy nie ma defektów osłony, rozdarć lub pogorszenia jakości materiału. Sprawdź wnętrze tarczy sterującej za pomocą lampki i lusterka kontrolnego. Upewnij się, że nie ma korozji lub zanieczyszczeń pomiędzy wałem napędowym wirnika nośnego i wnętrzem tulei przesuwnej. Zamontuj dolną opaskę zaciskową na osłonę tarczy sterującej. Sprawdź czy osłona jest umieszczona we właściwej pozycji, mocowanie oraz prześwit użytkowy. </string>
+
+    <!-- Tarcza sterująca: -->
+
+    <string name="Tarcza_sterujaca_1">Tarcza sterująca: Skontroluj stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wyżłobień, wgnieceń, pęknięć lub korozji. Sprawdź czy maksymalny luz promieniowy pomiędzy kulą tarczy a tuleją przesuwną wynosi 0.020 cala [0.51mm]. Obracaj wirnik ręką i sprawdź prześwit użytkowy oraz czy łożyska obracają się płynnie i nie są suche. Sprawdź prawidłowe działanie. </string>
+
+    <!-- Regulacja tarczy sterującej: -->
+
+    <string name="Regulacja_tarczy_sterującej_1">Regulacja tarczy sterującej: Zbadaj dokładnie obszar między dolną tarczą sterującą a kulą tarczy sterującej, w momencie gdy druga osoba powoli podnosi i opuszcza dźwignię skoku ogólnego. Sprawdź czy jest zsynchronizowany ruch kuli tarczy z tarczą sterującą, gdy tarcza sterująca zmienia kierunek ruchu. </string>
+
+    <!-- PIASTA WIRNIKA I ŁOPATY WIRNIKA NOŚNEGO -->
+    <string name="PIASTA_WIRNIKA_I_LOPATY_WIRNIKA_NOSNEGO">PIASTA WIRNIKA I ŁOPATY WIRNIKA NOŚNEGO </string>
+    <!-- Piasta: -->
+
+    <string name="Piasta_1">Piasta: Skontrolować stan. Sprawdź czy nie ma nacięć, zarysowań, wyżłobień, wgnieceń, pęknięć lub korozji. Upewnij się, że nie ma brązowego lub czarnego osadu wskazującego na zużycie łożysk. Sprawdź poprawność montażu oraz mocowanie. </string>
+
+    <!-- Sworznie przegubów: -->
+
+    <string name="Sworznie_przegubow_1">Sworznie przegubów: Skontrolować stan. Sprawdź tarcie w przegubie łopaty poprzez uniesienie łopat dopóki występy trzpienia obrotowego nie uwolnią się od ograniczników zwisu. Utrzymuj jedną łopatę poziomo,  a przeciwną łopatę stożkowo; piasta wirnika nie powinna się huśtać [pochylać], gdy łopata jest ustawiona stożkowo. Powtórz sprawdzenie dla przeciwnej łopaty. Sprawdź czy zawleczki są poprawnie zamontowane i zabezpieczone. Sprawdź czy na łbach sworzni, nakrętkach i podkładkach oporowych są znaczniki dokręcenia. </string>
+
+    <!-- Łączniki skoku i końcówki popychaczy: -->
+
+    <string name="Laczniki_skoku_i_koncówki_popychaczy_1">Łączniki skoku i końcówki popychaczy: Skontrolować stan. Skontroluj łożyska końcówek popychaczy zgodnie z Rozdziałem 5-33; sprawdź czy końcówki są wycentrowane oraz czy nakrętka jednozwojowa i samozaciskowa są dokręcone. Sprawdź otworki kontrolne. Sprawdź mocowanie nitu w tulei łącznika skoku. Sprawdź czy nie ma korozji zespołu łącznika skoku. Sprawdź poprawność instalacji drutu zabezpieczającego i podkładek z kołnierzem.  Sprawdź stan obowiązkowych podkładek dystansowych stykających się z łożyskami dolnej końcówki popychacza. Sprawdź poprawność montażu, zabezpieczenia i prześwit użytkowania.  </string>
+
+    <!-- Łączniki skoku i końcówki popychaczy: -->
+
+    <string name="Trzpienie_obrotowe_i_okucia_u_nasady_1">Trzpienie obrotowe i okucia u nasady: Skontroluj stan. Sprawdź czy nie ma pęknięć, korozji lub widocznych uszkodzeń trzpieni obrotowych i rogów. Sprawdź czy nie ma pęknięć, korozji lub ubytków farby w okuciu u nasady łopaty, zwłaszcza w obszarze przylegającym do wewnętrznych krawędzi pokrycia i klapek wyważających. </string>
+
+    <!-- Osłony łopaty: -->
+
+    <string name="Oslony_lopaty_1">Osłony łopaty: Skontroluj stan. Sprawdź czy nie ma uszkodzeń osłony, rozdarć, pogorszenia jakości materiału lub porów [dziurek] powstałych w wyniku wycieku oleju. Potwierdź prawidłową pozycję osłony    i zabezpieczenie. Potwierdź stosowny prześwit od zespołu piasty poprzez pełne przemieszczenie sterowania. </string>
+
+    <!-- Połączenie klejone pokrycia do dźwigara: -->
+
+    <string name="Polaczenie_klejone_pokrycia_do_dzwigara_1">Połączenie klejone pokrycia do dźwigara: Skontrolować oba pokrycia na wierzchu i spodzie łopaty wzdłuż połączenia klejonego pokrycia do dźwigara. Jeśli jakakolwiek część linii klejenia jest odsłonięta, sprawdź wzrokowo krawędź natarcia odsłoniętego (gołego metalu) pokrycia łopaty. Wykonaj test opukiwania wszystkich odsłoniętych stref klejonych pokrycia do dźwigara za pomocą podkładki AN970-4 lub monety ćwierćdolarowej amerykańskiej z roku 1965 lub późniejszej. Jeśli zostaną wykryte jakiekolwiek oznaki rozwarstwienia lub pustych przestrzeni, łopata jest niesprawna. </string>
+
+    <!-- Odsłonięta linia klejenia pokrycia do dźwigara: -->
+
+    <string name="Odslonieta_linia_klejenia_pokrycia_do_dzwigara_1">Odsłonięta linia klejenia pokrycia do dźwigara: Odnowić odsłoniętą linię klejenia zgodnie z Rozdziałem 62-50. </string>
+
+    <!-- Powierzchnie łopaty: -->
+
+    <string name="Powierzchnie_lopaty_1">Powierzchnie łopaty: Skontroluj stan. Sprawdź czy na powierzchni łopaty nie ma nadmiernej erozji, nacięć, zarysowań, wyboczeń, pustych przestrzeni lub oddzieleń, wgnieceń, pęknięć lub korozji. Zobacz w Rozdziale 62-40 uszkodzenia i limity napraw. Na rozwarstwienie połączenia klejonego mogą wskazywać pęknięcia farby pokrywającej połączenia oraz głuchy dźwięk podczas delikatnego opukania powierzchni monetą. Wykonaj test opukania połączeń klejonych zgodnie z Rozdziałem 62-40.   </string>
+
+    <!-- Końcówki łopaty: -->
+
+    <string name="Koncówki_lopaty_1">Końcówki łopaty: Zdejmij pokrywki końcówek. Sprawdź czy nie ma korozji lub obcych obiektów we wnętrzach końcówki łopaty lub na pokrywkach. Nałóż podkład epoksydowy, albo zagruntuj i polakieruj wszelki odsłonięty metal, który może mieć kontakt z zamontowaną pokrywką końcówki. Sprawdź czy jest drożność w pokrywce końcówki i w otworach drenażowych końcówki łopaty. Zamontuj pokrywki końcówek i sprawdź mocowanie. Sprawdź czytelność plakietki oraz starą taśmę do torowania i/lub jej pozostałości. </string>
+
+    <!-- PODWOZIE -->
+    <string name="PODWOZIE">PODWOZIE </string>
+
+    <!-- Owiewki podwozia (jeśli zabudowane): -->
+
+    <string name="Owiewki_podwozia_jesli_zabudowane_1">Owiewki podwozia (jeśli zabudowane): Otwórz w razie potrzeby, aby mieć dostęp do struktury podwozia do inspekcji. Sprawdź stan. Sprawdź czy nie ma wyszczerbień, zarysowań, wgnieceń, pęknięć, korozji, korozji ciernej lub poluzowanych nitów. Sprawdź mocowanie klamry węża oraz dopuszczalną ogólną czystość wnętrza owiewki. Zamknij i zabezpiecz owiewki.  </string>
+
+    <!-- Rury płozy i okładziny płozy: -->
+
+    <string name="Rury_plozy_i_okladziny_plozy_1">Rury płozy i okładziny płozy: Skontroluj stan. Sprawdź czy zużycie rury płozy oraz okładziny mieści się w granicach określonych w Rozdziale 32-30 i 32-31. Sprawdź czy otwory drenażowe są drożne. Sprawdź mocowanie osłonek przeciwdeszczowych; jeśli osłonka przeciwdeszczowa jest luźna lub uszkodzona, sprawdź czy nie ma wewnętrznej korozji. </string>
+
+    <!-- Zespół goleni: -->
+
+    <string name="Zespol_goleni_1">Zespół goleni: Skontroluj stan. Sprawdź czy nie ma pęknięć lub korozji, zwłaszcza na połączeniach kołnierzowych i wzmacnianych oraz obszary spawane w dolnej części goleni. Sprawdź moment dokręcenia śrub goleni do rury płozy. Sprawdź mocowanie. </string>
+
+    <!-- Belki poprzeczne: -->
+
+    <string name="Belki_poprzeczne_1">Belki poprzeczne: Skontroluj stan. Mając helikopter ustawiony na poziomym podłożu, sprawdź odległość od ziemi do płozy ogonowej zgodnie z Rozdziałem 32-20. Sprawdź czy nie ma pęknięć, korozji lub korozji ściernej w miejscach połączeń kolanek. Sprawdź mocowanie osłonek przeciwdeszczowych ; jeśli osłonka przeciwdeszczowa jest luźna lub uszkodzona, sprawdź czy nie ma wewnętrznej korozji. </string>
+
+    <!-- Punkty mocowania podwozia: -->
+
+    <string name="Punkty_mocowania_podwozia_1">Punkty mocowania podwozia: Skontroluj stan. Sprawdź czy nie ma wyboczeń, pęknięć, korozji ściernej lub poluzowanych łączników. Sprawdź mocowania oraz czy nie ma luźnych obsadzeń i zużycia łożysk. </string>
+
+    <!-- D679 Zespół butli (Pływaki awaryjne; jeśli zamontowane): -->
+
+    <string name="D679_Zespol_butli_Plywaki_awaryjne_jesli_zamontowane_1">D679 Zespół butli (Pływaki awaryjne; jeśli zamontowane): Skontroluj stan. Sprawdź mocowanie. Potwierdzić, że manometr wskazuje poprawne ciśnienie dla danej temperatury otoczenia; odnośnie wartości granicznych odszukać na tabliczce na butli. </string>
+
+    <!-- Przewody napełniania (Pływaki awaryjne; jeśli zamontowane): -->
+
+    <string name="Przewody_napelniania_Plywaki_awaryjne_jesli_zamontowane_1">D679 Zespół butli (Pływaki awaryjne; jeśli zamontowane): Skontroluj stan. Sprawdź czy nie ma przetarć lub przewężeń węży, zwłaszcza w miejscach przechodzenia węży przez konstrukcję. </string>
+
+    <!-- Zespół pływaków (Pływaki awaryjne; jeśli zamontowane): -->
+
+    <string name="Zespol_plywakow_Plywaki_awaryjne_jesli_zamontowane_1">Zespół pływaków (Pływaki awaryjne; jeśli zamontowane): Wykonać przegląd w stanie zwiniętym. Potwierdzić, że pokrowce pływaków nie są podziurawione, nacięte, rozdarte, przetarte na wylot, lub rozwiązane. W wypadku stwierdzenia uszkodzenia pokrowca, napełnić pływaki i wykonać przegląd zgodnie z Rozdziałem 32-64. Co roku nakładać błonkowy środek smarny A257-7 na współpracujące powierzchnie zatrzasków pokrowców. Sprawdzić czy wszystkie zatrzaski i rzepy są poprawnie zamocowane. Potwierdzić pewność mocowania pływaków do płóz. </string>
+
+    <!-- KABINA -->
+    <string name="KABINA">KABINA </string>
+
+    <!-- Ogólne wnętrze: -->
+
+    <string name="Ogolne_wnetrze_1">Ogólne wnętrze: Skontroluj stan. Sprawdź ogólną czystość wnętrza kabiny i przedziału z siedzeniami. Sprawdzić, czy w kabinie jest niezamocowane wyposażenie, które mogłoby kolidować ze sterownicami lub zranić pasażerów podczas twardego lądowania. Sprawdź czytelność tabliczek i oznakowania.  </string>
+
+    <!-- Pasy  bezpieczeństwa i uprzęże barkowe: -->
+
+    <string name="Pasy_bezpieczenstwa_i_uprzeze_barkowe_1">Pasy  bezpieczeństwa i uprzęże barkowe: Skontroluj stan. Sprawdź czy nie ma postrzępień lub porwanych szwów w pasach bezpieczeństwa i uprzężach barkowych. Sprawdź, czy zwijadła bezwładnościowe pasów działają prawidłowo poprzez szybkie pociągnięcie w celu oceny działania blokady. Sprawdź, czy klamry zapinają się prawidłowo. Sprawdź zabezpieczenie punktów mocowania pasów i zwijadeł. Sprawdź czy nie ma pęknięć w spawach mocowania pasów. Upewnij się, że taśmy zawieszenia tylnego fotela nie są rozciągnięte lub w inny sposób uszkodzone. Sprawdź zabezpieczenie. </string>
+
+    <!-- Przednia szyba i okna: -->
+
+    <string name="Przednia_szyba_i_okna_1">Przednia szyba i okna: Skontroluj stan. Dopuszczalne są drobne defekty lub niedoskonałości, które nie pogarszają istotnego pola widzenia pilota oraz nie wskazują na rozwijające się uszkodzenie konstrukcji. Odnośnie uszkodzeń i zakresu napraw patrz Rozdział 52-30. Potwierdź poprawność montażu  i mocowanie. </string>
+
+    <!-- Odbiorniki ciśnienia statycznego: -->
+
+    <string name="Odbiorniki_cisnienia_statycznego_1">Odbiorniki ciśnienia statycznego: Skontroluj stan. Upewnij się, że jest drożność. </string>
+
+    <!-- Linka odchylenia kierunkowego: -->
+
+    <string name="Linka_odchylenia_kierunkowego_1">Linka odchylenia kierunkowego: Skontroluj stan. Upewnij się, że minimalna długość linki to 3 cale [ 76.2 mm] z każdej strony zacisku. Sprawdź mocowanie. </string>
+
+    <!-- Światła lądowania i Taxi: -->
+
+    <string name="swiatla_ladowania_i_Taxi_1">Linka odchylenia kierunkowego: Skontroluj stan. Sprawdź czystość soczewki, jasność i mocowanie. Sprawdź prawidłowe działanie </string>
+
+    <!-- Obudowa światła lądowania i podpora: -->
+
+    <string name="Obudowa_swiatla_ladowania_i_podpora_1">Obudowa światła lądowania i podpora: Skontroluj stan. Sprawdź czy nie ma pęknięć w miejscu mocowania obudowy do podpory. Sprawdź mocowanie. </string>
+
+    <!-- Obudowa światła lądowania i podpora: -->
+
+    <string name="Lewe_i_prawe_swiatla_nawigacyjne_1">Lewe i prawe światła nawigacyjne: Skontroluj stan. Sprawdź czy nie ma pęknięć w miejscu mocowania prawego i lewego światła nawigacyjnego do kadłuba. Sprawdź czerwone lewe, zielone prawe, czystość soczewek, jasność  i mocowanie. Sprawdź prawidłowe działanie. </string>
+
+    <!-- Pokrycie zewnętrzne: -->
+
+    <string name="Pokrycie_zewnętrzne_1">Pokrycie zewnętrzne: Skontroluj stan. Sprawdź czy pokrycie nie ma nacięć, zarysowań, wgnieceń, pęknięć, korozji, korozji ściernej lub poluzowanych nitów. O poluzowaniu nitów może świadczyć popękana powłoka lakiernicza i/lub czarny osad wokół łba. Sprawdź ogólną czystość. </string>
+
+    <!-- WYPOSAŻENIE SPECJALNE -->
+    <string name="WYPOSAŻENIE_SPECJALNE">WYPOSAŻENIE SPECJALNE </string>
+
+    <!-- Przełączniki nadawania i łączności wewnętrznej: -->
+
+    <string name="Przelaczniki_nadawania_i_lacznosci_wewnetrznej_1">Przełączniki nadawania i łączności wewnętrznej: Sprawdź poprawność działania specjalnych wyłączników nadawania i łączności wewnętrznej. </string>
+
+    <!-- Przełączniki nadawania i łączności wewnętrznej: -->
+
+    <string name="PA_Glosnik_syreny_1">PA / Głośnik syreny: Sprawdzić stan. Sprawdź, czy nie ma pęknięć w głośniku. Potwierdź bezpieczeństwo mocowania. </string>
+
+    <!-- CZĘŚCI O OGRANICZONEJ ŻYWOTNOŚCI, CZĘŚCI Z ZALECANYM TBO LUB CZASEM WYMIANY, ADs, SBs -->
+    <string name="CZESCI_O_OGRANICZONEJ_ZYWOTNOSCI_CZESCI_Z_ZALECANYM_TBO_LUB_CZASEM_WYMIANY_ADs_SBs">CZĘŚCI O OGRANICZONEJ ŻYWOTNOŚCI, CZĘŚCI Z ZALECANYM TBO LUB CZASEM WYMIANY, ADs, SBs </string>
+
+    <!-- Części o ograniczonej żywotności: -->
+
+    <string name="Czesci_o_ograniczonej_zywotnosci_1">Części o ograniczonej żywotności: Patrz § 4-10. Sprawdź czy części o ograniczonej żywotności odpowiadają zapisom obsługowym śmigłowca. Sprawdź czy części o ograniczonej żywotności mają wystarczający zapas czasu  do przewidywanych działań. </string>
+
+    <!-- Części o ograniczonej żywotności: -->
+
+    <string name="Czesci_z_zalecanym_czasem_miedzy_naprawami_glownymi_TBO_lub_czasem_wymiany_1">Części z zalecanym czasem między naprawami głównymi (TBO) lub czasem wymiany: Patrz § 4-20. Sprawdź czy części z zalecanym TBO lub czasem wymiany odpowiadają zapisom obsługowym śmigłowca. Sprawdź czy części z zalecanym TBO lub czasem wymiany mają wystarczający zapas czasu do przewidywanych działań. </string>
+
+    <!-- Płatowiec i wyposażenie silnika: -->
+
+    <string name="Platowiec_i_wyposazenie_silnika_1">Płatowiec i wyposażenie silnika: Patrz § 4-20 oraz publikacje producenta dotyczące obsługi technicznej wyposażenia silnika. Sprawdź czy podzespoły wyposażenia silnika odpowiadają zapisom obsługowym śmigłowca. Sprawdź czy podzespoły wyposażenia silnika przewidziane do obsługi technicznej mają wystarczający zapas czasu do przewidywanych działań.: </string>
+
+    <!-- Dyrektywy Zdatności: -->
+
+    <string name="Dyrektywy_Zdatnosci_1">Dyrektywy Zdatności: Potwierdź, że mające zastosowanie Dyrektywy Zdatności (ADs) dla płatowca, silnika i wyposażenia zostały wprowadzone zgodnie z mającymi zastosowanie procedurami dla wykonywania AD. Dla niektórych śmigłowców Dyrektywy Zdatności mogą wymuszać wykonywanie przeglądów w odstępach czasu mniejszych niż co 100 godz. lub co rok. Najnowsze Dyrektywy Zdatności wydawane przez Stany Zjednoczone są dostępne online pod adresem www.faa.gov. </string>
+
+    <!-- Dyrektywy Zdatności: -->
+
+    <string name="Biuletyny_i_Listy_Serwisowe_1">Biuletyny i Listy Serwisowe: Potwierdź, że mające zastosowanie Biuletyny Serwisowe (SBs) i Listy Serwisowe (SLs) dla płatowca, silnika i wyposażenia spełniają instrukcje producentów. Dla niektórych śmigłowców SBs i SLs mogą wymuszać wykonywanie przeglądów w odstępach czasu mniejszych niż co 100 godz. lub co rok. Biuletyny Serwisowe i Listy Serwisowe wydawane przez RHC są dostępne online  na stronie www.robinsonheli.com pod zakładką Publications. </string>
+
+    <!-- WYMAGANE DOKUMENTY I TABLICZKI EKSPLOATACYJNE -->
+    <string name="WYMAGANE_DOKUMENTY_I_TABLICZKI_EKSPLOATACYJNE">WYMAGANE DOKUMENTY I TABLICZKI EKSPLOATACYJNE </string>
+
+    <!-- Dokumenty: -->
+
+    <string name="Dokumenty_1">Dokumenty: Sprawdzić czy wymagane dokumenty statku powietrznego (Świadectwo Zdatności do Lotu, Świadectwo Rejestracji, Zezwolenie na Pokładową Radiostację Lotniczą, Podręcznik Użytkowania dla Pilota R66, Wykaz wyposażenia/ciężar i wyważenie) znajdują się na pokładzie, są czytelne  i aktualne. </string>
+
+    <!-- Tabliczki eksploatacyjne: -->
+
+    <string name="Tabliczki_eksploatacyjne_3">Tabliczki eksploatacyjne: Potwierdź, czy wszystkie wymagane tabliczki eksploatacyjne są zamontowane, czytelne  i aktualne. W sprawie wymagań dotyczących tabliczek eksploatacyjnych odnieś się   do Rozdziału 2, Podręcznika Użytkowania dla Pilota. </string>
+
+    <!-- POKRYWY WZIERNIKÓW KONTROLNYCH I DOSTĘPU -->
+    <string name="POKRYWY_WZIERNIKOW_KONTROLNYCH_I_DOSTEPU">POKRYWY WZIERNIKÓW KONTROLNYCH I DOSTĘPU </string>
+
+    <!-- Usuwanie ciał obcych: -->
+
+    <string name="Usuwanie_cial_obcych_1">Usuwanie ciał obcych: Sprawdź czy wszystkie narzędzia, luźne elementy konstrukcyjne, szmatki i inne obce elementy zostały usunięte ze śmigłowca. </string>
+
+    <!-- Zamknięcie i zabezpieczenie pokryw: -->
+
+    <string name="Zamknięcie_i_zabezpieczenie_pokryw_1">Zamknięcie i zabezpieczenie pokryw: Patrz Rozdział 6-70. Zamontuj/zamknij wszystkie pokrywy wzierników kontrolnych i dostępu oraz osłony zdemontowane w poprzednich krokach. Potwierdź poprawność montażu i zabezpieczenie. </string>
+
+    <!-- ZAPISY DOTYCZĄCE OBSŁUGI TECHNICZNEJ -->
+    <string name="ZAPISY_DOTYCZACE_OBSLUGI_TECHNICZNEJ">ZAPISY DOTYCZĄCE OBSŁUGI TECHNICZNEJ </string>
+
+    <!-- Zapisy dotyczące obsługi technicznej: -->
+
+    <string name="Zapisy_dotyczace_obslugi_technicznej_1">Zapisy dotyczące obsługi technicznej: Potwierdź, że zapisy z obsługi technicznej są dokładne, czytelne i pełne. Wprowadź wykonane obsługi technicznej (takie jak wymiana części, regulacja wyposażenia, obsługa doraźna   i smarowanie) oraz dane przeglądu. Dane muszą zawierać opis (lub odniesienie do danych akceptowalnych dla Administratora) wykonanych prac, datę, całkowity czas użytkowania śmigłowca, podpis, typ i numer upoważnienia osoby stwierdzającej zdatność statku powietrznego do użytkowania. </string>
+
+    <!-- 200h -->
+    <string name="h200">Examine the engine for loose or missing bolts, broken or loose connections, security of mounting accessory and broken or missing lock wire. Check accessible areas for obvious damage and indications of fuel or oil leakage. </string>
+    <string name="h200_1">Examine all the B-nuts and make sure that the torque paint is applied and is aligned correctly. If missing, loosen the B-nut, Inspect the mating tube flare, torque, and apply the torque paint. </string>
+    <string name="h200_2">Examine mounting and support bolts to be sure they are properly torque,  lockwired and in good condition. Check security of screws and rivets. </string>
+    <string name="h200_3">Remove all unwanted material that can go into the compressor inlet. </string>
+    <string name="h200_4">Examine Pc filter for correct clamping. </string>
+    <string name="h200_5">Examine the fuel system components that are accessible, tubes, and connections for security, damage or leakage. Remove, examine and clean if necessary. </string>
+    <string name="h200_6">Examine the fuel control and power turbine governor linkage for freedom of operation, full travel and proper rigging. Check  for loose or worn linkage hardware and safety. </string>
+    <string name="h200_7">Remove, Inspect, Clean (without disassembly), and Install Fuel Nozzle. </string>
+    <string name="h200_8">Examine compressor inlet and impeller leading edges for foreign object damage </string>
+    <string name="h200_9">Clean the gas path </string>
+    <string name="h200_10">Examine the electrical harnesses for loose, chafed, frayed or broken wires. Make sure the connectors are torqued correctly. </string>
+    <string name="h200_11">Examine the horizontal and vertical fireshields for damage. </string>
+    <string name="h200_12">Examine the compressor scroll for cracks or breaks at the anti-ice air valve, Pc fitting, customer bleed port, and all welds. If cracks or breaks are found, check engine for possible vibration causes. </string>
+    <string name="h200_13">Examine the anti-icing valve, N1 and N2 sensors, TMOP, MOP, and MOT sensors for loose, chafed, frayed or broken wires, loose connectors, and security of attachment. </string>
+    <string name="h200_14">Examine compressor discharge air tubes for damage or deterioration. </string>
+    <string name="h200_15">Examine the outer combustion case for condition of all surfaces, welds, and the brazed screen reinforcement in the armpit area. </string>
+    <string name="h200_16">Examine compressor discharge air tubes for damage or deterioration. </string>
+    <string name="h200_17">Examine the outer combustion case for condition of all surfaces, welds, and the brazed screen reinforcement in the armpit area. </string>
+    <string name="h200_18">Without disassembly, examine the turbine assemblies and engine exhaust collector supports for condition of welded joints, for cracks and buckling. </string>
+    <string name="h200_19">Examine the starter-generator brushes for wear. </string>
+    <string name="h200_20">Examine the oil level in the tank. If the engine has been shut down for more than 15 minutes, motor the engine for 30 seconds with the starter before checking tank quantity. Motoring normally scavenges oil from the gearbox back to the aircraft oil tank. </string>
+    <string name="h200_21">Examine magnetic chip detector plugs. </string>
+    <string name="h200_22">Measure and record the oil flow from the scavenge passage of the external sump. It is recommended that the external sump be installed for this check. </string>
+    <string name="h200_23">Drain the oil system, remove and examine the oil filter and refill the engine oil system every 12 months or 400 hours(whichever occurs first). Record the collection of metal particles, unwanted material or carbon particles. Replace the oil filter at the 12 month/ 400 hour interval. </string>
+    <string name="h200_24">Examine the oil bypass indicator. </string>
+    <string name="h200_25">Examine the ignition lead for burning, chafing,  conduit cracks, loose connectors, and broken lockwire. </string>
+    <string name="h200_26">Visually inspect the power turbine governor weep hole nearest the accessory gearbox for unwanted material/oil leaks. Remove unwanted material. If you find oil leakage, remove and replace the accessory gearbox seal. </string>
+    <string name="h200_27">Visually inspect the power turbine governor weep hole farthest from the accessory gearbox grease leakage. The leakage can be blue in colour. If you find grease leakage, remove and replace the power turbine governor. </string>
+    <string name="h200_28">Visually inspect the fuel control unit weephole to make sure it is free of unwanted material. Remove unwanted material. </string>
+    <string name="h200_29">Visually examine the fuel control unit weep hole. If you find oil leakage, remove the control and inspect the gearbox accessory seal for leakage. If the accessory gearbox seal is leaking, remove and replace the seal. If the leakage from the weep hole is blue in colour, remove and replace the fuel control unit. </string>
+    <string name="h200_30">Do the engine functional test. </string>
+    <string name="h200_31">Do the engine trend check. </string>
+    <string name="h200_32">Download the EMU summary data. </string>
+    <string name="h200_33">Examine the engine records for compliance with all mandatory bulletins, inspections and airworthiness directives </string>
+    <string name="h200_34">Examine the engine after operation in a corrosive environment, if applicable </string>
+    <string name="h200_35">Record component changes, service bulletins, airworthiness directives and inspection compliance in the log book </string>
+
+    <!-- VITAL POINTS AND CONTROL SYSTEMS 200h -->
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_200h">VITAL POINTS AND CONTROL SYSTEMS 200h: </string>
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_a">VITAL POINTS AND CONTROL SYSTEMS 200h: Whenever inspections are made, or work is undertaken on vital points, flying or engine control systems, a detailed investigation must be made on completion of the task. To ensure that all tools, rags,or any other loose articles which could impede the free movement and safe operation of the system(s), have been removed and that the systems and installation in the work area are clean and un-obstructed. </string>
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_b">VITAL POINTS AND CONTROL SYSTEMS 200h: If, as a result of the application of this Maintenance Programme, any Critical Part or any associated System is dismantled, adjusted, repaired or renewed, that part of the System(s) which has been disturbed shall be subjected to an independent inspection in accordance with point M.A. 402 to Annex 1 of Commission Regulation (EC) 2042/2003, Part M(as amended) and the associated AMC 402               paragraph (a) 4 </string>
+
+    <!-- 400h -->
+    <string name="h400">Complete the 200 hour inspection and the items that follow </string>
+    <string name="h400_1">Replace the fuel pump filter element. </string>
+    <string name="h400_2">Remove,  inspect, clean (with disassembly) and reinstall the fuel nozzle. </string>
+    <string name="h400_3">Purge the air from the fuel system. </string>
+    <string name="h400_4">Drain the oil system. </string>
+    <string name="h400_5">Remove and examine the oil filter. Record the collection of metal particles, unwanted materials or carbon particles. Install the oil filter </string>
+    <string name="h400_6">Remove, clean, examine, and install the turbine pressure oil tube screen assembly. </string>
+    <string name="h400_7">Remove, clean, examineand reinstall  the No. 6 and 7 bearing pressure oil nozzle.. </string>
+    <string name="h400_8">Clean and examine  the scavenge oil strut in the power turbine support.  </string>
+    <string name="h400_9">Remove, clean, examine and reinstall the external sump. Replace the sump if necessary. </string>
+    <string name="h400_10">Remove, clean, examine and reinstall the No. 1 bearing oil pressure reducer.  </string>
+    <string name="h400_11">Refill the engine oil system </string>
+    <string name="h400_12">Measure and record the oil flow from the scavenge passage of the external sump. It is recommended that the external sump remain installed for this check.
+        Flow check…………………………..ccs</string>
+    <string name="h400_13">Remove, clean, examine, and install the engine Pc filter. </string>
+    <string name="h400_14">Test the MGT harness.</string>
+    <string name="h400_15">Clean the burner drain valve </string>
+    <string name="h400_16">Download the EMU diagnostic data. </string>
+    <string name="h400_17">Do the engine vibration test. Record vibration test in aircraft records </string>
+    <string name="h400_18">Record component changes, service bulletins, airworthiness directives and inspection compliance in the log book.C </string>
+
+    <!-- VITAL POINTS AND CONTROL SYSTEMS 400h -->
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_400h">VITAL POINTS AND CONTROL SYSTEMS 400h </string>
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_400h_a">a. Whenever inspections are made, or work is undertaken on vital points, flying or engine control systems, a detailed investigation must be made on completion of the task. To ensure that all tools, rags,or any other loose articles which could impede the free movement and safe operation of the system(s), have been removed and that the systems and installation in the work area are clean and un-obstructed. </string>
+    <string name="VITAL_POINTS_AND_CONTROL_SYSTEMS_400h_b">b. If, as a result of the application of this Maintenance Programme, any Critical Part or any associated System is dismantled, adjusted, repaired or renewed, that part of the System(s) which has been disturbed shall be subjected to an independent inspection in accordance with point M.A. 402 to Annex 1 of Commission Regulation (EC) 2042/2003, Part M(as amended) and the associated AMC 402            paragraph (a) 4 </string>
+
+    <!-- 2000h -->
+    <string name="Replace_all_parts_listed_in_R66_MM_Section_5_50_after_2000_hours_or_12_years_whichever_occurs_first">Replace all parts listed in R66 MM Section 5-50 after 2000 hours or 12 years whichever occurs first </string>
+
+    <!-- 12Months -->
+    <string name="M12">Carry out a Serialised Component Audit. (Attached “M” sheet refers”) </string>
+    <string name="M12_1">Inspect First Aid Kit for condition and replace any out of date contents Reference UK CAP 393 Schedule 4 scale A3 </string>
+    <string name="Pitot_Static_Systems">Pitot Static Systems </string>
+    <string name="Pitot_Static_Systems_a">a)Drain all moisture from systems </string>
+    <string name="Pitot_Static_Systems_b">b)Perform a Pitot-Static System leak and sense check </string>
+    <string name="Pitot_Static_Systems_1">c) Check Calibrate in situ the Airspeed Indicator and record below:
+
+Test Set Reads                    A/C Reading Ind Error  Max Accept Error
+
+20 ……………… …………. + or  - 1.7 knots
+
+40 ……………… …………. + or – 1.7 knots
+
+60 ……………… ………….  + or – 1.7 knots
+
+70 ……………… …………. + or – 1.7 knots
+
+80 ……………… ………… + or – 1.7 knots
+
+100 ……………… ………… + or – 2.5 knots
+
+120 ……………… ………… + or – 4.3 knots
+
+140 ……………… ………… + or – 4.3 knots </string>
+
+    <string name="Pitot_Static_Systems_2">Check Calibrate the ASI section of the  EDF1000H,  </string>
+    <string name="Pitot_Static_Systems_3">If outside manufacturers limits carry out calibration iaw Aspen Avionics </string>
+    <string name="Pitot_Static_Systems_4">Record results on supplemental Aspen Pitot Static sheet. Sheet M……….. </string>
+    <string name="M12_2">Inspect Altimeter Barometric Knob iaw FAA AD 86-05-02  </string>
+    <string name="M12_3">5.1         Check Calibrate in situ the Altimeter, and record below:
+
+Test Set Reads                  A/C Reading Ind Error  Max Accept Error
+
+ 0 ft  ……………. …………  + or – 20 ft
+
+ 500  ……………. …………  + or – 20 ft
+
+ 1000  ……………. ………….  + or – 20 ft
+
+ 1500  ……………. ………….  + or – 25 ft
+
+ 2000  ……………. ………….  + or – 30 ft
+
+ 3000  ……………. ………….  + or – 30 ft
+
+ 4000  ……………. ………….  + or – 35 ft
+
+ 6000  ……………. ………….  + or – 40 ft
+
+ 8000  ……………. ………….  + or – 60 ft
+
+ 10000  ……………. ………….  + or – 80 ft
+
+ 12000  ……………. ………….  + or – 90 ft
+
+ 14000  ……………. ………….  + or – 100 ft
+
+ During test, ensure pointer is smooth in operation with no “sticking”
+  </string>
+    <string name="M12_4">Aircraft equipped with Aspen EFD1000H systems.
+Check Calibrate the Altimeter section of the  EDF1000H,   </string>
+    <string name="M12_5">If outside manufacturers limits carry out calibration iaw Aspen Avionics
+Tech Note 2009-09 (latest revision)  </string>
+    <string name="M12_6">Record results on supplemental Aspen Pitot Static sheet. Sheet M………  </string>
+    <string name="M12_7">COn completion of tests check all blanks have been removed from pitot static system  </string>
+    <string name="M12_8">Carry out Internal Backup Battery check iaw Aspen Document 900-00014-001 (latest revision) section, 1.13.5 Continued Airworthiness Record result:…………………………  </string>
+    <string name="M12_9">Check; Function all circuit breakers and switches to ensure correct operation.  </string>
+    <string name="M12_10">If not carried out in last 12 months, carry out dynamic balance of tail rotor and record results:     Ips…………………………  </string>
+
+    <!-- 100FH silnik -->
+    <string name="FH100_silnik">100FH silnik </string>
+    <!-- Układ zapłonowy i elektryczny: -->
+
+    <string name="Uklad_zaplonowy_i_elektryczny_1">Układ zapłonowy i elektryczny: Jeżeli widoczne są zanieczyszczenia świec zapłonowych, oczyścić je oraz sprawdzić odstęp elektrod. Zamienić miejscami świece dolne z górnymi. Wymienić (na nowe), jeżeli to konieczne. Świece dokręcić momentem 47,5Nm. </string>
+    <string name="Uklad_zaplonowy_i_elektryczny_2">Układ zapłonowy i elektryczny: Sprawdzić wyprowadzenia przewodów ze świec oraz rdzenie ceramiczne świec zapłonowych na okoliczność korozji oraz nagaru. Stan ten świadczy albo o nieszczelności świec zapłonowych, niewłaściwym oczyszczeniu ścianek świec zapłonowych lub końcówek złącznych. Tam gdzie stan taki wykryto, oczyścić końcówki kabli, ścianki świec zapłonowych oraz rdzeni ceramicznych za pomocą suchej, czystej szmatki lub czystej szmatki zwilżonej ketonem metylo-etylowym. Wszystkie części winny być oczyszczone i osuszone przez zamontowaniem. </string>
+    <string name="Uklad_zaplonowy_i_elektryczny_3">Układ zapłonowy i elektryczny: Sprawdzić wiązki kabli układu zapłonowego co do pewności mocowania zacisków montażowych oraz upewnić się, że końcówki na świecach zapłonowych i iskrownikach są szczelne. </string>
+    <string name="Uklad_zaplonowy_i_elektryczny_4">Układ zapłonowy i elektryczny: Sprawdzić stan wszystkich kabli podłączonych do silnika i jego osprzętu. Dowolny przewód ekranowy, który jest uszkodzony powinien być wymieniony. Wymienić zaciski lub obluzowane przewody oraz sprawdzić końcówki co do ich pewności mocowania i czystości. </string>
+
+    <!-- Iskrowniki: -->
+
+    <string name="Iskrowniki_1">Iskrowniki: Sprawdzić styki przerywaczy na okoliczność występowania wżerów oraz minimalnej przerwy. Sprawdzić występowanie nadmiernej ilości oleju w skrzynce przerywacza, jeżeli występuje, wytrzeć do sucha bezwłosową szmatką. Filc umieszczony przy stykach przerywaczy winien być nasmarowany, zgodnie z instrukcją producenta iskrownika. Sprawdzić iskrownik. Sprawdzić iskrownik co do ustawienia zapłony silnika. (Procedury ustawiania iskrowników Bendix oraz Slick są zawarte w rozdziale Procedury Obsługowe). </string>
+
+    <!-- Układ paliwowy i dolotowy: -->
+
+    <string name="Dysze_zastrzykiwania_paliwa_1">Dysze zastrzykiwania paliwa: Odłączyć od silnika końcówki zastrzykiwania paliwa oraz sprawdzić pod względem równego przepływu. </string>
+
+    <!-- Przewody i dysze wtrysku paliwa: -->
+
+    <string name="Przewody_i_dysze_wtrysku_paliwa_1">Przewody i dysze wtrysku paliwa: Sprawdzić czy nie są obluzowane dysze wtrysku paliwa. Dokręcić momentem 60 funto-cali (6,6 Nm). Sprawdzić przewody paliwowe na okoliczność plamistych odbarwień na złączach (wskazujących przecieki) oraz pewności mocowania przewodów. Naprawa lub wymiana musi być dokonana przed wznowieniem użytkowania statku powietrznego. </string>
+
+    <!-- Gaźnik -->
+
+    <string name="Gaźnik_1">Gaźnik: Sprawdzić dokręcenie śrub mocujących korpus przepustnicy; właściwy moment dokręcenia wynosi 40 – 50 funto-cali (4,4 – 5,5 Nm). </string>
+
+    <!-- Układ wydechowy: -->
+    <string name="Cylindry_4">Sprawdzić wizualnie cylindry, czy nie ma pękniętych lub wyłamanych żeber. </string>
+
+    <!-- Osprzęt silnika: -->
+
+    <string name="Osprzet_silnika_1">Osprzęt silnika: Osprzęt zamontowany na silniku taki jak pompy, zespoły czujnikowe temperatury i ciśnienia, winny być sprawdzone pod względem pewności zamocowania, szczelności podłączeń. </string>
+
+    <!-- Zamocowanie silnika: -->
+
+    <string name="Zamocowanie_silnika_1">Zamocowanie silnika: Sprawdzić śruby i tuleje mocowania silnika co do pewności mocowania i nadmiarowego zużycia. Wymienić tuleje wykazującą nadmierne zużycie. </string>
+
+    <!-- Pokrywy luków inspekcyjnych i dostępowych -->
+
+    <string name="Pokrywy_lukow_inspekcyjnych_i_dostępowych_1">Pokrywy luków inspekcyjnych i dostępowych: Usunięcie ciał obcych: Sprawdź, czy wszystkie narzędzia, luźne elementy konstrukcyjne, szmaty i inne obce elementy zostały usunięte ze śmigłowca. </string>
+    <string name="Pokrywy_lukow_inspekcyjnych_i_dostępowych_2">Pokrywy luków inspekcyjnych i dostępowych: Zamknięcie i zabezpieczenie luków: Zamontować/zamknąć wszystkie pokrywy luków inspekcyjnych zdemontowanych podczas wykonywania przeglądu. Sprawdzić zabezpieczenie wszystkich pokryw. </string>
+
+    <!-- FH100 Płatowiec -->
+    <string name="Bloki_lozyskowe_pedalow_smigla_ogonowego_2">Aby zdemontować pokrywy (1) należy odchylić dywanik i wykręcić wkręty mocujące pokrywy. Użyć lampy i lusterka kontrolnego w celu oględzin bloków łożyskowych. Obejrzeć bloki zwracając uwagę na stan, obluzowanie połączeń i luzy. Maksymalny dopuszczalny luz wynosi 0,080 cala (2,03 mm) w kierunku osiowym i 0,030 cala (0,76 mm) w kierunku promieniowym. Obejrzeć wszystkie miejsca spawane w układzie sterowania śmigłem ogonowym. </string>
+    <string name="Gorna_konsola_przyrzadow">Aby zdemontować pokrywy (1) należy odchylić dywanik i wykręcić wkręty mocujące pokrywy. Użyć lampy i lusterka kontrolnego w celu oględzin bloków łożyskowych. Obejrzeć bloki zwracając uwagę na stan, obluzowanie połączeń i luzy. Maksymalny dopuszczalny luz wynosi 0,080 cala (2,03 mm) w kierunku osiowym i 0,030 cala (0,76 mm) w kierunku promieniowym. Obejrzeć wszystkie miejsca spawane w układzie sterowania śmigłem ogonowym. </string>
+    <string name="Gorna_konsola_przyrzadow_1">Układ pomiaru ciśnienia statycznego i całkowitego: Sprawdzić przewody ciśnienia statycznego i całkowitego zwracając uwagę na pęknięcia, otarcia, przebicia lub zatępienia. Sprawdź pewność wszystkich połączeń. </string>
+    <string name="Gorna_konsola_przyrzadow_2">Przyrządy pilotażowe i kontroli pracy silnika: Sprawdź pewność mocowania wszystkich przyrządów. Sprawdź przewody elektryczne i złącza wszystkich przyrządów. </string>
+    <string name="Gorna_konsola_przyrzadow_3">Podstawa(y) bloków urządzeń radiowych: Sprawdzić stan i pewność mocowania. </string>
+    <string name="Gorna_konsola_przyrzadow_4">Układ sterowania śmigłem ogonowym: Sprawdzić dostępne fragmenty zespołu pedałów, zwracając uwagę na defekty. </string>
+
+    <string name="Gorna_konsola_przyrzadow_5">Zdemontować pokrywy przedniego tunelu, pokrywę zderzaka drążka skoku okresowego, wewnętrzną pokrywę sterowania skokiem ogólnym i przednią płytę spodu kadłuba </string>
+    <string name="Gorna_konsola_przyrzadow_6">Zespół skrzynki drążka skoku okresowego: Obejrzeć zespół skrzynki drążka skoku okresowego zwracając uwagę na defekty. Sprawdzić blaszany zespół zderzaków ze względu nadpęknięcia i inne defekty (zły stan ogólny, wygięcia, poluzowane nity, korozja). </string>
+    <string name="Gorna_konsola_przyrzadow_7">Trymer drążka skoku okresowego (układ sterowania bez wspomagania): Włączyć wyłącznik główny i wyłącznik trymerów skoku okresowego. Przemieścić drążek w kierunku podłużnym od zderzaka do zderzaka i sprawdzić działanie silników trymerów. Sprawdzić, czy silniki trymerów, sprężyny i sznury gumowe dzieli dostateczna odległość od wiązek przewodów i elementów kadłuba przy drążku w ruchu i opartym na zderzakach. </string>
+    <string name="Gorna_konsola_przyrzadow_8">Siłownik trymera poprzecznego sterowania okresowego (układy sterowania bez wspomagania): Włączyć wyłącznik główny i wyłącznik trymerów skoku okresowego. Nacisnąć i przytrzymać  drążek na prawym ograniczniku, aż silnik trymera zatrzyma się, następnie wyłączyć  trymer. Przemieścić drążek do lewego ogranicznika w celu ściśnięcia sprężyny. Przejrzeć widoczną część wałka zwracając uwagę na zużycie i zacieranie. Nie należy smarować wałka w zespole sprężyny C056-1 ze zmianą oznaczoną literą „H” i następnymi – łożysko jest samosmarujące. Przejrzeć tulejkę C130-13 (zderzak) z tworzywa uretanowego. Sprawdzić pewność zamocowania do czopa drążka. </string>
+    <string name="Gorna_konsola_przyrzadow_9">Siłownik trymera podłużnego sterowania okresowego (układy sterowania bez wspomagania): Obejrzeć tulejkę C130-13 (zderzak) z tworzywa uretanowego. Sprawdzić pewność zamocowania do drążka. </string>
+    <string name="Gorna_konsola_przyrzadow_10">Regulator tarcia drążka sterowania okresowego: Sprawdzić czy nie występują nadmierne luzy w połączeniach końcówek popychaczy z drążkiem. Sprawdzić , czy nie występują nadmierne poszerzenia na końcach dystansu C130-2. </string>
+    <string name="Gorna_konsola_przyrzadow_11">Popychacz skoku okresowego i rura skrętna: Obejrzeć rurę skrętną C319, zwracając szczególną uwagę, czy nie ma pęknięć w strefie wokół nakładek i zakończenia rury. Sprawdzić pewność dokręcenia nakrętki jednozwojowej i samozaciskowej przy końcówce popychacza C121-1. Sprawdzić otworki kontrolne popychaczy. Sprawdzić końcówki popychaczy i łożyska kuliste, upewniając się, że nie ma na nich nadmiernego luzu ani poluzowań. Sprawdzić dostępne fragmenty popychacza skoku okresowego i rury skrętnej, upewniając się, że nie występują rzucające się w oczy defekty, w tym i rysy. Zwrócić szczególna uwagę na wierzch rury skrętnej tuż poniżej zespołu podstawy C348-1. Sprawdzić, czy żadna nakrętka  i śruba w sterowaniu okresowym nie obraca się ani nie jest poluzowana. </string>
+    <string name="Gorna_konsola_przyrzadow_12">Popychacz sterowania śmigłem ogonowym: Obejrzeć popychacz sterowania śmigłem ogonowym C121-9 w dostępnych miejscach.</string>
+    <string name="Gorna_konsola_przyrzadow_13">Regulator tarcia dźwigni skoku ogólnego i zderzak: Obejrzeć zderzak suwaka skoku ogólnego, zwracając uwagę  na jego mocowanie. Karby,  nacięcia, lub rysy są niedopuszczalne. Sprawdzić zabezpieczenie połączeń i niezawodność działania dźwigni regulatora tarcia skoku ogólnego. Podnieść i opuścić dźwignię skoku, obserwując, czy nie pojawia się zacinanie lub zginanie przy zderzaku suwaka. Sprawdzić czy sznurek osłony dźwigni nie zaplątuje się za zderzak. </string>
+    <string name="Gorna_konsola_przyrzadow_14">Sprężyna wybiegu przepustnicy: Pokręcając rękojeścią sterowania przepustnicą sprawdzić działanie sprężyny wybiegu przepustnicy. Ruch powinien być swobodny, bez zacięć i szarpnięć. Sprawdzić luz w górnej   i dolnej końcówce popychacza. Sprawdzić, czy końcówki obracają się bez zacięć. </string>
+    <string name="Gorna_konsola_przyrzadow_15">Wiązki przewodów: Obejrzeć wiązki, zwracając uwagę na ich oddalenie od ruchomych części układu sterowania   i ewentualne otarcia.</string>
+    <string name="Gorna_konsola_przyrzadow_16">Przewody ciśnienia całkowitego i statycznego: Obejrzeć przewody ciśnienia całkowitego i statycznego, zwracając uwagę na ich mocowanie  oraz pęknięcia, otarcia, zaciśnięcia pod wpływem zginania pod dużym kątem. Otworzyć odstojniki i sprawdzić ślady wilgoci; zamknąć odstojniki.</string>
+    <string name="Gorna_konsola_przyrzadow_17">Sznur(y) gumowy(e) trymerów: Trzymając drążek wychylony w prawo i do przodu, obmacać przedni(e) sznur(y) gumowy(e) szukając zapadających się miejsc, świadczących o pękniętych pasmach. </string>
+    <string name="Gorna_konsola_przyrzadow_18">Przewód elastyczny nagrzewnicy: Obejrzeć przewód nagrzewnicy zwracając uwagę na zapadnięcia i otarcia. </string>
+    <string name="Gorna_konsola_przyrzadow_19">Zabezpieczenia i znaczniki momentów: Sprawdź stan, zwracając uwagę na wszystkie zabezpieczenia. Wytarte znaczniki momentów nanieść na nowo zgodnie z rysunkiem 2-1. </string>
+
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem">Zdemontować zewnętrzną pokrywę sterowania skokiem ogólnym, pokrywę rury łączącej dźwignie skoku, podstawkę, pokrywy tunelu środkowego, pokrywy tylnego tunelu, tylną płytę spodu kadłuba i tylny pulpit(tylko wersja elektronicznego zbierania informacji). </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_1">Drążek skoku ogólnego: Sprawdzić stan drążka skoku ogólnego. Sprawdzić połączenia spawane na obecność pęknięć. Sprawdzić zespół łącznika C328-1 zwracając uwagę na punkty mocowania. Przejrzeć silnik  regulatora  i ramię silnika regulatora, zwracając uwagę na poluzowania i zacięcia. Obejrzeć mikrowyłącznik skoku ogólnego, zwracając uwagę na pęknięcia i poluzowane przewody. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_2">Wał sterowania skokiem ogólnym: Sprawdzić czy nie występują wżery korozji. Zastosuj mieszankę antykorozyjną taką jak LPS 2, ACF-50 lub Corrosion X na każdą niepomalowaną, fosforowaną powierzchnię uważając aby nie zabrudzić sprzęgła regulatora obrotów. Upewnić się że korozja nie występuje na wewnętrznych ściankach „skrzynki” w punktach łączenia oraz na widełkach A205. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_3">Tylny koniec wału sterowania skokiem okresowym i zespół jarzma: Obejrzeć wał i jarzmo, zwracając szczególną uwagę na miejsca wokół nakładek i koniec    wału    ze względu na pęknięcia. Sprawdzić luz w łożyskach dźwigni kątowych jak podano w Rozdziale 2.120 Sprawdzić, czy wprasowane łożyska nie przemieszczają się w główkach jarzma. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_4">Tylny koniec popychacza skoku okresowego (C-121-1) i dolne końce pionowych popychaczy (C121-7): Obejrzeć popychacze zwracając uwagę na ślady pęknięć. Sprawdzić pewność dokręcenia przeciwnakrętek i nakrętek jednozwojowych oraz luz w końcówkach popychacza. Sprawdzić czy łożyska w końcówkach nie są poluzowane. Obejrzeć powierzchnie zespołu widełek. Sprawdzić łożyska zwracając uwagę na obluzowanie. Sprawdzić, czy  nie ma śladu zużycia cierno-korozyjnego pomiędzy wprasowanym łożyskiem a główką. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_5">Tylny koniec popychacza śmigła ogonowego (C121-9) i dolne łożysko: Sprawdzić otwór kontrolny. Sprawdzić, czy nie ma luzu w łożysku dolnej dźwigni kątowej. Obejrzeć wszystkie połączenia spawane wspornika dolnej dźwigni kątowej i otaczającą blaszaną konstrukcję, zwracając uwagę na pęknięcia. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_6">Popychacz skoku ogólnego (C121-19): Sprawdzić, czy porusza się bez zacięć i nie ma rys. Sprawdzić otwory kontrolne. Sprawdzić dokręcenie przeciwnakrętek i nakrętek jednozwojowych oraz luz w końcówce popychacza. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_7">Zespół regulatora tarcia dźwigni skoku ogólnego: Sprawdzić dokręcenie przeciwnakrętek i nakrętek jednozwojowych oraz luz w końcówkach popychaczy. Obejrzeć wszystkie połączenia spawane wspornika dźwigni kątowej i otaczającej blaszaną konstrukcję, zwracając uwagę na pęknięcia i korozję. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_8">Zespół sprężyny skoku ogólnego (układ sterowania bez wspomagania): Podnieść i opuścić dźwignię skoku ogólnego zwracając uwagę na zacięcia i trzaski. Zwoje sprężyny nie mogą się stykać, gdy dźwignia skoku jest całkowicie opuszczona. Sprawdzić dokręcenie przeciwnakrętek i nakrętek jednozwojowych. Sprawdzić, czy luz końcówek popychaczy mieści się w dopuszczalnym zakresie. Sprawdzić, czy popychacze prowadzące są nasmarowane. Sprawdzić zespół sprężyny według rozdziału 8.221 jeżeli jest to wymagane w rozdziale 1.101 (po 500 FH). </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_9">Cięgno sterowania przepustnicą: Zdemontuj osłonę dźwigni (jżeli nie jest przeźroczysta) sterowania przepustnicą PN:C606/C606-2 (pod tylnym lewym siedzeniem dla silnika O540 lub w tunelu środkowym przy ścianie ogniowej dla silnika IO-540).Sprawdź odstępy od innych elementów oraz struktury płatowca. Sprawdź bezpieczeństwo oraz poprawność montażu. Zabuduj osłonę jeżeli była zdjęta. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_10">Zawór paliwa i przewód paliwowy: Obejrzeć przewód paliwowy zwracając uwagę na uszkodzenia oraz króćce zaworu zwracając uwagę na przecieki (objawem przecieku jest niebieski lub zielony osad, w zależności od gatunku używanego paliwa, lub zapach paliwa). Sprawdzić, czy nie występuje ocieranie  przewodów paliwowych. </string>
+    <string name="zewnetrzna_pokrywa_sterowania_skokiem_11">Tulejka reakcyjna zaworu paliwa: Sprawdzić stan. Sprawdzić pewność mocowania </string>
+
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli">Zdemontować płyty oparć tylnych foteli </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_1">Przewody elektryczne: Sprawdzić pewność mocowania oraz prawidłowy montaż przewodów elektrycznych. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_2">Przewody ciśnienia całkowitego i statycznego: Sprawdź, czy są pewnie zamocowane, nie ocierają się ani nie są splątane. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_3">Przewody czynnika chłodzącego klimatyzacji (jeżeli zainstalowane): Sprawdzić zabezpieczenia i potwierdzić brak uszkodzeń przewodów. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_4">Rurki i zawór drenażowy klimatyzacji (jeżeli zainstalowane): Sprawdź czy rurki nie są uszkodzone. Ustaw pojemnik pod rurką drenażową wystającą z dołu podstawy mocującej w prawym tylnym luku bagażowym. Usuń zatyczkę z rurki drenażowej i pozwól aby zebrany płyn spłynął. Zamknij przewód zatyczką, jednocześnie ściskając rurkę drenażową jednocześnie sprawdzając czy porusza się kulka w zaworze. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_5">Blok zasilacza lampy błyskowej i regulator alternatora: Sprawdzić przewody elektryczne zasilacza lampy błyskowej i bloku regulacyjnego alternatora. Sprawdzić, czy płyty, na których są montowane bloki nie mają pęknięć. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_6">Koder wysokości i sterownik regulatora prędkości obrotowej: Sprawdzić przewody elektryczne kodera wysokości i sterownika regulatora prędkości obrotowej. Sprawdzić, czy płyty, na których są montowane bloki nie mają pęknięć. </string>
+    <string name="Zdemontowac_plyty_oparc_tylnych_foteli_7">Zabezpieczenia i znaczniki momentów: Sprawdź stan, zwracając uwagę na wszystkie zabezpieczenia. Wytarte znaczniki momentów nanieść na nowo zgodnie z rysunkiem 2-1. </string>
+
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika">Zdemontować tylną (6D), dolną (6C) i obie boczne (6A&amp;6B) osłony silnika. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_1">Pionowa przegroda ogniowa: Obejrzeć pionową przegrodę ogniową, szczególnie w miejscach połączeń konstrukcji, zwracając uwagę na pęknięcia, wyboczenie lub fałdy. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_2">Bezpieczniki topikowe (jeżeli zainstalowane na pionowej przegrodzie ogniowej): Sprawdzić mocowanie i czy nie są skorodowane. Sprawdzić, czy są właściwie dobrane; przewód -66 wymaga bezpiecznika AGC-3; przewody -1601/-1602 wymagają bezpiecznika AGC-5 (jeśli jest zainstalowany przewód -1226 to wymaga bezpiecznika AGC-3). </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_3">Przewody elektryczne: Sprawdzić pewność mocowania, prawidłowy montaż oraz brak uszkodzeń przewodów elektrycznych. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_4">Elektryczna pompa paliwowa (tylko IO-540): Sprawdzić pewność mocowania, prawidłowe zamontowanie oraz brak wycieków. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_5">Instalacja paliwowa i przewody paliwowe: Sprawdzić stan. Potwierdzić pewność mocowania, prawidłowy montaż oraz brak wycieków oraz (w przypadku  IO-540) sprawdź stan osnowy izolacyjnej na przewodach paliwowych pomiędzy ścianą ogniową i odstojnikiem paliwa. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_6">Dolne kratownice: Dokładnie obejrzeć dolne kratownice, zwracając uwagę na korozję oraz przejrzeć wszystkie połączenia spawane z uwagi na pęknięcia. Upewnić się, że o pręty kratownic nie ocierają żadne przewody elektryczne, węże, obejmy, itd. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_7">Osłony chłodzenia silnika: Obejrzeć płyty obudowy, zwracając uwagę na pęknięcia i brakujące części złączne. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_8">Chłodnica(e) oleju: Obejrzeć chłodnicę(e) oleju i króćce zwracając uwagę na uszkodzenia, przecieki, czystość i pewność mocowania. Sprawdzić rejon mocowania chłodnicy(nic) zwracając uwagę na pęknięcia. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_9">Przewody olejowe: Obejrzeć przewody olejowe na całej długości zwracając uwagę na pęknięcia, miejsca starte, pęknięte obejmy i prześwity. Przewody elektryczne, opaski mocujące i elementy konstrukcji nie mogą stykać się z przewodami olejowymi. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_10">Odstojnik paliwa: Przy zamkniętym zaworze paliwowym (pozycja OFF) zdemontować korpus odstojnika, wyjąć wkładkę filtrującą i oczyścić. Potwierdź brak deterioracji uszczelki. Jeżeli zbiornik odstojnika jest zabezpieczony kołnierzem gwintowanym oraz pierścieniem, delikatnie posmaruj gwint kołnierza oraz pierścień smarem A257-6. Zamontować z  powrotem, otworzyć zawór paliwowy i upewniwszy się że nie ma przecieków, założyć drut zabezpieczający. Sprawdzić, czy zawór spustu paliwa ma naniesiony znacznik dokręcenia. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_11">Sterowanie składem mieszanki: Sprawdzić układ sterowania składem mieszanki co do zakresu przemieszczeń cięgna sterowania przepustnicą w całym zakresie. Sprawdzić i ocenić stan zabezpieczeń wspornika linki, poruszaj pancerzem linki aby upewnić się że pancerz nie przemieszcza się we wsporniku. Sprawdź stan i zabezpieczenie mocowania linki na ramieniu sterowania składem mieszanki. Sprawdź swobodę ruchu między ramieniem sterowania składem mieszanki a wewnętrznym mocowaniem linki gdy ramię się porusza. Sprawdź czy sprężyna bezpieczeństwa sterownicy składu mieszanki jest zainstalowana właściwie. (w przypadku zerwania linki siła sprężyny musi zatrzymać ramię sterowania składem mieszanki w pozycji pełnego otwarcia przepustnicy). </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_12">Układ korelacji przepustnicy: Sprawdź ustawienie wg 10.150. Wyreguluj jeśli potrzeba. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_13">Przełącznik pełnej mocy silnka: Sprawdź wg 37-70. Wyreguluj jeśli jpotrzeba </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_14">Komora powietrzna i klapa rezerwowego wlotu powietrza: Upewnić się że klapa gorącego powietrza ogrzewania gaźnika porusza się swobodnie od zderzaka do zderzaka (tylko silniki O-540). Wymienić filtr powietrza (w silniku IO-540 posmarowanie gumowej uszczelki filtra powietrza smarem A257-8 zapewni lepsze uszczelnienie. Sprawdzić stan komory powietrznej i jej mocowanie. Sprawdzić, czy przytrzymywana sprężyną klapa rezerwowego wlotu powietrza otwiera się bez zacinania i całkowicie zamyka. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_15">Przewód doprowadzający powietrze do silnika: Sprawdzić mocowanie przewodu. Obejrzeć przewód zwracając uwagę na pofałdowania, dziury i zapadnięcia. Upewnić się, że przewód nie ociera o kratownicę. Zdemontuj przewód. Sprwadź wnętrze na okoliczność separacji wewnętrznej i zewnętrznej warstwy. Dodatkowo wygnij przewód w różnych kierunkach. Sprawdź czy w momencie wyginania nie wydaje dźwięków. Dźwięki podczas zginania oznaczają pęknięcia przewodu. Wymień przewód jeżeli są istnieją podjerzenia pęknięcia. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_16">Chwyt gorącego powietrza gaźnika i przewód doprowadzający (tylko silniki    O-540): Sprawdzić zwracając uwagę na stan i mocowanie. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_17">Przewód nagrzewnicy: Sprawdzić stan przewodu i jego mocowanie. </string>
+    <string name="Zdemontowac_tylna_6D_dolna_6C_i_obie_boczne_6A6B_oslony_silnika_18">Akumulator i pojemnik akumulatora (różne umiejscowienia pod górną konsolą lub pod lewym, przednim fotelem): Sprawdzić poziom i gęstość elektrolitu w każdej celi akumulatora, jeżeli śmigłowiec nie jest wyposażony w akumulator uszczelniony. Jeżeli to jest wymagane, sprawdzić pojemność akumulatora według instrukcji producenta lub wymienić akumulator. Sprawdzić pewność mocowania i drożność przewodu drenażowego. </string>
+
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9">Otworzyć odchylne pokrywy (7A), zdemontować osłonę belki ogonowej.(7B) i owiewkę masztu (9). </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_1">Odchylane pokrywy: Obejrzeć zawiasy i zamki osłon zwracając uwagę na ich stan i mocowanie. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_2">Osłona belki ogonowej: Obejrzeć osłonę belki ogonowej zwracając uwagę na pęknięcia, zatkane wloty powietrza i poluzowane nity. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_3">Przewody elektryczne i antenowe: Sprawdzić zamocowanie, upewnić się, że nie ma śladów ocierania, załamań i ciasnych zagięć. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_4">Jarzmo wejściowe przekładni głównej: Sprawdzić stan jarzma. Sprawdzić pewność mocowania oraz poprawność działania. Potwierdzić pewność mocowania magnesów. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_5">Przednia płytka podatna (rysunek 2-5): Sprawdzić stan, szczególnie brzeg płytki. Sprawdzić pewność mocowania. Sprawdź zamocowanie podkładek stałych po obu stronach każdego ramienia płytki podatnej. Sprawdzić poprawność działania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_6">Jarzmo przednie wału sprzęgła: Sprawdź stan. Potwierdź brak pęknięć, korozji oraz zużycia cierno korozyjnego. Sprawdzić pewność mocowania oraz poprawność działania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_7">Hamulec wirnika: Sprawdzić stan linek bloczków oraz micro-switch. Sprawdzić stan okładzin minimalna grubość okładziny nie może być mniejsza niż 0,030 cala. Upewnij się że przy zwolnionym hamulcu istnieje prześwit pomiędzy szczękami a jarzmem Sprawdzić pewność mocowania oraz poprawność działania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_8">Wałek pośredni popychaczy skoku ogólnego: Przejrzeć cały spawany zespół zwracając uwagę na pęknięcia i korozję. Obejrzeć połączenia spawane zastrzału podpory wałka i rury zwracając uwagę na pewność mocowania, pęknięcia i korozję. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_9">Popychacze wirnika nośnego: Wykonać przegląd stanu widocznych fragmentów. Sprawdzić czy na końcówkach nie ma pęknięć. Przejrzeć końcówki popychaczy jak podano w rozdziale 2.120. sprawdzić czy w tulejach nie występują smugi materiału (tylko układ elektrycznego wyważania). Sprawdzić pewność mocowania i poprawność działania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_10">Rolki i tuleje popychaczy wirnika nośnego (tylko układ elektrycznego wyważenia): Sprawdzić stan. Sprawdzić czystość, zużycie elementów metalowych części i swobodny ruch rolek. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_11">Popychacz śmigła ogonowego i górna dźwignia kątowa: Obejrzeć popychacz C121-15, zwłaszcza jego końce, zwracając uwagę na pęknięcia. Sprawdzić dokręcenie przeciwnakrętki i luz w końcówce popychacza. Obejrzeć dźwignię kątową i jej mocowanie, zwracając uwagę na pęknięcia lub inne defekty. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_12">Przewody chłodzenia przekładni głównej: Sprawdzić mocowanie przewodów w obu końcach. Sprawdzić przewody zwracając uwagę na pofałdowania, dziury i ślady ocierania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_13">Przekładnia główna: Sprawdzić stan przekładni głównej, zwłaszcza w rejonie jej mocowania, uszu mocowania pokrywy i rury masztu zwracając uwagę na pęknięcia. Upewnić się że poduszki gumowe mocowania przekładni nie są zanieczyszczone i nie są uszkodzone. Sprawdzić zamocowanie nadajników hallotronowych. Sprawdzić wskaźnik Telatemp zwracając uwagę na wskazania przegrzania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_14">Olej przekładni głównej: Gdy śmigłowiec jest na poziomej nawierzchni sprawdzić poziom oleju jego czystość we wzierniku. Jeżeli jest to wymagane w rozdziale 1.101, należy spuścić i przepłukać przekładnię zgodnie z rozdziałem 1.115. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_15">Czujnik opiłkowania przekładni głównej: Jeśli wg rozdziału 1.101 IOT jest wymagane, oczyścić czujnik zgodnie z rozdziałem 1.115. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_16">Górna kratownica: Korzystając z lampy i lusterka obejrzeć wszystkie spawane elementy zwracając uwagę na pęknięcia i korozję. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_17">Pozioma przegroda ogniowa: Obejrzeć górną i dolną powierzchnię poziomej przegrody ogniowej, zwłaszcza w miejscach, gdzie jest przykręcona do stalowej konstrukcji, zwracając uwagę na pęknięcia, wyboczenie lub pofałdowania. Obejrzeć rejon przegrody ogniowej pod zbiornikiem paliwa zwracając uwagę na ślady przecieku paliwa (osad z paliwa). </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_18">Zbiorniki paliwa: Wykonać przegląd stanu widocznej części. Potwierdzić brak wycieków. Sprawdzić pewność  mocowania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_19">Przewód paliwowy dodatkowego zbiornika paliwa: Wykonać przegląd stanu. Sprawdzić prześwity względem konstrukcji. Potwierdzić brak wycieków. Sprawdzić pewność mocowania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_20">Przewody zlewowe paliwa oraz zawór upustowy ciśnienia (tylko IO-540): Wykonać przegląd stanu. Potwierdzić brak wycieków. Sprawdzić pewność mocowania. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_21">Nadajniki i przewody elektryczne paliwomierza: Wykonać przegląd stanu. Potwierdzić brak wycieków. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_22">Odpowietrzniki zbiorników paliwa: Sprawdzić mocowanie połączeń rurek odpowietrzników. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_23">Spusty ze studzienki zbiornika paliwa: Sprawdzić, czy oba zawory spustu  otwierają się z łatwością. zapewniają swobodny wypływ paliwa, zamykają się pod wpływem sprężyny i są całkowicie szczelne. Sprawdzić, czy zacisk odcinający D663-1 na rurce drenażu zbiornika dodatkowego zapewniają całkowitą szczelność oraz przejrzeć zacisk i rurkę zwracając uwagę na uszkodzenia i zużycie . </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_24">Ostrzeżenie o niskim poziomie paliwa: Włączyć wyłącznik główny MASTER. Używając czystego drewnianego kołka delikatnie nacisnąć pływak nadajnika sygnału niskiego poziomu paliwa w zbiorniku głównym i sprawdzić, czy świeci się lampka ostrzegawcza LOW FUEL (Niski Poziom Paliwa). Wyłączyć wyłącznik główny MASTER. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_25">Korki wlewowe paliwa: Wykonać przegląd stanu, łącznie z uszczelką. Sprawdzić pewność mocowania gdy są zamknięte. Sprawdzić, czy znaczniki położenia na pokrywie i zbiorniku są ustawione równo względem siebie, gdy korek jest całkowicie zamknięty. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_26">Nakrętki i śruby: Obejrzeć wszystkie nakrętki i śruby w tym rejonie zwracając uwagę na ich poruszanie się lub poluzowanie. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_27">Przegroda kabiny i punkty mocowania przednich siłowników hydraulicznych: Obejrzeć przegrodę kabiny i punkty mocowania wzmacniaczy (jeśli są zabudowane) zwracając uwagę na korozję, poluzowane nity, deformacje i pęknięcia. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_28">Zespół sprzęgła: Obejrzeć końce wału napędowego i uszczelnienia w kole pasowym zwracając uwagę na wycieki oleju. Obejrzeć wał, szczególnie miejsca styku wału z uszczelką, zwracając uwagę na ślady korozji. Usunąć wszelkie ślady lekkiej korozji w miejscu styku wału z uszczelką i nałożyć odpowiedni inhibitor korozji. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_29">Górne koło pasowe: Obejrzeć rowki koła pasowego, wymienić każde koło pasowe, w którym wykryte zostały wżery lub złuszczenia korozyjne powierzchni metalizowanych, lub anodowych, a także przetarcie warstwy anodowej oraz stwierdzono szorstkie powierzchnie lub ostre grzbiety. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_30">Paski klinowe (patrz rozdział 2.507): Obejrzeć paski klinowe zwracając uwagę na zużycie, pęknięcia, starzenie gumy, nacięcia, wystrzępienia, ślady oleju, smaru i ciał obcych. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_31">Bezpieczniki topikowe i uchwyty bezpieczników siłowników: Sprawdzić stan. Sprawdzić czy nie występuje korozja. Sprawdzić czy są zainstalowane odpowiednie bezpieczniki (instalacja 14V wymaga bezpieczników AGC-3, instalacja 28V wymaga bezpieczników AGC 11/2). Sprawdź funkcję obrócić aby zablokować i mocowanie. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_32">Górne łożysko siłownika i zastrzał: Obejrzeć uszczelnienia z obu stron łożyska zwracając uwagę na uszkodzenia. Obejrzeć zastrzał, w tym obie końcówki i sprawdzić otworki kontrolne. Sprawdzić, czy nie występuje korozja cierna pomiędzy wewnętrznymi bieżniami łożysk i wałem sprzęgła. Wewnętrzne bieżnie łożysk powinny mieć naniesiony pasek znacznika dokręcenia zachodzący na wał sprzęgła. Jeżeli paski znacznika są pęknięte lub nie pokrywają się, wał jest niezdatny do lotu. Sprawdzić wskaźnik temperatury łożyska Teletemp. Przeprowadzić przegląd łożyska jak podano w rozdziale 2.503 jeżeli wskazanie wskaźnika Teletemp zwiększyło się bez związku ze wzrostem temperatury otoczenia. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_33">Dolne łożysko siłownika: Sprawdź widoczną część łożyska. Sprawdź obszar włókna szklanego na klamrze mocującej łożysko poszukując śladów pęknięć. Sprawdź uszczelnienia łożyska w poszukiwaniu luzów lub zużycia. Sprawdź klamrę dolnego łożyska w poszukiwaniu luzów lub zużycia. Sprawdź łożysko zgodnie z rozdziałem 2.502 jeśli odkryte zostaną rozbieżności względem stanu oczekiwanego. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_34">Pośrednia płytka podatna i przedni koniec wału napędu śmigła ogonowego (rysunek 2-5 IOT): Obejrzeć płytkę podatną zwracając uwagę na pęknięcia i korozję cierną. Obejrzeć połączenia spawane jarzma z wałem napędowym zwracając uwagę na pęknięcia (wały stalowe). </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_35">Mocowanie belki ogonowej: Przejrzeć uważnie wszystkie połączenia spawane w tym obszarze zwracając uwagę na Pęknięcia, korozję i pewność zabezpieczenia części złącznych. Przejrzeć obszar mocowania belki ogonowej zwracając uwagę na pęknięcia. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_36">Siłownik (C051-1): Sprawdzić prześwit względem konstrukcji i układu napędowego, gdy jest on w położeniu całkowitego rozłączenia sprzęgła. Włączyć wyłącznik główny i wyłącznik sprzęgła. W czasie włączania sprzęgła przez siłownik nacisnąć dźwignię wyłącznika krańcowego (rysunek 7-15) i potwierdzić, że silnik zatrzymuje się; zwolnić dźwignię i potwierdzić, że silnik z powrotem pracuje. Użyć lusterka kontrolnego do obserwacji sprężyny kolumnowej pod koniec cyklu napinania pasków; sprężyny kolumnowe powinny jednocześnie odskoczyć z trzaskiem. Potwierdzić, że organicznie maksymalnego wysuwu siłownika podane na rysunku 7-15 nie jest przekroczone. Sprawdzić prześwity względem konstrukcji i układu napędowego, gdy siłownik jest w położeniu całkowitego rozłączenia sprzęgła. </string>
+    <string name="Otworzyc_odchylne_pokrywy_7A_zdemontowac_oslone_belki_ogonowej_7B_i_owiewke_masztu_9_37">Odpowietrzniki zbiorników paliwa: Sprawdzić mocowanie połączeń rurek odpowietrzników. </string>
+    <string name="Sprawdzic_właczniki_silownika_stosujac_jedna_z_nastepujacych_metod_a">a) Przy włączonym włączniku głównym „MASTER” oraz w pełni włączonym siłowniku podłącz jeden koniec przyrządu MT-558-1 do wtyku testowego siłownika i potwierdź że silnik siłownika pozostaje wyłączony. </string>
+    <string name="Sprawdzic_właczniki_silownika_stosujac_jedna_z_nastepujacych_metod_b">b) Przy włączonym włączniku głównym „MASTER” oraz w pełni włączonym siłowniku podłącz jeden koniec przyrządu MT-558-1 do wtyku testowego siłownika i potwierdź że silnik siłownika pozostaje wyłączony. </string>
+    <string name="Sprawdzic_właczniki_silownika_stosujac_jedna_z_nastepujacych_metod_c">c) Przyłączyć przeciwny koniec przyrządu MT558-1 do wtyku testowego siłownika i potwierdź że silnik siłownika pozostaje wyłączony. </string>
+    <string name="Sprawdzic_właczniki_silownika_stosujac_jedna_z_nastepujacych_metod_d">d) Wyłączyć siłownik oraz wyłącznik główny „MASTER”. Zworki 1-2 w MT558-1 testują wyłącznik sprężynowy na przewodzie 98; zworki 2-3 testują wyłącznik sprężynowy na przewodzie 91 (rysunek 14-1D). Jeśli którykolwiek włącznik nie działa poprawnie, wymienić go jak podano w rozdziale 7.551, przed dalszym użytkowaniem śmigłowca w locie. </string>
+
+    <string name="Roz_2_410_1">Koło pasowe dolnego napędu: Wykonać przegląd dolnego koła pasowego. Wymienić każde koło pasowe, w którym zostały wżery lub złuszczenia korozyjne powierzchni metalizowanych lub anodowych wytarte rowki, szorstkie powierzchnie, lub ostre grzbiety. </string>
+    <string name="Roz_2_410_2">Ustawienie kół pasowych: Sprawdzić ustawienie górnego i dolnego koła pasowego jak podano w rozdziale 7.230 IOT. </string>
+    <string name="Roz_2_410_3">Zbiornik hydrauliczny: Wykonać przegląd stanu. Potwierdzić pewność mocowania i brak poważnych przecieków. Jeżeli jest wymagane wg rozdziału 1.101 IOT, wymienić filtr jak podano w rozdziale 1.170 IOT. Opróżnić i przepłukać instalację hydrauliczną jak podano w rozdziale 1.180 IOT jeśli ciecz ściemniała lub wydziela nieprzyjemny zapach. Uzupełnić ilość cieczy jeżeli jest to wymagane. </string>
+    <string name="Roz_2_410_4">Przewód chłodzenia zbiornika hydraulicznego: Wykonać przegląd stanu. Potwierdzić, że przewód jest pewnie zamocowany i skierowany ku środkowi ożebrowania chłodzącego zbiornik. </string>
+    <string name="Roz_2_410_5">Pompa hydrauliczna: Wykonać przegląd stanu. Wskazania temperatury na pompie nie powinny przekraczać wskazań temperatury na przekładni. Potwierdzić pewność mocowania i brak istotnych przecieków. </string>
+    <string name="Roz_2_410_6">Przednie siłowniki hydrauliczne: Wykonać przegląd stanu. Przejrzeć końcówki popychaczy jak podano w rozdziale 2.120 IOT. Potwierdzić pewność mocowania i brak istotnych przecieków. Potwierdzić, że obszar końcówki tłoczyska od strony wejścia siłownika/widełek jest czysty; w razie potrzeby przemyć rozpuszczalnikiem bezalkoholowym, niepozostawiającym osadów. Potwierdzić, że całkowity skok rozdzielacza na wejściu siłownika wynosi w przybliżeniu 0,040 cala (1,0 mm). Potwierdzić, że zapewniony jest prześwit pomiędzy rozdzielaczem                  a otaczającą konstrukcją, gdy sterownice pilotażowe wykonują pełny zakres przemieszczeń. Przejrzeć stan i potwierdzić pewność mocowania łącznika nożycowego przy górnych widełkach siłowników. </string>
+    <string name="Roz_2_410_7">Tylny siłownik hydrauliczny: Wykonać przegląd stanu. Przejrzeć końcówki popychacza jak podano w rozdziale 2.120 IOT . Potwierdzić pewność mocowania i brak istotnych przecieków. Potwierdzić, że obszar końcówki tłoczyska od strony wejścia siłownika/widełek jest czysty; w razie potrzeby oczyścić przy pomocy rozpuszczalnika bezalkoholowego, nie pozostawiającego osadów. Potwierdzić, że całkowity skok rozdzielacza na wejściu siłownika wynosi w przybliżeniu 0,040 cala (1,0 mm). Potwierdzić, że zapewniony jest prześwit pomiędzy rozdzielaczem a otaczającą konstrukcją, gdy sterownice pilotażowe wykonują pełny zakres przemieszczeń. </string>
+    <string name="Roz_2_410_8">Wspornik tylnego siłownika hydraulicznego: Wykonać przegląd końcówek popychacza jak podano w rozdziale 1.120 IOT. Wykonać przegląd mocowania do konstrukcji blaszanej zwracając uwagę na pęknięcia. Potwierdzić pewność mocowania. </string>
+    <string name="Roz_2_410_9">Przewody i łączniki instalacji hydraulicznej: Wykonać przegląd stanu. Potwierdzić prześwity pomiędzy przewodami a otaczającą konstrukcją, gdy sterownice pilotażowe przemieszczane są w pełnym zakresie. Potwierdzić pewność mocowania i brak przecieków. Potwierdzić, że występuje minimum 0,25 cala (6,4 mm) prześwitu pomiędzy przewodami elastycznymi pompy i dodatkowym zbiornikiem paliwa. </string>
+    <string name="Roz_2_410_10">Zabezpieczenia i znaczniki momentów: Sprawdź stan, zwracając uwagę na wszystkie zabezpieczenia. Wytarte znaczniki momentów nanieść na nowo zgodnie z rysunkiem 2-1. </string>
+
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B">Zdemontować zaślepki belki ogonowej (8A) i tylną osłonę plastikową (8B). </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_1">Wał napędu śmigła ogonowego: Sprawdzić stan widocznych przez każdy otwór odcinki wału, zwracając uwagę na oczywiste defekty jak pęknięcia, zgięcia, łukowatość wału lub korozję, a także stykanie się z wewnętrzną powierzchnią belki ogonowej. Sprawdzić bicie wału zgodnie z rozdziałem 7.340 IOT. Obejrzeć wał z każdego końca, zwracając uwagę na pęknięcia i korozję. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_2">Tłumik: Obejrzeć tłumik wału napędu śmigła ogonowego (C041-1). Obejrzeć łożysko i obudowę, zwracając uwagę na pęknięcia, korozję, zużycie (rysunek 2-8), i pogorszenie stanu uszczelnienia łożyska. Obejrzeć ramiona i łożyska, zwracając uwagę na czystość, pęknięcia, zagięcia i korozję. Sprawdzić pasek znacznika momentu  przechodzący przez bieżnię wewnętrzną łożyska i wał. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_3">Belka ogonowa z zewnątrz: Obejrzeć zewnętrzną powierzchnię belki ogonowej, zwracając uwagę ślady rys, zadrapań, korozji, korozji ciernej pomiędzy blachami pokrycia, poluzowane nity i wgniecenia. Sprawdzić belkę ogonową na obecność pęknięć w okolicach mocowania anteny i akumulatora (jeśli jest zamocowany na belce). </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_4">Lampa błyskowa: Sprawdzić klosz i mocowanie światła błyskowego na obecność pęknięć poluzowanych nitów oraz pewność mocowania. Jeśli zainstalowany jest klosz biało czerwony upewnij się że biała strona klosza jest skierowana do tyłu. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_5">Akumulator na belce ogonowej: Sprawdź stan akumulatora oraz pewność jego mocowania. Upewnij się że między obudową akumulatora a belką ogonową nie ma zanieczyszczeń. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_6">Wnętrze belki ogonowej: Obejrzeć wewnętrzne powierzchnie belki ogonowej, zwłaszcza wokół nitów, zwracając uwagę na pęknięcia i korozję. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_7">Mocowanie belki ogonowej: Wykonać przegląd stanu i zabezpieczenia czterech śrub mocujących belki ogonowej do górnej kratownicy. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_8">Usterzenie: Obejrzeć wszystkie powierzchnie w całym rejonie usterzenia i punktów mocowania zwracając uwagę na uszkodzenia, pęknięcia i poluzowane części złączne. Sprawdzić, czy płoza ogonowa nie nosi śladów uderzenia o ziemię. Jeżeli są takie ślady, należy przejść do rozdziału dotyczącego przeglądu specjalnego. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_9">Stabilizator pływakowy (jeżeli jest zamontowany): Wykonać przegląd, zwracając uwagę na stan i pewność mocowania. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_10">Tylna płytka podatna(rysunek 2-5): Obejrzeć płytkę podatną wokół czterech śrub i podkładek, zwracając uwagę na pęknięcia i ślady korozji ciernej. Jeżeli zostanie wykryta korozja cierna skontaktować się z Działem Pomocy Technicznej RHC. Sprawdzić zabezpieczenie części złącznych płytki. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_11">Tylne jarzmo wału napędu śmigła ogonowego: Korzystając z wziernika sprawdź stan jarzma zwracając szczególną uwagę na pęknięcia i korozję cierną. </string>
+    <string name="Zdemontowac_zaslepki_belki_ogonowej_8A_i_tylna_oslone_plastikowa_8B_12">Obejma chroniąca śmigło ogonowe: Sprawdzić mocowanie. Obejrzeć przednie mocowanie w rejonie połączeń spawanych, zwracając uwagę na pęknięcia. Obejrzeć rejon wokół tylnego mocowania do statecznika, zwracając uwagę na ślady korozji ciernej i pęknięć. </string>
+
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe">Jarzmo wałka wejścia napędu: Obejrzeć kołnierz i spoinę z uwagi n pęknięcia i korozję. </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_1">Uszczelnienie na wejściu napędu: Obejrzeć uszczelnienie z uwagi na przecieki. </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_2">Przekładnia: Sprawdzić stan ogólny. Poszukać śladów wycieków. Sprawdzić ilość i czystość oleju przez wziernik i w razie potrzeby uzupełnić lub przepłukać przekładnię. Sprawdzić pewność mocowania przekładni do belki ogonowej. Obejrzeć wał wyjściowy, z uwagi na karby, rysy lub korozję. Sprawdzić drut zabezpieczający na śrubach przekładni. Sprawdzić stan wskaźników temperatury Telatemp. </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_3">Zespół sterowania skokiem śmigła i popychacz C121-17: Sprawdzić zespół sterowania skokiem śmigła zwracając uwagę na swobodny przesuw w całym zakresie ruchu i nadmierny luz na wale wyjściowym [maksymalny luz obrotowy zmierzony przy śrubie mocującej popychacz łopaty wynosi 0,25 cala (6,35 mm)]. Obejrzeć dźwignię kątową zwracając uwagę na pęknięcia i swobodę ruchu. Zwrócić szczególną uwagę łożysko kuliste, które jest na górze podpórki wychodzącej spod sterowania skokiem. Obejrzeć tylny koniec popychacza C121-17 zwracając uwagę na  pęknięcia oraz sprawdzić końcówkę popychacza ze względu na nadmierny luz. (Zgodnie z Biuletynem Serwisowym R44 SB 43A). </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_4">Popychacze łopat: Sprawdzić czy nie występują nadmierne luzy w końcówkach. W przypadku popychaczy jednoczęściowych należy rozłączyć je i przekręcić zamieniając górny koniec z dolnym (w celu uzyskania największej żywotności). </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_5">Łopaty śmigła ogonowego: Obejrzeć powierzchnię łopat zwracając uwagę na nadmierną erozję, karby, rysy, pęknięcia i korozję. Sprawdzić, czy łożyska w okuciu nasady łopaty nie mają luzów ani śladów korozji ciernej. Luz bieżni zewnętrznej łożyska w okuciu nasady łopaty oznacza niezdatność łopaty do lotu i konieczna jest jej wymiana. Zdemontować pokrywki końcówek i obejrzeć zwracając uwagę na zanieczyszczenia i korozję. Zamontować pokrywki końcówek łopat. </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_6">Płyty piasty i piasta śmigła ogonowego: Przeprowadzić przegląd zwracając uwagę na pęknięcia i korozję zwłaszcza w rejonie śrub mocujących łopaty i piastę. Upewnić się, że gdy piasta waha się zewnętrzne bieżnie łożysk przegubu huśtawkowego poruszają się razem z piastą, a kule łożysk, śruby i nakrętki mocujące pozostają nieruchome. Piasta powinna ruszać się w łożyskach swobodnie, bez nadmiernego tarcia i szarpnięć. Sprawdzić, czy łożyska przegubu huśtawkowego nie mają nadmiernego luzu osiowego i promieniowego. Sprawdź łożyska elastomerowe zgodnie z rozdziałem 2.125. </string>
+    <string name="Przekladnia_smigla_ogonowego_i_smiglo_ogonowe_7">Zabezpieczenia i znaczniki momentów: Sprawdź stan, zwracając uwagę na wszystkie zabezpieczenia. Wytarte znaczniki momentów nanieść na nowo zgodnie z rysunkiem 2-1. </string>
+
+    <string name="Otworzyc_owiewke_masztu">Owiewka masztu: Wykonać przegląd owiewki masztu zwracając uwagę na pęknięcia, wgniecenia oraz korozję. </string>
+    <string name="Otworzyc_owiewke_masztu_1">Owiewka masztu: Wykonać przegląd owiewki masztu zwracając uwagę na pęknięcia, wgniecenia oraz korozję. </string>
+    <string name="Otworzyc_owiewke_masztu_2">Dolny zabierak tarczy sterującej: Wykonać przegląd stanu zabieraka. Sprawdzić luz w końcówce i łożysku. Sprawdzić przeciwnakrętkę. </string>
+    <string name="Otworzyc_owiewke_masztu_3">Popychacze pionowe: Wykonać przegląd zwracając uwagę na stan ogólny i korozję. W przypadku układów sterowania bez wspomagania, sprawdzić nakładki na popychaczach w miejscu styku z rolkami i prowadnicą. </string>
+    <string name="Otworzyc_owiewke_masztu_4">Końcówki popychaczy: Sprawdzić końcówki popychaczy jak podano w rozdziale 2.120 IOT. </string>
+    <string name="Otworzyc_owiewke_masztu_5">Plastikowe rolki i prowadnica (układy sterowania bez wspomagania): Wykonać przegląd plastikowych rolek i prowadnicy zwracając uwagę na czystość, pewność połączeń i pogorszenia ich stanu. </string>
+    <string name="Otworzyc_owiewke_masztu_6">Rurki Pitota: Wykonać przegląd rurki Pitota i przewodów ciśnienia całkowitego zwracając szczególną uwagę na miejsca  połączeń, zgięcia, pęknięcia i załamania. Sprawdzić, czy otworek drenażowy kolanka rurki jest drożny. </string>
+    <string name="Otworzyc_owiewke_masztu_7">Odpowietrzenia zbiorników paliwa: Sprawdzić stan i zamocowanie zacisków przewodów odpowietrzenia zbiorników. Upewnić się, że przewód ciśnienia całkowitego nie ociera się o przewody odpowietrzenia zbiorników paliwa. Sprawdzić połączenia przewodów. Sprawdzić drożność przewodów odpowietrzenia i upewnić się, że nie są załamane, przekłute ani nie ocierają się. </string>
+    <string name="Otworzyc_owiewke_masztu_8">Żebra owiewki masztu: Wykonać przegląd zwracając uwagę na pęknięcia, zwłaszcza wokół miejsc mocowania do rury masztu. </string>
+
+    <string name="Rejon_piasty_wirnika_nosnego">Dolny zabierak tarczy sterującej: Sprawdzić stan. Sprawdzić końcówki popychaczy zgodnie z rozdziałem 2.120 IOT. Sprawdzić mocowanie. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_1">Górny zabierak tarczy sterującej: Sprawdzić stan. Sprawdzić końcówki popychaczy i łożyska kulowe zgodnie z rozdziałem 2.120 IOT. Zmierzyć luz zabieraka zgodnie z rysunkiem 2-9. Zaobserwować mechanizm zabieraka, gdy ktoś podnosi i opuszcza drążek skoku ogólnego. Sprawdzić, czy śruba, tulejka (lub kulki łożyska i elementy dystansujące) oraz dźwignia wracają się razem na każdym czopie mechanizmu zabieraka. Sprawdzić luz roboczy. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_2">Tuleja przesuwna tarczy sterującej: Sprawdzić stan. Sprawdzić, czy nie ma pęknięć w otworach nitów i korozji na podstawie. Sprawdzić, czy nie ma śladów uszkodzeń lub zużycia na anodowej powierzchni tulei. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_3">Zdjąć dolną opaskę zaciskową z osłony tarczy sterującej: Unieść osłonę z tarczy sterującej. Używając lusterka inspekcyjnego, sprawdzić przestrzeń pomiędzy głównym wałem napędowym wirnika i wnętrzem tulei przesuwnej. Sprawdzić czy nie ma korozji i zanieczyszczeń. Sprawdzić, czy nie jest uszkodzona osłona. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_4">Tarcza sterująca: Sprawdzić stan. Sprawdzić, czy luz promieniowy pomiędzy kulą tarczy a tuleją przesuwną wynosi maksymalnie 0,020 cala (0,51 mm). Obracając wirnik ręką sprawdzić luz roboczy i efekty współpracy na sucho. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_5">Ustawienie (regulacja) tarczy sterującej: W momencie, gdy ktoś wolno porusza dźwignią sterowania skoku ogólnego w górę i w dół obserwować od dołu kulę tarczy sterującej. Sprawdzić, czy kula zaczyna się poruszać natychmiast razem z tarczą w momencie zmiany kierunku ruchu tarczy. Ruch samej tarczy bez kuli wskazuje na luz osiowy pomiędzy kulą a tarczą; wyregulować stawienie tarczy zgodnie z rozdziałem 8.416. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_6">Założyć dolną opaskę zaciskową n osłonę tarczy sterującej: Sprawdzić prawidłowość ułożenia osłony i mocowania oraz czy osłona nie jest uszkodzona. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_7">Piasta: Sprawdzić stan ogólny. Nie może być żadnych rys, zadrapań, wyżłobień ani śladów korozji. Jeżeli podejrzewa się niewyrównoważenie wirnika, sprawdzić osadzenie i tarcie w przegubie osiowym zgodnie z rozdziałem 9.124 a)5) IOT. Sprawdzić, czy nie występuje brązowy lub czarny osad (wskazuje na zużywanie się łożyska). </string>
+    <string name="Rejon_piasty_wirnika_nosnego_8">Śruby przegubów: Sprawdzić stan ogólny. Sprawdzić, czy zawleczki są zamocowane. Sprawdzić, czy przeciwnakrętki znajdujące się na łbach śrub, nakrętkach i podkładkach oporowych. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_9">Popychacze łopat i końcówki popychaczy: Sprawdzić stan ogólny. Sprawdzić końcówki popychaczy zgodnie z rozdziałem 2.120 IOT oraz ich wyśrodkowanie. Sprawdzić, czy przeciwnakrętki znajdujące się na każdym popychaczu są dokręcone i drut zabezpieczający jest zamocowany. </string>
+    <string name="Rejon_piasty_wirnika_nosnego_10">Połączenia i znaczniki dokręcenia: Sprawdzić stan i pewność połączeń. Nanieść na nowo znaczniki dokręcenia w miejsce zużytych zgodnie z rysunkiem 2-1 IOT. </string>
+
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw">Czopy przegubów osiowych: Sprawdzić widoczne ich części. Sprawdzić, czy nie występuje korozja. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_1">Osłony: Sprawdzić stan. Sprawdzić pewność mocowania i czy nie ma wycieków oleju. Sprawdzić luz pomiędzy osłonami przegubów, a piastą wirnika przy skrajnie górnym i dolnym położeniu dźwigni skoku ogólnego i w skrajnych położeniach drążka skoku okresowego. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_2">Wyszczerbienia, Zadrapania, Wyboczenia, Wgniecenia: Sprawdzić, czy nie występują wyszczerbienia, zadrapania lub wyboczenia. Sprawdzić, czy wgniecenia nie przekroczyły limitów. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_3">Powierzchnie klejenia łopat W.N.: Odnieś się do rysunków 9-9 oraz 9-8B. Używając monety ćwierć-dolarowej z 1965r lub starszej przeprowadź test, pukając monetą po krytycznych powierzchniach klejonych nasłuchując głuchego odgłosu lub pustych dźwięków. Sprawdź czy na powierzchniach klejonych nie występują rozwarstwienia. Odnieś się do rozdziału 9.130.h. w celu określenia dopuszczalnych limitów uszkodzeń. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_4">Połączenia klejone pokrycie-dźwigar: Używając 5x -10x powiększenia sprawdź powierzchnię łopaty wzdłuż połączenia klejonego pokrycie-dźwigar. Potwierdź brak rozwarstwień oraz pęknięć na farbie wzdłuż połączenia klejonego pokrycie-dźwigar. Pokryć wszystkie widoczne (goły metal) linie klejenia zgodnie z R44 Listem Serwisowym SL-32. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_5">Zdemontować owiewki końcówek łopat: Sprawdź czy nie ma korozji i innych zanieczyszczeń w końcówkach łopat i w owiewkach końcówek. Odnieś się do rysunku 9-9. Używając monety ćwierć-dolarowej z 1965r lub starszej przeprowadź test opukując monetą klejone powierzchnie końcówek łopat nasłuchując głuchego odgłosu lub pustych dźwięków. Używając 5x -10x powiększenia sprawdź powierzchnie klejone brzegów końcówek łopat (patrzy rysunek 9-9) i potwierdź brak rozwarstwień. Farbą epoksydową lub gruntem zamalować wszystkie widoczne gołe fragmenty metalu które mają kontakt z założoną owiewką końcówki łopaty. Sprawdź czy otwory drenażowe w końcówkach łopat nie są zatkane. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_6">Łopaty wirnika nośnego (Sprawdź w rozdziale 9.130 limity uszkodzeń i napraw) (ciąg dalszy). </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_7">Założyć owiewki końcówek łopat: Sprawdzić pewność mocowania. </string>
+    <string name="Lopaty_wirnika_nosnego_rozdzial_9130_limity_uszkodzen_i_napraw_8">Połączenia i znaczniki dokręcenia: Sprawdzić stan i pewność połączeń. Nanieść na nowo znaczniki dokręcenia w miejsce zużytych zgodnie z rysunkiem 2-1 IOT.</string>
+
+    <string name="Rejon_obudowy_spiralnej">Zespół wirnika wentylatora: Oczyścić i obejrzeć zespół wirnika wentylatora zwracając uwagę na pęknięcia i korozję. Sprawdzić, czy nie ma uszkodzeń na krawędziach natarcia kierownic. Potwierdzić, że znaki na kołku rozprężnym i wirniku pokrywają się (rysunek 2-11); jeśli poślizg jest widoczny, zdemontować wirnik i przejrzeć czy nie nastąpiło uszkodzenie współpracujących powierzchni. </string>
+    <string name="Rejon_obudowy_spiralnej_1">Laminatowa obudowa spiralna: Obejrzeć laminatową obudowę spiralną, zwracając uwagę na pęknięcia i ślady zetknięcia z wentylatorem. Obejrzeć elastyczne uszczelnienia wokół wlotu, zwracając uwagę na rozdarcia lub uszkodzenia. Obejrzeć zespół kierownic w prawej górnej spirali, zwracając uwagę na uszkodzenia. Sprawdzić czy otwór drenażowy nie jest uszkodzony. </string>
+    <string name="Rejon_obudowy_spiralnej_2">Metalowa krawędź wlotu do obudowy spiralnej: Sprawdzić czy szczelina między krawędzią wlotu a wlotową częścią wirnika wentylatora  wynosi 0,030 do 0,09 cala (0,8 do 2,3 mm). (jeżeli jest wymagane, wydłuż otwory łączące krawędź aby ustawić odpowiednią szczelinę). </string>
+    <string name="Rejon_obudowy_spiralnej_3">Silnik Odnośnie bieżącej i 100–godzinej lub rocznej silnika patrz rozdział 1.101, Instrukcja Użytkowania Silnika rozdziały 4 i 5 Nr 60297–10), Instrukcja Serwisowa Lycoming SI 1080B oraz stosowne publikacje obsługowe wytwórców podzespołów silnika. </string>
+    <string name="Rejon_obudowy_spiralnej_4">Panele układu chłodzenia silnika: Sprawdzić stan. Zwrócić szczególną uwagę na panel(e), do którego mocowana jest chłodnica(e) oleju oraz panel, do której mocowany jest przewód układu chłodzenia alternatora. Sprawdzić, czy nie ma pęknięć, ubytków lub poluzowanych mocowań. </string>
+    <string name="Rejon_obudowy_spiralnej_5">Alternator i koło pasowe: Sprawdzić stan. Przy użyciu magnesu sprawdzić czy koło pasowe jest ze stali. Koła aluminiowe są niedopuszczalne. Sprawdzić pewność mocowania. Sprawdzić pewność połączeń przewodów elektrycznych. </string>
+    <string name="Rejon_obudowy_spiralnej_6">Pasek alternatora: Sprawdzić stan. Sprawdzić, czy nie występują pęknięcia, ubytki zębów lub rozwarstwienia. Sprawdzić naciąg  paska zgodnie z Instrukcją Serwisową Lycoming 1129B (ostatnia zmiana) Sprawdzić prawidłowe ustawienie linii paska. </string>
+    <string name="Rejon_obudowy_spiralnej_7">Awaryjny zapasowy pasek alternatora: Usuń, jeżeli jest zamocowany. </string>
+    <string name="Rejon_obudowy_spiralnej_8">Przewód układu chłodzenia alternatora: Sprawdzić stan. Sprawdzić, czy nie ma przeszkód dla przepływu powietrza i dziur. Sprawdzić pewność mocowania. </string>
+    <string name="Rejon_obudowy_spiralnej_9">Przewody czynnika chłodzącego układu klimatyzacji (jeżeli zainstalowano): Sprawdź zabezpieczenia, czy nie ma uszkodzeń oraz osadu na przewodach. Sprawdź zaślepki na króćcach serwisowych znajdujących się na pionowej przegrodzie ogniowej silnika. </string>
+    <string name="Rejon_obudowy_spiralnej_10">Sprężarka układu klimatyzacji (jeżeli zainstalowano): Sprawdzić mocowanie. </string>
+    <string name="Rejon_obudowy_spiralnej_11">Kolanko układu wydechowego i osłony: Sprawdzić czy nie ma pęknięć na osłonach oraz mocowaniach. Sprawdź obejmy zaciskowe. </string>
+    <string name="Rejon_obudowy_spiralnej_12">Układ wylotowy: Zdemontować wkręty płaszcza nagrzewnicy znajdujące się na tłumiku i otworzyć płaszcz. Obejrzeć     zewnętrzne ścianki tłumika zwracając uwagę na pęknięcia, wgniecenia lub przepalenia. W rejonie mocowania wieszaka i rury wydechowej zwrócić szczególną uwagę na miejsca spawane, obejmy zaciskowe, wsporniki, kołnierze wieszaków i uszczelki. Napełnić tłumik powietrzem o niskim ciśnieniu i sprawdź szczelność. Zamknąć i zabezpieczyć płaszcz. </string>
+
+    <string name="Podwozie">Płozy i okładziny płóz: Obejrzeć lewą i prawą płozę podwozia i okładziny; minimalna dopuszczalna grubość okładziny wynosi 0,05 cala (1,3 mm). Sprawdzić, czy otwory drenażowe są drożne (nie dotyczy pływaków). </string>
+    <string name="Podwozie_1">Golenie i kolanka  (otworzyć owiewki jeżeli są zabudowane): Obejrzeć, zwracając uwagę na pęknięcia i korozję zwłaszcza w miejscach połączeń kolanek Sprawdzić połączenia spawane w dolnej  części goleni zwracając uwagę na pęknięcia. </string>
+    <string name="Podwozie_2">Owiewki podwozia (jeśli zabudowane): Obejrzeć zwracając uwagę na pęknięcia i poluzowane nity. Potwierdzić pewność mocowania. </string>
+    <string name="Podwozie_3">Belki poprzeczne: Obejrzeć zwłaszcza w miejscach połączeń kolanek, zwracając uwagę na pęknięcia i korozję. Mając śmigłowiec ustawiony na poziomym podłożu, zmierzyć odległość od ziemi do płozy ogonowej. Jeżeli ta odległość wynosi mniej niż 30 cali (762 mm), jedna lub obydwie belki poprzeczne muszą zostać wymienione (rozdział 5). </string>
+    <string name="Podwozie_4">Punkty mocowania podwozia: Sprawdzić, czy w przednich punktach mocowania podwozia nie ma poluzowanych nitów, pęknięć, wyboczenia lub korozji ciernej. Sprawdzić miejsca mocowania łożysk zwracając uwagę na luźne obsadzenie i zużycie łożysk. </string>
+
+    <string name="Kabina">Sprawdzić, czy w kabinie nie jest zamontowane wyposażenie, które mogłoby kolidować ze sterownicami. </string>
+    <string name="Kabina_1">Odbiorniki ciśnienia statycznego: Obejrzeć odbiorniki ciśnienia statycznego zwracając uwagę na ich drożność. </string>
+    <string name="Kabina_2">Dolne taśmy zawieszenia tylnego fotela: Sprawdzić stan i pewność mocowania. </string>
+    <string name="Kabina_3">Pasy bezpieczeństwa i uprzęże barkowe: Obejrzeć zwracając uwagę na rozstrzępione i porwane szwy. Sprawdzić, czy zwijadła bezwładnościowe pasów działają prawidłowo poprzez szybkie pociągnięcie w celu oceny działania blokady. Sprawdzić , czy klamry zapinają się prawidłowo. Sprawdzić pewność mocowania pasów i zwijadeł. </string>
+    <string name="Kabina_4">Sterownik trymerów (tylko układy sterowania bez wspomagania): Wyregulować sterownik trymerów jak podano w rozdziale 14.710. </string>
+
+    <string name="Okna">Okna: Dopuszczalne są drobne defekty lub skazy, które nie pogarszają istotnego pola widzenia pilota ani nie wskazują na rozwijające się uszkodzenie konstrukcji. Odnośnie pękania lub siatki pęknięć pojawiających się w rejonie nakładek mocujących szybę przednią, rozdział 2.580.Uszkodzenia do zaakceptowania: </string>
+    <string name="Okna_a">a)Jedną rysę, której głębokość nie przekracza 0,010 cala (2,54 mm) i która zajmuje obszar o wymiarach nie przekraczających 0,25 na 0,50 cala (6,35 na 12,70 mm) na powierzchni jednej stopy kwadratowej (930 cm2). </string>
+    <string name="Okna_b">b)Zadrapania nie głębsze niż 0,010 cala (2,54 mm) i nie dłuższe niż 5 cali (127 mm). </string>
+    <string name="Okna_c">c)Dowolne wady powierzchni takie jak małe skazy lub plamki, które można usunąć przez lekkie polerowanie. Drobne wady polaryzacji na niewielkiej powierzchni w pobliżu krawędzi.</string>
+
+    <string name="Kabina_5">Pokrycie: Obejrzeć pokrycie zwracając uwagę na uszkodzenia.  Sprawdzić, czy nity nie są poluzowane, o czym świadczy popękana powłoka lakiernicza wokół łba i/lub czarny osad. </string>
+    <string name="Kabina_6">Drzwi: Obejrzeć drzwi zwracając uwagę na pęknięcia wokół zawiasów i rygli. Sprawdzić działanie wywietrzników. Upewnij się, że sworznie zawiasów drzwi są zabezpieczone zawleczkami. Sprawdzić dokręcenie wkrętów mocujących zawiasy. Sprawdzić prawidłowość działania mechanizmów ryglowania i blokowania drzwi. </string>
+
+    <string name="Wyposazenie_specjalne">Radiostacje FM: Sprawdzić, czy radiostacje prawidłowo nadają i odbierają oraz głowica sterująca prawidłowo je programuje. </string>
+    <string name="Wyposazenie_specjalne_2">Lampa sufitowa: Sprawdzić włączanie i wyłączanie lampy sufitowej. </string>
+    <string name="Wyposazenie_specjalne_3">Przełącznik nadawania i łączności wewnętrznej: Sprawdzić, czy właściwie działają specjalne wyłączniki nadawania i łączności wewnętrznej. </string>
+    <string name="Wyposazenie_specjalne_4">Oświetlenie dyżurne: Sprawdzić włączanie i wyłączanie oświetlenia dyżurnego i dostateczne wyregulowanie siły tarcia. </string>
+    <string name="Wyposazenie_specjalne_5">Mikrokamery: Sprawdzić, czy obraz na monitorach z wszystkich mikrokamer można wybierać za pomocą przełącznika wideo, czy jest on ostry i wyprostowany. </string>
+    <string name="Wyposazenie_specjalne_6">Antena mikrofalowa: Sprawdzić, czy mikrofalowa antena ogólnokierunkowa rozkłada się i składa prawidłowo. Sprawdzić, czy lampki sygnalizujące podniesienie/opuszczenie anteny działają prawidłowo. </string>
+    <string name="Wyposazenie_specjalne_7">Zakłócenia elektromagnetyczne i o częstotliwości radiowej: Przy włączonym całym wyposażeniu specjalnym sprawdzić, czy występują zakłócenia elektromagnetyczne  lub zakłócenia o częstotliwości radiowej obrotomierza, radiostacji lotniczej, busoli i innych układów. </string>
+
+    <string name="Niezbedne_dokumenty_i_tabliczki_eksploatacyjne">Dokumenty: Sprawdzić, czy wymagane dokumenty statku powietrznego (Świadectwo zdatności do lotu, Świadectwo rejestracji, Zezwolenie na pokładową radiostację lotniczą, Podręcznik Użytkowania dla pilota R44, zestawienie wyposażenia/ciężaru i wyważenia) znajdują się na pokładzie i są aktualne. </string>
+    <string name="Niezbedne_dokumenty_i_tabliczki_eksploatacyjne_1">Tabliczki eksploatacyjne: Upewnić się, czy wszystkie niezbędne tabliczki eksploatacyjne są zamontowane, są czytelne i aktualne; odnośnie wymagań dotyczących tabliczek eksploatacyjnych patrz rozdział 2, Podręcznika Użytkowania dla Pilota R44. </string>
+
+    <string name="Zapisy_z_obslugi">Zapisy z obsługi: Sprawdzić, czy zapisy z obsługi są aktualne i prawidłowe. Dokonać wpisu z obsługi (jak np. wymiana części, regulacje, wymiana oleju, smarowanie łożysk) oraz dane inspekcyjne. Dane muszą zawierać opis wykonanej pracy lub odsyłacz do niej, datę, całkowity nalot śmigłowca, podpis i numer upoważnienia osoby wydającej zgodę na dalsze użytkowanie śmigłowca. </string>
+
+    <string name="title_activity_row_edition">RowEdition</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_string_list">StringList</string>
+    <string name="title_activity_test">test</string>
+
+
+</resources>
